@@ -1,69 +1,101 @@
-#!/usr/bin/env python
-
-import sys
-from jinja2 import Template
-from yaml import load
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "pyyaml",
+#     "requests",
+# ]
+# ///
+import os
+from datetime import datetime
+from typing import Dict, List, Optional
+from yaml import load, dump, Loader
 import requests
 
-with open('dashboard.yml') as f:
-    config = load(f)
+with open("dashboard.yml") as f:
+    config = load(f, Loader=Loader)
 
-existing = {package['repo'].split('/')[1].lower(): package for section in config for package in section['packages']}
+session = requests.Session()
+session.headers.update(
+    {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "ome-status-dashboard",
+    }
+)
 
-# Also get affiliated packages
-registry = []
-# for section in config:
-#     if section['name'] == 'Affiliated Packages':
-#         affiliated = section
-#         break
-# else:
-#     print("Could not find affiliated package section in dashboard.yml")
-#     sys.exit(1)
+# Set via https://github.com/settings/personal-access-tokens
+token = os.getenv("GITHUB_TOKEN")
+if token:
+    session.headers["Authorization"] = f"Bearer {token}"
 
-for package in registry:
-    # FIXME: Not all repo name is actual package name.
-    pkg_name = package['name'].lower()
 
-    if pkg_name in existing:
-        entry = existing[pkg_name]
-    else:
-        entry = {}
-    if 'repo' not in entry:
-        if 'github.com' in package['repo_url']:
-            entry['repo'] = package['repo_url'].split('github.com/')[1]
-        else:
-            print("Skipping package {0} which is not on GitHub".format(package['name']))
-    if 'pypi_name' not in entry:
-        entry['pypi_name'] = package['pypi_name']
-    if 'badges' not in entry:
-        entry['badges'] = 'travis, coveralls, rtd, pypi, conda'
-    # if pkg_name not in existing:
-    #     affiliated['packages'].append(entry)
+def format_date(iso_timestamp: str) -> str:
+    return (
+        datetime.fromisoformat(iso_timestamp.replace("Z", "+00:00")).date().isoformat()
+    )
+
+
+def fetch_last_commit_info(owner: str, repo: str, session: requests.Session) -> dict:
+    """
+    Fetch latest commit from the GitHub API.
+    """
+    base_url = f"https://api.github.com/repos/{owner}/{repo}/commits"
+
+    latest_resp = session.get(base_url, params={"per_page": 1})
+    if latest_resp.status_code == 404:
+        return
+
+    commits = latest_resp.json()
+
+    last_commit = commits[0]
+    url = last_commit.get("html_url")
+    author_block = last_commit["commit"]["author"]
+    date = format_date(author_block.get("date"))
+    author = last_commit["author"]["login"]
+    return {
+        "url": url,
+        "date": date,
+        "author": author,
+    }
+
+
+def fetch_repo_info(owner: str, repo: str, session: requests.Session) -> Optional[dict]:
+    """
+    Fetch repository metadata from the GitHub API.
+    """
+    resp = session.get(f"https://api.github.com/repos/{owner}/{repo}")
+    if resp.status_code == 404:
+        return
+    info = resp.json()
+    return {
+        "created_at": info.get("created_at"),
+        "updated_at": info.get("updated_at"),
+        "open_issues": info.get("open_issues_count"),
+        "description": info.get("description"),
+        "topics": info.get("topics", []),
+        "size": info.get("size"),
+    }
+
 
 for section in config:
-    for package in section['packages']:
-        package['user'], package['name'] = package['repo'].split('/')
-        package['badges'] = [x.strip() for x in package['badges'].split(',')]
-        package['conda_package'] = package.get('conda_package', package['name'])
-        if 'rtd' in package['badges'] and 'rtd_name' not in package:
-            package['rtd_name'] = package['name']
-        if 'pypi' in package['badges'] and 'pypi_name' not in package:
-            package['pypi_name'] = package['name']
-        if 'appveyor' in package['badges'] and 'appveyor_project' not in package:
-            package['appveyor_project'] = package['repo']
-        if 'circleci' in package['badges'] and 'circleci_project' not in package:
-            package['circleci_project'] = package['repo']
-        if 'travis' in package['badges']:
-            if 'travis_project' not in package:
-                package['travis_project'] = package['repo']
-            package['travis_dot'] = package.get('travis_dot', 'org')
-        if 'conda' in package['badges'] and 'conda_channel' not in package:
-            package['conda_channel'] = 'ome'
+    for package in section["packages"]:
+        package["user"], package["name"] = package["repo"].split("/")
 
-# affiliated['packages'] = sorted(affiliated['packages'], key=lambda x: x['name'].lower())
+        repo_info = fetch_repo_info(package["user"], package["name"], session)
+        if repo_info:
+            package["repo_info"] = repo_info
+        else:
+            package["error"] = True
 
-template = Template(open('template.html', 'r').read())
+        last_commit_info = fetch_last_commit_info(
+            package["user"], package["name"], session
+        )
+        if last_commit_info:
+            package["last_commit"] = last_commit_info
 
+snapshot = {
+    "generated_at": datetime.utcnow().isoformat() + "Z",
+    "sections": config,
+}
 
-with open('status.html', 'w') as f:
-    f.write(template.render(config=config))
+with open("generated.yml", "w") as generated_output:
+    dump(snapshot, generated_output)

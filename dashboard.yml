@@ -1,73 +1,68 @@
 - name: Bio-Formats packages
 
   packages:
+    - repo: ome/bioformats
+      badges: travis
 
-  - repo: ome/bioformats
-    badges: travis
-
-  - repo: ome/bio-formats-examples
-    badges: travis
+    - repo: ome/bio-formats-examples
+      badges: travis
 
 - name: OMERO Java packages
 
   packages:
+    - repo: ome/openmicroscopy
+      badges: travis
 
-  - repo: ome/openmicroscopy
-    badges: travis
+    - repo: ome/omero-model
+      badges: travis
 
-  - repo: ome/omero-model
-    badges: travis
+    - repo: ome/omero-common
+      badges: travis
 
-  - repo: ome/omero-common
-    badges: travis
+    - repo: ome/omero-romio
+      badges: travis
 
-  - repo: ome/omero-romio
-    badges: travis
+    - repo: ome/omero-rendering
+      badges: travis
 
-  - repo: ome/omero-rendering
-    badges: travis
+    - repo: ome/omero-server
+      badges: travis
 
-  - repo: ome/omero-server
-    badges: travis
-
-  - repo: ome/omero-blitz
-    badges: travis
+    - repo: ome/omero-blitz
+      badges: travis
 
 - name: OMERO Python packages
 
   packages:
+    - repo: ome/omero-py
+      badges: travis, pypi
 
-  - repo: ome/omero-py
-    badges: travis, pypi
+    - repo: ome/omero-web
+      badges: travis, pypi
 
-  - repo: ome/omero-web
-    badges: travis, pypi
+    - repo: ome/omero-dropbox
+      badges: travis, pypi
 
-  - repo: ome/omero-dropbox
-    badges: travis, pypi
+    - repo: ome/omero-marshal
+      badges: travis, pypi
 
-  - repo: ome/omero-marshal
-    badges: travis, pypi
-
-  - repo: ome/omero-cli-render
-    badges: travis, pypi
+    - repo: ome/omero-cli-render
+      badges: travis, pypi
 
 - name: Training packages
 
   packages:
+    - repo: ome/omero-guides
+      badges: travis, rtd
 
-  - repo: ome/omero-guides
-    badges: travis, rtd
-
-  - repo: ome/omero-guides-cellprofiler
-    badges: travis, rtd
+    - repo: ome/omero-guides-cellprofiler
+      badges: travis, rtd
 
 - name: Ansible packages
 
   packages:
+    - repo: ome/ansible-role-omero-server
+      badges: travis
 
-  - repo: ome/ansible-role-omero-server
-    badges: travis
-
-  - repo: ome/ansible-role-omero-web
-    badges: travis
+    - repo: ome/ansible-role-omero-web
+      badges: travis

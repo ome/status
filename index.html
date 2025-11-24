@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>OME Project Dashboard</title>
+  <link href="static/style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="favicon.ico">
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>OME Project Dashboard</h1>
+    <p class="subtitle">Daily snapshot of core repositories with quick metadata.</p>
+    <p id="generated-at" class="meta-cell"></p>
+    <div id="error" class="error-note" style="display:none;"></div>
+    <div id="sections">
+      <div class="section-card">
+        <p class="meta-cell">Loading dashboard...</p>
+      </div>
+    </div>
+  </div>
+  <noscript>
+    <div class="section-card error-note">Enable JavaScript to view the dashboard.</div>
+  </noscript>
+  <script>
+    (function () {
+      const sectionsEl = document.getElementById('sections');
+      const generatedAtEl = document.getElementById('generated-at');
+      const errorEl = document.getElementById('error');
+
+      const headers = ['Name', 'Created', 'Updated', 'Open issues', 'Size (KB)', 'Last commit', 'Topics'];
+
+      function emptyMarker() {
+        const span = document.createElement('span');
+        span.className = 'empty';
+        span.textContent = '--';
+        return span;
+      }
+
+      function setError(message) {
+        errorEl.textContent = message;
+        errorEl.style.display = 'block';
+      }
+
+      function clearError() {
+        errorEl.textContent = '';
+        errorEl.style.display = 'none';
+      }
+
+      function createTextCell(value, className) {
+        const td = document.createElement('td');
+        if (className) td.className = className;
+        if (value === undefined || value === null || value === '') {
+          td.appendChild(emptyMarker());
+        } else {
+          td.textContent = value;
+        }
+        return td;
+      }
+
+      function formatNumber(value) {
+        const num = Number(value);
+        return Number.isFinite(num) ? num.toLocaleString('en-US') : value;
+      }
+
+      function createNameCell(pkg) {
+        const td = document.createElement('td');
+        td.style.textAlign = 'left';
+        const link = document.createElement('a');
+        const repo = pkg.repo || pkg.name || 'unknown';
+        link.href = 'https://github.com/' + repo;
+        link.textContent = pkg.name || repo;
+        const desc = pkg.repo_info && pkg.repo_info.description;
+        if (desc) {
+          link.title = desc;
+        }
+        td.appendChild(link);
+        return td;
+      }
+
+      function createLastCommitCell(commit) {
+        const td = document.createElement('td');
+        td.className = 'commit-cell';
+        const hasContent = commit && (commit.date || commit.url || commit.author);
+        if (!hasContent) {
+          td.appendChild(emptyMarker());
+          return td;
+        }
+        const dateDiv = document.createElement('div');
+        dateDiv.className = 'commit-date';
+        if (commit.url) {
+          const link = document.createElement('a');
+          link.href = commit.url;
+          link.textContent = commit.date || 'commit';
+          dateDiv.appendChild(link);
+        } else {
+          dateDiv.textContent = commit.date || 'commit';
+        }
+        const authorDiv = document.createElement('div');
+        authorDiv.className = 'commit-actor';
+        authorDiv.textContent = commit.author ? 'by ' + commit.author : '';
+        td.appendChild(dateDiv);
+        td.appendChild(authorDiv);
+        return td;
+      }
+
+      function createTopicsCell(topics) {
+        const td = document.createElement('td');
+        td.className = 'topics-cell';
+        if (!topics || topics.length === 0) {
+          td.appendChild(emptyMarker());
+        } else {
+          td.textContent = topics.join(', ');
+        }
+        return td;
+      }
+
+      function buildHeader() {
+        const thead = document.createElement('thead');
+        const row = document.createElement('tr');
+        headers.forEach(text => {
+          const th = document.createElement('th');
+          th.textContent = text;
+          row.appendChild(th);
+        });
+        thead.appendChild(row);
+        return thead;
+      }
+
+      function buildRow(pkg) {
+        const repoInfo = pkg.repo_info || {};
+        const tr = document.createElement('tr');
+        tr.appendChild(createNameCell(pkg));
+        tr.appendChild(createTextCell(repoInfo.created_at, 'meta-cell'));
+        tr.appendChild(createTextCell(repoInfo.updated_at, 'meta-cell'));
+        tr.appendChild(createTextCell(repoInfo.open_issues, 'meta-cell'));
+        tr.appendChild(createTextCell(formatNumber(repoInfo.size), 'meta-cell'));
+        tr.appendChild(createLastCommitCell(pkg.last_commit));
+        tr.appendChild(createTopicsCell(repoInfo.topics));
+        return tr;
+      }
+
+      function buildSection(section) {
+        const card = document.createElement('div');
+        card.className = 'section-card';
+        const title = document.createElement('h2');
+        title.textContent = section.name || 'Section';
+        card.appendChild(title);
+
+        const table = document.createElement('table');
+        table.className = 'repo-table';
+        table.appendChild(buildHeader());
+
+        const tbody = document.createElement('tbody');
+        (section.packages || []).forEach(pkg => {
+          tbody.appendChild(buildRow(pkg));
+        });
+        table.appendChild(tbody);
+        card.appendChild(table);
+        return card;
+      }
+
+      function render(data) {
+        clearError();
+        sectionsEl.innerHTML = '';
+        generatedAtEl.textContent = data.generated_at ? 'Generated at ' + data.generated_at : '';
+        (data.sections || []).forEach(section => {
+          sectionsEl.appendChild(buildSection(section));
+        });
+      }
+
+      async function loadDashboard() {
+        try {
+          const response = await fetch('generated.yml');
+          if (!response.ok) {
+            throw new Error('Request failed with status ' + response.status);
+          }
+          const yamlText = await response.text();
+          const parsed = jsyaml.load(yamlText);
+          if (!parsed || !parsed.sections) {
+            throw new Error('generated.yml is missing required fields');
+          }
+          render(parsed);
+        } catch (err) {
+          sectionsEl.innerHTML = '';
+          setError('Could not load dashboard data: ' + err.message);
+        }
+      }
+
+      loadDashboard();
+    })();
+  </script>
+</body>
+
+</html>
