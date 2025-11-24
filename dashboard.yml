@@ -14,6 +14,8 @@
 
     - repo: BioNGFF/ome-zarr.js
 
+    - repo: ome/omero-cli-zarr
+
 - name: OMERO Java packages
 
   packages:
