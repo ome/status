@@ -94,19 +94,19 @@ a:hover {
 }
 
 .commit-date.commit-fresh {
-  color: #1f883d;
+  color: #3c8a65;
 }
 
 .commit-date.commit-recent {
-  color: #7a9e1d;
+  color: #709541;
 }
 
 .commit-date.commit-stale {
-  color: #c69026;
+  color: #b08844;
 }
 
 .commit-date.commit-old {
-  color: #de4728;
+  color: #b75a55;
 }
 
 .commit-actor {
