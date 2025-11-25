@@ -16,6 +16,16 @@
 
     - repo: ome/omero-cli-zarr
 
+    - repo: ome/ome-zarr-py
+
+    - repo: ome/omero-zarr-pixel-buffer
+
+    - repo: ome/ome-ngff-validator
+
+    - repo: ome/ome2024-ngff-challenge
+
+    - repo: ome/ome-ngff-tools
+
 - name: OMERO Java packages
 
   packages:
@@ -40,6 +50,8 @@
     - repo: ome/omero-blitz
       badges: travis
 
+    - repo: ome/omero-insight
+
 - name: OMERO Python packages
 
   packages:
@@ -58,7 +70,16 @@
     - repo: ome/omero-cli-render
       badges: travis, pypi
 
+    - repo: ome/omero-figure
+
+    - repo: ome/napari-ome-zarr
+
+- name: OME Linked Data
+
+  packages:
     - repo: German-BioImaging/omero-rdf
+
+    - repo: joshmoore/ome-ld
 
 - name: Training packages
 
@@ -69,7 +90,7 @@
     - repo: ome/omero-guides-cellprofiler
       badges: travis, rtd
 
-- name: Ansible packages
+- name: Ansible, Docker and examples
 
   packages:
     - repo: ome/ansible-role-omero-server
@@ -77,3 +98,7 @@
 
     - repo: ome/ansible-role-omero-web
       badges: travis
+
+    - repo: ome/omero-deployment-examples
+
+    - repo: ome/omero-web-docker

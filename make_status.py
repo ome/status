@@ -5,11 +5,13 @@
 #     "requests"
 # ]
 # ///
+
 import os
 from datetime import datetime
 from typing import Dict, List, Optional
 from yaml import load, dump, Loader
 import requests
+from tqdm import tqdm
 
 with open("dashboard.yml") as f:
     config = load(f, Loader=Loader)
@@ -77,7 +79,7 @@ def fetch_repo_info(owner: str, repo: str, session: requests.Session) -> Optiona
 
 
 for section in config:
-    for package in section["packages"]:
+    for package in tqdm(section["packages"]):
         package["user"], package["name"] = package["repo"].split("/")
 
         repo_info = fetch_repo_info(package["user"], package["name"], session)
