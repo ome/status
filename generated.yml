@@ -1,4 +1,4 @@
-generated_at: '2025-11-25T15:54:31.375544Z'
+generated_at: '2025-11-25T16:01:58.554286Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -293,8 +293,8 @@ sections:
       url: https://github.com/BioVisionCenter/ngio/commit/ec3418565419629b26b0d51974d16b5ee5a16503
     last_release:
       date: '2025-11-25'
-      tag_name: v0.4.6
-      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.4.6
+      tag_name: v0.5.0a2
+      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.0a2
     name: ngio
     repo: BioVisionCenter/ngio
     repo_info:
@@ -706,22 +706,6 @@ sections:
       - nfdi4bioimage
       updated_at: '2025-10-24T07:07:09Z'
     user: German-BioImaging
-  - last_commit:
-      author: joshmoore
-      date: '2024-05-25'
-      url: https://github.com/joshmoore/ome-ld/commit/792ef195dff78a67fc10c2f9dbaf0955842993a5
-    name: ome-ld
-    repo: joshmoore/ome-ld
-    repo_info:
-      created_at: '2024-04-16T07:59:07Z'
-      description: Linked Data support for the OME Model
-      open_issues: 7
-      size: 40
-      stargazers_count: 2
-      topics:
-      - nfdi4bioimage
-      updated_at: '2025-09-18T16:07:27Z'
-    user: joshmoore
 - name: Training packages and documentation
   packages:
   - last_commit:

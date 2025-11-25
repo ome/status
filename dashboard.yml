@@ -48,7 +48,6 @@
 
   packages:
     - repo: German-BioImaging/omero-rdf
-    - repo: joshmoore/ome-ld
 
 - name: Training packages and documentation
 
