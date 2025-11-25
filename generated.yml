@@ -1,619 +1,618 @@
-<<<<<<< HEAD
-generated_at: '2025-11-25T08:55:47.874614Z'
-=======
-generated_at: '2025-11-25T06:18:30.339622Z'
->>>>>>> cf40a88dd67e14ea495d52cc633e2c2ae93d1911
+generated_at: "2025-11-25T08:55:47.874614Z"
 sections:
-- name: Bio-Formats packages
-  packages:
-  - badges: travis
-    last_commit:
-      author: sbesson
-      date: '2025-11-21'
-      url: https://github.com/ome/bioformats/commit/f2e491124006b64d53a5978e0f6284ae37f961c8
-    name: bioformats
-    repo: ome/bioformats
-    repo_info:
-      created_at: '2011-10-04T08:06:14Z'
-      description: 'Bio-Formats is a Java library for reading and writing data in
-        life sciences image file formats. It is developed by the  Open Microscopy
-        Environment. Bio-Formats is released under the  GNU General Public License
-        (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 174
-      size: 280191
-      topics:
-      - bio-formats
-      - format-converter
-      - format-reader
-      - image
-      - java
-      - life-sciences-image
-      - lightsheet
-      - metadata
-      - whole-slide-imaging
-      - wsi
-      updated_at: '2025-11-21T14:34:14Z'
-    user: ome
-  - badges: travis
-    last_commit:
-      author: sbesson
-      date: '2025-11-21'
-      url: https://github.com/ome/bio-formats-examples/commit/52ce798766525e17e1a626a0a7d0e6f5d145c5f3
-    name: bio-formats-examples
-    repo: ome/bio-formats-examples
-    repo_info:
-      created_at: '2013-11-11T14:42:35Z'
-      description: Examples of usage of the Bio-Formats API
-      open_issues: 2
-      size: 406
-      topics:
-      - api
-      - bio-formats
-      - examples
-      - gradle
-      - maven
-      updated_at: '2025-11-21T08:42:43Z'
-    user: ome
-- name: OME-NGFF
-  packages:
-  - last_commit:
-      author: joshmoore
-      date: '2025-11-20'
-      url: https://github.com/ome/ngff/commit/e5b2f2e9e43cd5ddf9c5adc7e70216ea1f255a3e
-    name: ngff
-    repo: ome/ngff
-    repo_info:
-      created_at: '2020-11-17T14:55:39Z'
-      description: Next-generation file format (NGFF) specifications for storing bioimaging
-        data in the cloud.
-      open_issues: 135
-      size: 14215
-      topics:
-      - bioimaging
-      - cloud
-      - data-science
-      - file-formats
-      - spec
-      updated_at: '2025-11-20T08:27:39Z'
-    user: ome
-  - last_commit:
-      author: will-moore
-      date: '2025-11-24'
-      url: https://github.com/BioNGFF/ome-zarr.js/commit/32050e65289e98b4a8af9a0ccf8226ff95467e8a
-    name: ome-zarr.js
-    repo: BioNGFF/ome-zarr.js
-    repo_info:
-      created_at: '2025-02-05T14:38:10Z'
-      description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 9
-      size: 1930
-      topics: []
-      updated_at: '2025-11-24T09:17:35Z'
-    user: BioNGFF
-  - last_commit:
-      author: will-moore
-      date: '2025-09-17'
-      url: https://github.com/ome/omero-cli-zarr/commit/37ea7000309b4f8b87c5122c138fb59b17ecf86b
-    name: omero-cli-zarr
-    repo: ome/omero-cli-zarr
-    repo_info:
-      created_at: '2020-04-16T14:53:33Z'
-      description: null
-      open_issues: 30
-      size: 427
-      topics:
-      - ngff
-      - ome-zarr-converter
-      - omero
-      - zarr
-      updated_at: '2025-09-29T09:30:36Z'
-    user: ome
-<<<<<<< HEAD
-  - last_commit:
-      author: joshmoore
-      date: '2025-10-27'
-      url: https://github.com/ome/ome-zarr-py/commit/77e6d63ae46d865afad77b9290c23b321c75ffac
-    name: ome-zarr-py
-    repo: ome/ome-zarr-py
-    repo_info:
-      created_at: '2020-05-06T09:40:59Z'
-      description: Implementation of next-generation file format (NGFF) specifications
-        for storing bioimaging data in the cloud.
-      open_issues: 87
-      size: 1045
-      topics:
-      - ngff
-      - ome
-      - ome-zarr
-      - zarr
-      updated_at: '2025-11-19T00:48:50Z'
-    user: ome
-  - last_commit:
-      author: dominikl
-      date: '2025-11-17'
-      url: https://github.com/ome/omero-zarr-pixel-buffer/commit/36ffdad6f2b1d42d45f210dba3f84320447fc2c4
-    name: omero-zarr-pixel-buffer
-    repo: ome/omero-zarr-pixel-buffer
-    repo_info:
-      created_at: '2025-06-25T13:39:12Z'
-      description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 4
-      size: 421
-      topics: []
-      updated_at: '2025-11-17T14:53:49Z'
-    user: ome
-  - last_commit:
-      author: will-moore
-      date: '2025-11-17'
-      url: https://github.com/ome/ome-ngff-validator/commit/01ca6c8dae499914114acd136353ac452f93bce4
-    name: ome-ngff-validator
-    repo: ome/ome-ngff-validator
-    repo_info:
-      created_at: '2022-05-24T11:39:57Z'
-      description: Web page for validating OME-NGFF files
-      open_issues: 13
-      size: 1843
-      topics:
-      - ome-zarr
-      updated_at: '2025-11-17T14:20:41Z'
-    user: ome
-  - last_commit:
-      author: joshmoore
-      date: '2025-10-01'
-      url: https://github.com/ome/ome2024-ngff-challenge/commit/91d0cd7c62e7dbf9782cc09b3970ab59cdecc8df
-    name: ome2024-ngff-challenge
-    repo: ome/ome2024-ngff-challenge
-    repo_info:
-      created_at: '2024-06-06T15:47:53Z'
-      description: Project planning and material repository for the 2024 challenge
-        to generate 1 PB of OME-Zarr data
-      open_issues: 15
-      size: 1373
-      topics:
-      - ome-ngff
-      - ome-zarr-converter
-      updated_at: '2025-10-01T12:44:27Z'
-    user: ome
-  - last_commit:
-      author: will-moore
-      date: '2025-07-15'
-      url: https://github.com/ome/ome-ngff-tools/commit/5e9b09130ca04575ea2c2aa1abdbcb771b8d5128
-    name: ome-ngff-tools
-    repo: ome/ome-ngff-tools
-    repo_info:
-      created_at: '2022-10-31T12:02:26Z'
-      description: Document available viewers and other tools for the OME-NGFF image
-        format
-      open_issues: 12
-      size: 85
-      topics:
-      - ngff
-      - ome-zarr
-      updated_at: '2025-11-12T10:13:46Z'
-    user: ome
-=======
->>>>>>> cf40a88dd67e14ea495d52cc633e2c2ae93d1911
-- name: OMERO Java packages
-  packages:
-  - badges: travis
-    last_commit:
-      author: sbesson
-      date: '2025-11-12'
-      url: https://github.com/ome/openmicroscopy/commit/7a39abd6045614ceae138a99f7c3fc7c468be4bd
-    name: openmicroscopy
-    repo: ome/openmicroscopy
-    repo_info:
-      created_at: '2011-08-18T14:26:02Z'
-      description: OME (Open Microscopy Environment) develops open-source software
-        and data format standards for the storage and manipulation of biological light
-        microscopy data. A joint project between universities, research establishments
-        and industry in Europe and the USA, OME has over 20 active researchers with
-        strong links to the microscopy community. Funded by private and public research
-        grants, OME has been a major force on the international microscopy stage since
-        2000.
-      open_issues: 30
-      size: 1985501
-      topics:
-      - database
-      - image
-      - java
-      - omero
-      - python
-      - server
-      updated_at: '2025-11-12T06:06:44Z'
-    user: ome
-  - badges: travis
-    last_commit:
-      author: sbesson
-      date: '2025-10-28'
-      url: https://github.com/ome/omero-model/commit/f544fae8f9ab0cdadecef3173e7d55d96a87fae7
-    name: omero-model
-    repo: ome/omero-model
-    repo_info:
-      created_at: '2018-12-11T10:57:55Z'
-      description: Gradle project for generating model jar for OMERO
-      open_issues: 9
-      size: 7061
-      topics:
-      - component
-      - gradle
-      - jar
-      - library
-      - model
-      - omero
-      updated_at: '2025-10-28T16:03:33Z'
-    user: ome
-  - badges: travis
-    last_commit:
-      author: sbesson
-      date: '2025-06-04'
-      url: https://github.com/ome/omero-common/commit/540d520c0d291cdec3dc140b69a77fba2ccbed64
-    name: omero-common
-    repo: ome/omero-common
-    repo_info:
-      created_at: '2018-12-12T10:25:49Z'
-      description: Gradle project containing common utilities for OMERO
-      open_issues: 5
-      size: 1888
-      topics:
-      - library
-      - omero
-      - util
-      updated_at: '2025-06-04T08:53:33Z'
-    user: ome
-  - badges: travis
-    last_commit:
-      author: sbesson
-      date: '2025-08-06'
-      url: https://github.com/ome/omero-romio/commit/33c24b311d5b4cb8cd8f64af7e509636c4bdb433
-    name: omero-romio
-    repo: ome/omero-romio
-    repo_info:
-      created_at: '2018-12-12T15:49:08Z'
-      description: Gradle project for the ROMIO library of OMERO
-      open_issues: 4
-      size: 660
-      topics:
-      - io
-      - jar
-      - library
-      - omero
-      updated_at: '2025-08-06T08:36:33Z'
-    user: ome
-  - badges: travis
-    error: true
-    name: omero-rendering
-    repo: ome/omero-rendering
-    user: ome
-  - badges: travis
-    last_commit:
-      author: sbesson
-      date: '2025-06-10'
-      url: https://github.com/ome/omero-server/commit/e594cc1fccbdaffe1c51566d8c5b1d4d4da49d69
-    name: omero-server
-    repo: ome/omero-server
-    repo_info:
-      created_at: '2018-12-13T09:10:43Z'
-      description: Gradle project containing main server logic for OMERO
-      open_issues: 40
-      size: 6085
-      topics:
-      - component
-      - jar
-      - lib
-      - omero
-      - server
-      updated_at: '2025-08-27T12:18:44Z'
-    user: ome
-  - badges: travis
-    last_commit:
-      author: sbesson
-      date: '2025-11-19'
-      url: https://github.com/ome/omero-blitz/commit/f2d20e7eab6c43b1997b6fa533a1b0d3f03fea63
-    name: omero-blitz
-    repo: ome/omero-blitz
-    repo_info:
-      created_at: '2018-12-13T11:14:30Z'
-      description: Gradle project containing Ice remoting code for OMERO
-      open_issues: 32
-      size: 9335
-      topics:
-      - component
-      - jar
-      - lib
-      - omero
-      - server
-      updated_at: '2025-11-19T18:01:21Z'
-    user: ome
-  - last_commit:
-      author: dominikl
-      date: '2025-08-06'
-      url: https://github.com/ome/omero-insight/commit/6aa281a7e36782dd3d5508bfe879659b5db953e1
-    name: omero-insight
-    repo: ome/omero-insight
-    repo_info:
-      created_at: '2019-02-18T10:01:04Z'
-      description: Gradle project containing insight java client for OMERO
-      open_issues: 124
-      size: 24869
-      topics:
-      - client
-      - gui
-      - java
-      - omero
-      updated_at: '2025-08-06T08:42:10Z'
-    user: ome
-- name: OMERO Python packages
-  packages:
-  - badges: travis, pypi
-    last_commit:
-      author: sbesson
-      date: '2025-10-06'
-      url: https://github.com/ome/omero-py/commit/4a1712983d1f38d249c2b203f96a086cd4da37b8
-    name: omero-py
-    repo: ome/omero-py
-    repo_info:
-      created_at: '2019-08-05T15:04:56Z'
-      description: Python project containing Ice remoting code for OMERO
-      open_issues: 71
-      size: 11975
-      topics:
-      - component
-      - lib
-      - omero
-      - omero-py
-      - python
-      updated_at: '2025-10-06T09:57:46Z'
-    user: ome
-  - badges: travis, pypi
-    last_commit:
-      author: knabar
-      date: '2025-11-24'
-      url: https://github.com/ome/omero-web/commit/675d57fd7b1eb7bc99ac2c01ed9298ec49bd315b
-    name: omero-web
-    repo: ome/omero-web
-    repo_info:
-      created_at: '2019-08-05T15:05:08Z'
-      description: Django-based OMERO.web client
-      open_issues: 151
-      size: 26444
-      topics:
-      - client
-      - django
-      - omero
-      - python
-      - web
-      updated_at: '2025-11-24T14:52:21Z'
-    user: ome
-  - badges: travis, pypi
-    last_commit:
-      author: sbesson
-      date: '2024-11-21'
-      url: https://github.com/ome/omero-dropbox/commit/01fa0c567e5391e5f920bd17d6e9eab210c9df67
-    name: omero-dropbox
-    repo: ome/omero-dropbox
-    repo_info:
-      created_at: '2019-08-05T15:05:22Z'
-      description: OMERO.dropbox server for watching directories
-      open_issues: 4
-      size: 465
-      topics:
-      - component
-      - lib
-      - omero
-      - omero-import
-      - python
-      updated_at: '2025-08-27T12:20:51Z'
-    user: ome
-  - badges: travis, pypi
-    last_commit:
-      author: sbesson
-      date: '2025-10-01'
-      url: https://github.com/ome/omero-marshal/commit/a3dd99b825ad44c9beadc38a8ae8ba94a155f62c
-    name: omero-marshal
-    repo: ome/omero-marshal
-    repo_info:
-      created_at: '2015-10-20T12:43:20Z'
-      description: OMERO marshalling infrastructure
-      open_issues: 9
-      size: 404
-      topics:
-      - marshalling
-      - model
-      - omero
-      - pip
-      updated_at: '2025-10-01T07:41:40Z'
-    user: ome
-  - badges: travis, pypi
-    last_commit:
-      author: jburel
-      date: '2024-12-04'
-      url: https://github.com/ome/omero-cli-render/commit/ce6e13cfea3157cab0d00fde40f6cc8158946264
-    name: omero-cli-render
-    repo: ome/omero-cli-render
-    repo_info:
-      created_at: '2017-08-15T10:45:26Z'
-      description: OMERO command-line tool for rendering
-      open_issues: 12
-      size: 429
-      topics:
-      - cli
-      - command
-      - omero
-      - plugin
-      - python
-      updated_at: '2024-12-04T09:34:29Z'
-    user: ome
-  - last_commit:
-      author: will-moore
-      date: '2025-11-24'
-      url: https://github.com/ome/omero-figure/commit/419e3a2e63265842fb098c2e3bb7edf5b4627180
-    name: omero-figure
-    repo: ome/omero-figure
-    repo_info:
-      created_at: '2013-09-29T22:16:03Z'
-      description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 76
-      size: 8868
-      topics:
-      - omero
-      - webapp
-      updated_at: '2025-11-24T14:42:01Z'
-    user: ome
-  - last_commit:
-      author: joshmoore
-      date: '2025-09-02'
-      url: https://github.com/ome/napari-ome-zarr/commit/82760e6788a9abb02f074919a095acad7bcee318
-    name: napari-ome-zarr
-    repo: ome/napari-ome-zarr
-    repo_info:
-      created_at: '2021-05-27T09:34:51Z'
-      description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 34
-      size: 154
-      topics:
-      - napari-plugin
-      - ngff
-      - python
-      - zarr
-      updated_at: '2025-11-19T01:03:03Z'
-    user: ome
-- name: OME Linked Data
-  packages:
-  - last_commit:
-      author: joshmoore
-      date: '2025-09-02'
-      url: https://github.com/German-BioImaging/omero-rdf/commit/5463f129fd790b1ca85246f73c12a6f2e7ad4fff
-    name: omero-rdf
-    repo: German-BioImaging/omero-rdf
-    repo_info:
-      created_at: '2022-07-27T15:46:33Z'
-      description: A plugin for exporting RDF from OMERO
-      open_issues: 29
-      size: 99
-      topics:
-      - nfdi4bioimage
-      updated_at: '2025-10-24T07:07:09Z'
-    user: German-BioImaging
-  - last_commit:
-      author: joshmoore
-      date: '2024-05-25'
-      url: https://github.com/joshmoore/ome-ld/commit/792ef195dff78a67fc10c2f9dbaf0955842993a5
-    name: ome-ld
-    repo: joshmoore/ome-ld
-    repo_info:
-      created_at: '2024-04-16T07:59:07Z'
-      description: Linked Data support for the OME Model
-      open_issues: 7
-      size: 40
-      topics:
-      - nfdi4bioimage
-      updated_at: '2025-09-18T16:07:27Z'
-    user: joshmoore
-- name: Training packages
-  packages:
-  - badges: travis, rtd
-    last_commit:
-      author: dependabot[bot]
-      date: '2024-12-17'
-      url: https://github.com/ome/omero-guides/commit/5a57d6af3cae6b16b1104bf499bb3f6992bd2e8a
-    name: omero-guides
-    repo: ome/omero-guides
-    repo_info:
-      created_at: '2019-08-15T09:18:40Z'
-      description: Guides for using OMERO
-      open_issues: 17
-      size: 996
-      topics:
-      - docs
-      - guides
-      - help
-      - manuals
-      - omero
-      - omero-training
-      updated_at: '2024-12-17T13:42:35Z'
-    user: ome
-  - badges: travis, rtd
-    error: true
-    name: omero-guides-cellprofiler
-    repo: ome/omero-guides-cellprofiler
-    user: ome
-- name: Ansible, Docker and examples
-  packages:
-  - badges: travis
-    last_commit:
-      author: pwalczysko
-      date: '2025-11-18'
-      url: https://github.com/ome/ansible-role-omero-server/commit/680bf1f1c41dffbddfc057efe84e1026017b9c83
-    name: ansible-role-omero-server
-    repo: ome/ansible-role-omero-server
-    repo_info:
-      created_at: '2017-01-06T16:22:29Z'
-      description: Installs and configures OMERO.server
-      open_issues: 10
-      size: 318
-      topics:
-      - ansible
-      - omero
-      - role
-      - server
-      updated_at: '2025-11-18T15:56:25Z'
-    user: ome
-  - badges: travis
-    last_commit:
-      author: pwalczysko
-      date: '2025-11-18'
-      url: https://github.com/ome/ansible-role-omero-web/commit/b59eccf9e05ecaed6e2462c9f0b563c7e8dd4d9b
-    name: ansible-role-omero-web
-    repo: ome/ansible-role-omero-web
-    repo_info:
-      created_at: '2017-03-10T17:50:57Z'
-      description: Installs and configures OMERO.web and Nginx
-      open_issues: 4
-      size: 199
-      topics:
-      - ansible
-      - ome
-      - omero
-      - openmicroscopy
-      updated_at: '2025-11-18T12:38:51Z'
-    user: ome
-  - last_commit:
-      author: dependabot[bot]
-      date: '2022-08-29'
-      url: https://github.com/ome/omero-deployment-examples/commit/fed83abf48ff5c70a6590c36ba921c4241a3494b
-    name: omero-deployment-examples
-    repo: ome/omero-deployment-examples
-    repo_info:
-      created_at: '2017-08-16T13:53:30Z'
-      description: Examples playbooks for installing OMERO with Ansible and Docker
-      open_issues: 5
-      size: 351
-      topics:
-      - ansible
-      - compose
-      - docker
-      - example
-      - omero
-      - playbook
-      updated_at: '2024-08-08T04:25:50Z'
-    user: ome
-  - last_commit:
-      author: pwalczysko
-      date: '2025-11-24'
-      url: https://github.com/ome/omero-web-docker/commit/78d37cf650dc1e7401799f99f58c085c2be5d1c4
-    name: omero-web-docker
-    repo: ome/omero-web-docker
-    repo_info:
-      created_at: '2017-06-14T20:57:33Z'
-      description: OMERO.web production docker image
-      open_issues: 21
-      size: 139
-      topics:
-      - docker
-      - ome
-      - omero
-      - omero-web
-      - openmicroscopy
-      updated_at: '2025-11-24T16:56:42Z'
-    user: ome
+  - name: Bio-Formats packages
+    packages:
+      - badges: travis
+        last_commit:
+          author: sbesson
+          date: "2025-11-21"
+          url: https://github.com/ome/bioformats/commit/f2e491124006b64d53a5978e0f6284ae37f961c8
+        name: bioformats
+        repo: ome/bioformats
+        repo_info:
+          created_at: "2011-10-04T08:06:14Z"
+          description:
+            "Bio-Formats is a Java library for reading and writing data in
+            life sciences image file formats. It is developed by the  Open Microscopy
+            Environment. Bio-Formats is released under the  GNU General Public License
+            (GPL); commercial licenses are available from  Glencoe Software. "
+          open_issues: 174
+          size: 280191
+          topics:
+            - bio-formats
+            - format-converter
+            - format-reader
+            - image
+            - java
+            - life-sciences-image
+            - lightsheet
+            - metadata
+            - whole-slide-imaging
+            - wsi
+          updated_at: "2025-11-21T14:34:14Z"
+        user: ome
+      - badges: travis
+        last_commit:
+          author: sbesson
+          date: "2025-11-21"
+          url: https://github.com/ome/bio-formats-examples/commit/52ce798766525e17e1a626a0a7d0e6f5d145c5f3
+        name: bio-formats-examples
+        repo: ome/bio-formats-examples
+        repo_info:
+          created_at: "2013-11-11T14:42:35Z"
+          description: Examples of usage of the Bio-Formats API
+          open_issues: 2
+          size: 406
+          topics:
+            - api
+            - bio-formats
+            - examples
+            - gradle
+            - maven
+          updated_at: "2025-11-21T08:42:43Z"
+        user: ome
+  - name: OME-NGFF
+    packages:
+      - last_commit:
+          author: joshmoore
+          date: "2025-11-20"
+          url: https://github.com/ome/ngff/commit/e5b2f2e9e43cd5ddf9c5adc7e70216ea1f255a3e
+        name: ngff
+        repo: ome/ngff
+        repo_info:
+          created_at: "2020-11-17T14:55:39Z"
+          description:
+            Next-generation file format (NGFF) specifications for storing bioimaging
+            data in the cloud.
+          open_issues: 135
+          size: 14215
+          topics:
+            - bioimaging
+            - cloud
+            - data-science
+            - file-formats
+            - spec
+          updated_at: "2025-11-20T08:27:39Z"
+        user: ome
+      - last_commit:
+          author: will-moore
+          date: "2025-11-24"
+          url: https://github.com/BioNGFF/ome-zarr.js/commit/32050e65289e98b4a8af9a0ccf8226ff95467e8a
+        name: ome-zarr.js
+        repo: BioNGFF/ome-zarr.js
+        repo_info:
+          created_at: "2025-02-05T14:38:10Z"
+          description: Some JavaScript utils for simple rendering of OME-Zarr images
+          open_issues: 9
+          size: 1930
+          topics: []
+          updated_at: "2025-11-24T09:17:35Z"
+        user: BioNGFF
+      - last_commit:
+          author: will-moore
+          date: "2025-09-17"
+          url: https://github.com/ome/omero-cli-zarr/commit/37ea7000309b4f8b87c5122c138fb59b17ecf86b
+        name: omero-cli-zarr
+        repo: ome/omero-cli-zarr
+        repo_info:
+          created_at: "2020-04-16T14:53:33Z"
+          description: null
+          open_issues: 30
+          size: 427
+          topics:
+            - ngff
+            - ome-zarr-converter
+            - omero
+            - zarr
+          updated_at: "2025-09-29T09:30:36Z"
+        user: ome
+      - last_commit:
+          author: joshmoore
+          date: "2025-10-27"
+          url: https://github.com/ome/ome-zarr-py/commit/77e6d63ae46d865afad77b9290c23b321c75ffac
+        name: ome-zarr-py
+        repo: ome/ome-zarr-py
+        repo_info:
+          created_at: "2020-05-06T09:40:59Z"
+          description:
+            Implementation of next-generation file format (NGFF) specifications
+            for storing bioimaging data in the cloud.
+          open_issues: 87
+          size: 1045
+          topics:
+            - ngff
+            - ome
+            - ome-zarr
+            - zarr
+          updated_at: "2025-11-19T00:48:50Z"
+        user: ome
+      - last_commit:
+          author: dominikl
+          date: "2025-11-17"
+          url: https://github.com/ome/omero-zarr-pixel-buffer/commit/36ffdad6f2b1d42d45f210dba3f84320447fc2c4
+        name: omero-zarr-pixel-buffer
+        repo: ome/omero-zarr-pixel-buffer
+        repo_info:
+          created_at: "2025-06-25T13:39:12Z"
+          description: OMERO Zarr Pixel Buffer Implementation
+          open_issues: 4
+          size: 421
+          topics: []
+          updated_at: "2025-11-17T14:53:49Z"
+        user: ome
+      - last_commit:
+          author: will-moore
+          date: "2025-11-17"
+          url: https://github.com/ome/ome-ngff-validator/commit/01ca6c8dae499914114acd136353ac452f93bce4
+        name: ome-ngff-validator
+        repo: ome/ome-ngff-validator
+        repo_info:
+          created_at: "2022-05-24T11:39:57Z"
+          description: Web page for validating OME-NGFF files
+          open_issues: 13
+          size: 1843
+          topics:
+            - ome-zarr
+          updated_at: "2025-11-17T14:20:41Z"
+        user: ome
+      - last_commit:
+          author: joshmoore
+          date: "2025-10-01"
+          url: https://github.com/ome/ome2024-ngff-challenge/commit/91d0cd7c62e7dbf9782cc09b3970ab59cdecc8df
+        name: ome2024-ngff-challenge
+        repo: ome/ome2024-ngff-challenge
+        repo_info:
+          created_at: "2024-06-06T15:47:53Z"
+          description:
+            Project planning and material repository for the 2024 challenge
+            to generate 1 PB of OME-Zarr data
+          open_issues: 15
+          size: 1373
+          topics:
+            - ome-ngff
+            - ome-zarr-converter
+          updated_at: "2025-10-01T12:44:27Z"
+        user: ome
+      - last_commit:
+          author: will-moore
+          date: "2025-07-15"
+          url: https://github.com/ome/ome-ngff-tools/commit/5e9b09130ca04575ea2c2aa1abdbcb771b8d5128
+        name: ome-ngff-tools
+        repo: ome/ome-ngff-tools
+        repo_info:
+          created_at: "2022-10-31T12:02:26Z"
+          description:
+            Document available viewers and other tools for the OME-NGFF image
+            format
+          open_issues: 12
+          size: 85
+          topics:
+            - ngff
+            - ome-zarr
+          updated_at: "2025-11-12T10:13:46Z"
+        user: ome
+  - name: OMERO Java packages
+    packages:
+      - badges: travis
+        last_commit:
+          author: sbesson
+          date: "2025-11-12"
+          url: https://github.com/ome/openmicroscopy/commit/7a39abd6045614ceae138a99f7c3fc7c468be4bd
+        name: openmicroscopy
+        repo: ome/openmicroscopy
+        repo_info:
+          created_at: "2011-08-18T14:26:02Z"
+          description:
+            OME (Open Microscopy Environment) develops open-source software
+            and data format standards for the storage and manipulation of biological light
+            microscopy data. A joint project between universities, research establishments
+            and industry in Europe and the USA, OME has over 20 active researchers with
+            strong links to the microscopy community. Funded by private and public research
+            grants, OME has been a major force on the international microscopy stage since
+            2000.
+          open_issues: 30
+          size: 1985501
+          topics:
+            - database
+            - image
+            - java
+            - omero
+            - python
+            - server
+          updated_at: "2025-11-12T06:06:44Z"
+        user: ome
+      - badges: travis
+        last_commit:
+          author: sbesson
+          date: "2025-10-28"
+          url: https://github.com/ome/omero-model/commit/f544fae8f9ab0cdadecef3173e7d55d96a87fae7
+        name: omero-model
+        repo: ome/omero-model
+        repo_info:
+          created_at: "2018-12-11T10:57:55Z"
+          description: Gradle project for generating model jar for OMERO
+          open_issues: 9
+          size: 7061
+          topics:
+            - component
+            - gradle
+            - jar
+            - library
+            - model
+            - omero
+          updated_at: "2025-10-28T16:03:33Z"
+        user: ome
+      - badges: travis
+        last_commit:
+          author: sbesson
+          date: "2025-06-04"
+          url: https://github.com/ome/omero-common/commit/540d520c0d291cdec3dc140b69a77fba2ccbed64
+        name: omero-common
+        repo: ome/omero-common
+        repo_info:
+          created_at: "2018-12-12T10:25:49Z"
+          description: Gradle project containing common utilities for OMERO
+          open_issues: 5
+          size: 1888
+          topics:
+            - library
+            - omero
+            - util
+          updated_at: "2025-06-04T08:53:33Z"
+        user: ome
+      - badges: travis
+        last_commit:
+          author: sbesson
+          date: "2025-08-06"
+          url: https://github.com/ome/omero-romio/commit/33c24b311d5b4cb8cd8f64af7e509636c4bdb433
+        name: omero-romio
+        repo: ome/omero-romio
+        repo_info:
+          created_at: "2018-12-12T15:49:08Z"
+          description: Gradle project for the ROMIO library of OMERO
+          open_issues: 4
+          size: 660
+          topics:
+            - io
+            - jar
+            - library
+            - omero
+          updated_at: "2025-08-06T08:36:33Z"
+        user: ome
+      - badges: travis
+        error: true
+        name: omero-rendering
+        repo: ome/omero-rendering
+        user: ome
+      - badges: travis
+        last_commit:
+          author: sbesson
+          date: "2025-06-10"
+          url: https://github.com/ome/omero-server/commit/e594cc1fccbdaffe1c51566d8c5b1d4d4da49d69
+        name: omero-server
+        repo: ome/omero-server
+        repo_info:
+          created_at: "2018-12-13T09:10:43Z"
+          description: Gradle project containing main server logic for OMERO
+          open_issues: 40
+          size: 6085
+          topics:
+            - component
+            - jar
+            - lib
+            - omero
+            - server
+          updated_at: "2025-08-27T12:18:44Z"
+        user: ome
+      - badges: travis
+        last_commit:
+          author: sbesson
+          date: "2025-11-19"
+          url: https://github.com/ome/omero-blitz/commit/f2d20e7eab6c43b1997b6fa533a1b0d3f03fea63
+        name: omero-blitz
+        repo: ome/omero-blitz
+        repo_info:
+          created_at: "2018-12-13T11:14:30Z"
+          description: Gradle project containing Ice remoting code for OMERO
+          open_issues: 32
+          size: 9335
+          topics:
+            - component
+            - jar
+            - lib
+            - omero
+            - server
+          updated_at: "2025-11-19T18:01:21Z"
+        user: ome
+      - last_commit:
+          author: dominikl
+          date: "2025-08-06"
+          url: https://github.com/ome/omero-insight/commit/6aa281a7e36782dd3d5508bfe879659b5db953e1
+        name: omero-insight
+        repo: ome/omero-insight
+        repo_info:
+          created_at: "2019-02-18T10:01:04Z"
+          description: Gradle project containing insight java client for OMERO
+          open_issues: 124
+          size: 24869
+          topics:
+            - client
+            - gui
+            - java
+            - omero
+          updated_at: "2025-08-06T08:42:10Z"
+        user: ome
+  - name: OMERO Python packages
+    packages:
+      - badges: travis, pypi
+        last_commit:
+          author: sbesson
+          date: "2025-10-06"
+          url: https://github.com/ome/omero-py/commit/4a1712983d1f38d249c2b203f96a086cd4da37b8
+        name: omero-py
+        repo: ome/omero-py
+        repo_info:
+          created_at: "2019-08-05T15:04:56Z"
+          description: Python project containing Ice remoting code for OMERO
+          open_issues: 71
+          size: 11975
+          topics:
+            - component
+            - lib
+            - omero
+            - omero-py
+            - python
+          updated_at: "2025-10-06T09:57:46Z"
+        user: ome
+      - badges: travis, pypi
+        last_commit:
+          author: knabar
+          date: "2025-11-24"
+          url: https://github.com/ome/omero-web/commit/675d57fd7b1eb7bc99ac2c01ed9298ec49bd315b
+        name: omero-web
+        repo: ome/omero-web
+        repo_info:
+          created_at: "2019-08-05T15:05:08Z"
+          description: Django-based OMERO.web client
+          open_issues: 151
+          size: 26444
+          topics:
+            - client
+            - django
+            - omero
+            - python
+            - web
+          updated_at: "2025-11-24T14:52:21Z"
+        user: ome
+      - badges: travis, pypi
+        last_commit:
+          author: sbesson
+          date: "2024-11-21"
+          url: https://github.com/ome/omero-dropbox/commit/01fa0c567e5391e5f920bd17d6e9eab210c9df67
+        name: omero-dropbox
+        repo: ome/omero-dropbox
+        repo_info:
+          created_at: "2019-08-05T15:05:22Z"
+          description: OMERO.dropbox server for watching directories
+          open_issues: 4
+          size: 465
+          topics:
+            - component
+            - lib
+            - omero
+            - omero-import
+            - python
+          updated_at: "2025-08-27T12:20:51Z"
+        user: ome
+      - badges: travis, pypi
+        last_commit:
+          author: sbesson
+          date: "2025-10-01"
+          url: https://github.com/ome/omero-marshal/commit/a3dd99b825ad44c9beadc38a8ae8ba94a155f62c
+        name: omero-marshal
+        repo: ome/omero-marshal
+        repo_info:
+          created_at: "2015-10-20T12:43:20Z"
+          description: OMERO marshalling infrastructure
+          open_issues: 9
+          size: 404
+          topics:
+            - marshalling
+            - model
+            - omero
+            - pip
+          updated_at: "2025-10-01T07:41:40Z"
+        user: ome
+      - badges: travis, pypi
+        last_commit:
+          author: jburel
+          date: "2024-12-04"
+          url: https://github.com/ome/omero-cli-render/commit/ce6e13cfea3157cab0d00fde40f6cc8158946264
+        name: omero-cli-render
+        repo: ome/omero-cli-render
+        repo_info:
+          created_at: "2017-08-15T10:45:26Z"
+          description: OMERO command-line tool for rendering
+          open_issues: 12
+          size: 429
+          topics:
+            - cli
+            - command
+            - omero
+            - plugin
+            - python
+          updated_at: "2024-12-04T09:34:29Z"
+        user: ome
+      - last_commit:
+          author: will-moore
+          date: "2025-11-24"
+          url: https://github.com/ome/omero-figure/commit/419e3a2e63265842fb098c2e3bb7edf5b4627180
+        name: omero-figure
+        repo: ome/omero-figure
+        repo_info:
+          created_at: "2013-09-29T22:16:03Z"
+          description: An OMERO.web app for creating Figures from images in OMERO
+          open_issues: 76
+          size: 8868
+          topics:
+            - omero
+            - webapp
+          updated_at: "2025-11-24T14:42:01Z"
+        user: ome
+      - last_commit:
+          author: joshmoore
+          date: "2025-09-02"
+          url: https://github.com/ome/napari-ome-zarr/commit/82760e6788a9abb02f074919a095acad7bcee318
+        name: napari-ome-zarr
+        repo: ome/napari-ome-zarr
+        repo_info:
+          created_at: "2021-05-27T09:34:51Z"
+          description: A napari plugin for zarr backed OME-NGFF images
+          open_issues: 34
+          size: 154
+          topics:
+            - napari-plugin
+            - ngff
+            - python
+            - zarr
+          updated_at: "2025-11-19T01:03:03Z"
+        user: ome
+  - name: OME Linked Data
+    packages:
+      - last_commit:
+          author: joshmoore
+          date: "2025-09-02"
+          url: https://github.com/German-BioImaging/omero-rdf/commit/5463f129fd790b1ca85246f73c12a6f2e7ad4fff
+        name: omero-rdf
+        repo: German-BioImaging/omero-rdf
+        repo_info:
+          created_at: "2022-07-27T15:46:33Z"
+          description: A plugin for exporting RDF from OMERO
+          open_issues: 29
+          size: 99
+          topics:
+            - nfdi4bioimage
+          updated_at: "2025-10-24T07:07:09Z"
+        user: German-BioImaging
+      - last_commit:
+          author: joshmoore
+          date: "2024-05-25"
+          url: https://github.com/joshmoore/ome-ld/commit/792ef195dff78a67fc10c2f9dbaf0955842993a5
+        name: ome-ld
+        repo: joshmoore/ome-ld
+        repo_info:
+          created_at: "2024-04-16T07:59:07Z"
+          description: Linked Data support for the OME Model
+          open_issues: 7
+          size: 40
+          topics:
+            - nfdi4bioimage
+          updated_at: "2025-09-18T16:07:27Z"
+        user: joshmoore
+  - name: Training packages
+    packages:
+      - badges: travis, rtd
+        last_commit:
+          author: dependabot[bot]
+          date: "2024-12-17"
+          url: https://github.com/ome/omero-guides/commit/5a57d6af3cae6b16b1104bf499bb3f6992bd2e8a
+        name: omero-guides
+        repo: ome/omero-guides
+        repo_info:
+          created_at: "2019-08-15T09:18:40Z"
+          description: Guides for using OMERO
+          open_issues: 17
+          size: 996
+          topics:
+            - docs
+            - guides
+            - help
+            - manuals
+            - omero
+            - omero-training
+          updated_at: "2024-12-17T13:42:35Z"
+        user: ome
+      - badges: travis, rtd
+        error: true
+        name: omero-guides-cellprofiler
+        repo: ome/omero-guides-cellprofiler
+        user: ome
+  - name: Ansible, Docker and examples
+    packages:
+      - badges: travis
+        last_commit:
+          author: pwalczysko
+          date: "2025-11-18"
+          url: https://github.com/ome/ansible-role-omero-server/commit/680bf1f1c41dffbddfc057efe84e1026017b9c83
+        name: ansible-role-omero-server
+        repo: ome/ansible-role-omero-server
+        repo_info:
+          created_at: "2017-01-06T16:22:29Z"
+          description: Installs and configures OMERO.server
+          open_issues: 10
+          size: 318
+          topics:
+            - ansible
+            - omero
+            - role
+            - server
+          updated_at: "2025-11-18T15:56:25Z"
+        user: ome
+      - badges: travis
+        last_commit:
+          author: pwalczysko
+          date: "2025-11-18"
+          url: https://github.com/ome/ansible-role-omero-web/commit/b59eccf9e05ecaed6e2462c9f0b563c7e8dd4d9b
+        name: ansible-role-omero-web
+        repo: ome/ansible-role-omero-web
+        repo_info:
+          created_at: "2017-03-10T17:50:57Z"
+          description: Installs and configures OMERO.web and Nginx
+          open_issues: 4
+          size: 199
+          topics:
+            - ansible
+            - ome
+            - omero
+            - openmicroscopy
+          updated_at: "2025-11-18T12:38:51Z"
+        user: ome
+      - last_commit:
+          author: dependabot[bot]
+          date: "2022-08-29"
+          url: https://github.com/ome/omero-deployment-examples/commit/fed83abf48ff5c70a6590c36ba921c4241a3494b
+        name: omero-deployment-examples
+        repo: ome/omero-deployment-examples
+        repo_info:
+          created_at: "2017-08-16T13:53:30Z"
+          description: Examples playbooks for installing OMERO with Ansible and Docker
+          open_issues: 5
+          size: 351
+          topics:
+            - ansible
+            - compose
+            - docker
+            - example
+            - omero
+            - playbook
+          updated_at: "2024-08-08T04:25:50Z"
+        user: ome
+      - last_commit:
+          author: pwalczysko
+          date: "2025-11-24"
+          url: https://github.com/ome/omero-web-docker/commit/78d37cf650dc1e7401799f99f58c085c2be5d1c4
+        name: omero-web-docker
+        repo: ome/omero-web-docker
+        repo_info:
+          created_at: "2017-06-14T20:57:33Z"
+          description: OMERO.web production docker image
+          open_issues: 21
+          size: 139
+          topics:
+            - docker
+            - ome
+            - omero
+            - omero-web
+            - openmicroscopy
+          updated_at: "2025-11-24T16:56:42Z"
+        user: ome
