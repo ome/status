@@ -44,6 +44,11 @@
     - repo: ome/omero-scripts
     - repo: TheJacksonLaboratory/ezomero
 
+- name: OMERO Web Javascript apps
+
+  packages:
+    - repo: ome/omero-iviewer
+
 - name: OME Linked Data
 
   packages:
