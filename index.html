@@ -55,6 +55,14 @@
         return span;
       }
 
+      function normalizeSortValue(rawValue) {
+        if (rawValue === undefined || rawValue === null || rawValue === '') {
+          return Number.NEGATIVE_INFINITY;
+        }
+        const numericValue = Number(rawValue);
+        return Number.isFinite(numericValue) ? numericValue : Number.NEGATIVE_INFINITY;
+      }
+
       function setError(message) {
         errorEl.textContent = message;
         errorEl.style.display = 'block';
@@ -108,8 +116,8 @@
       function createTextCell(value, className, sortValue) {
         const td = document.createElement('td');
         if (className) td.className = className;
-        if (sortValue !== undefined && sortValue !== null && sortValue !== '') {
-          td.dataset.order = sortValue;
+        if (sortValue !== undefined) {
+          td.dataset.order = normalizeSortValue(sortValue);
         }
         if (value === undefined || value === null || value === '') {
           td.appendChild(emptyMarker());
@@ -155,7 +163,7 @@
           const img = document.createElement('img');
           img.alt = owner;
           img.src = logoUrl;
-          img.style.height = '1em';
+          img.style.height = '1rem';
           img.style.verticalAlign = 'bottom';
           link.appendChild(img);
         } else {
@@ -169,13 +177,11 @@
         const td = document.createElement('td');
         td.className = 'commit-cell';
         const hasContent = commit && (commit.date || commit.url || commit.author);
+        const sortDate = commit && commit.date ? Date.parse(commit.date) : null;
+        td.dataset.order = normalizeSortValue(sortDate);
         if (!hasContent) {
           td.appendChild(emptyMarker());
           return td;
-        }
-        const sortDate = commit.date ? Date.parse(commit.date) : '';
-        if (!Number.isNaN(sortDate)) {
-          td.dataset.order = sortDate;
         }
         const dateClass = classifyEntryAge(commit.date);
         const dateDiv = document.createElement('div');
@@ -207,13 +213,11 @@
         const td = document.createElement('td');
         td.className = 'commit-cell';
         const hasContent = release && (release.date || release.tag_name || release.url);
+        const sortDate = release && release.date ? Date.parse(release.date) : null;
+        td.dataset.order = normalizeSortValue(sortDate);
         if (!hasContent) {
           td.appendChild(emptyMarker());
           return td;
-        }
-        const sortDate = release.date ? Date.parse(release.date) : '';
-        if (!Number.isNaN(sortDate)) {
-          td.dataset.order = sortDate;
         }
         const dateClass = classifyEntryAge(release.date);
         const dateDiv = document.createElement('div');
