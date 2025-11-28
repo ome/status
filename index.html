@@ -35,7 +35,6 @@
       const sectionsEl = document.getElementById('sections');
       const generatedAtEl = document.getElementById('generated-at');
       const errorEl = document.getElementById('error');
-      let logos = {};
 
       const headers = [
         { text: 'Owner' },
@@ -104,13 +103,9 @@
         return jsyaml.load(text);
       }
 
-      async function loadLogos() {
-        try {
-          const data = await fetchYaml('logos.yml', { optional: true });
-          logos = (data && typeof data === 'object') ? data : {};
-        } catch (err) {
-          logos = {};
-        }
+      function buildOwnerLogoUrl(owner) {
+        if (!owner) return '';
+        return 'https://avatars.githubusercontent.com/' + encodeURIComponent(owner);
       }
 
       function createTextCell(value, className, sortValue) {
@@ -149,25 +144,30 @@
 
       function createOwnerCell(pkg) {
         const td = document.createElement('td');
-        td.style.textAlign = 'left';
+        td.className = 'owner-cell';
         const owner = pkg.user;
         if (!owner) {
           td.appendChild(emptyMarker());
           return td;
         }
+        td.dataset.order = (owner && owner.toLowerCase) ? owner.toLowerCase() : owner;
         const link = document.createElement('a');
         link.href = 'https://github.com/' + owner;
-        const ownerKey = (owner && owner.toLowerCase) ? owner.toLowerCase() : owner;
-        const logoUrl = logos[ownerKey];
+        link.className = 'owner-link';
+        link.title = owner;
+        link.setAttribute('aria-label', owner);
+        const logoUrl = buildOwnerLogoUrl(owner);
         if (logoUrl) {
           const img = document.createElement('img');
-          img.alt = owner;
+          img.alt = owner + ' logo';
           img.src = logoUrl;
-          img.style.height = '1rem';
-          img.style.verticalAlign = 'bottom';
+          img.loading = 'lazy';
+          img.className = 'owner-logo';
+          img.onerror = () => {
+            img.remove();
+            link.textContent = owner;
+          };
           link.appendChild(img);
-        } else {
-          link.textContent = owner;
         }
         td.appendChild(link);
         return td;
@@ -344,7 +344,6 @@
           if (!parsed || !parsed.sections) {
             throw new Error('generated.yml is missing required fields');
           }
-          await loadLogos();
           render(parsed);
         } catch (err) {
           sectionsEl.innerHTML = '';
