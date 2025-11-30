@@ -1,4 +1,4 @@
-generated_at: '2025-11-29T06:16:14.768050Z'
+generated_at: '2025-11-30T06:17:11.230739Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -665,8 +665,8 @@ sections:
     user: ome
   - last_commit:
       author: erickmartins
-      date: '2025-11-23'
-      url: https://github.com/TheJacksonLaboratory/ezomero/commit/286b229d72ac996ba5c48691a4893f81a25382de
+      date: '2025-11-30'
+      url: https://github.com/TheJacksonLaboratory/ezomero/commit/7d629c06741cc6cbc0d73667c0773e3fb4e181de
     last_release:
       date: '2025-06-30'
       tag_name: 3.2.1
@@ -686,7 +686,7 @@ sections:
       - omero-api
       - omero-server
       - python
-      updated_at: '2025-11-25T12:01:08Z'
+      updated_at: '2025-11-30T00:43:26Z'
     user: TheJacksonLaboratory
 - name: OMERO Web Javascript apps
   packages:
