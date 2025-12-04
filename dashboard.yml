@@ -42,7 +42,7 @@
     - repo: ome/omero-dropbox
     - repo: ome/omero-marshal
     - repo: ome/omero-cli-render
-    - repo: ome/omero-figure
+    - repo: ome/omero-cli-transfer
     - repo: ome/omero-scripts
     - repo: TheJacksonLaboratory/ezomero
 
@@ -50,6 +50,9 @@
 
   packages:
     - repo: ome/omero-iviewer
+    - repo: ome/omero-figure
+    - repo: German-BioImaging/omero-autotag
+    - repo: German-BioImaging/omero-tagsearch
 
 - name: OME Linked Data
 
@@ -70,3 +73,5 @@
     - repo: ome/ansible-role-omero-web
     - repo: ome/omero-deployment-examples
     - repo: ome/omero-web-docker
+    - repo: ome/omero-server-docker
+
