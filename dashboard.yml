@@ -1,73 +1,72 @@
 - name: Bio-Formats packages
 
   packages:
+    - repo: ome/bioformats
+    - repo: ome/bio-formats-examples
 
-  - repo: ome/bioformats
-    badges: travis
+- name: OME-NGFF
 
-  - repo: ome/bio-formats-examples
-    badges: travis
+  packages:
+    - repo: ome/ngff
+    - repo: BioNGFF/ome-zarr.js
+    - repo: ome/omero-cli-zarr
+    - repo: ome/ome-zarr-py
+    - repo: ome/omero-zarr-pixel-buffer
+    - repo: glencoesoftware/omero-zarr-pixel-buffer
+    - repo: ome/ome-ngff-validator
+    - repo: ome/ome2024-ngff-challenge
+    - repo: ome/ome-ngff-tools
+    - repo: ome/napari-ome-zarr
+    - repo: fideus-labs/ngff-zarr
+    - repo: BioVisionCenter/ngio
+    - repo: zarrs/ome_zarr_metadata
+    - repo: ome-zarr-models/ome-zarr-models-py
+    - repo: spatial-image/multiscale-spatial-image
 
 - name: OMERO Java packages
 
   packages:
-
-  - repo: ome/openmicroscopy
-    badges: travis
-
-  - repo: ome/omero-model
-    badges: travis
-
-  - repo: ome/omero-common
-    badges: travis
-
-  - repo: ome/omero-romio
-    badges: travis
-
-  - repo: ome/omero-rendering
-    badges: travis
-
-  - repo: ome/omero-server
-    badges: travis
-
-  - repo: ome/omero-blitz
-    badges: travis
+    - repo: ome/openmicroscopy
+    - repo: ome/omero-model
+    - repo: ome/omero-common
+    - repo: ome/omero-romio
+    - repo: ome/omero-server
+    - repo: ome/omero-blitz
+    - repo: ome/omero-insight
 
 - name: OMERO Python packages
 
   packages:
+    - repo: ome/omero-py
+    - repo: ome/omero-web
+    - repo: ome/omero-dropbox
+    - repo: ome/omero-marshal
+    - repo: ome/omero-cli-render
+    - repo: ome/omero-figure
+    - repo: ome/omero-scripts
+    - repo: TheJacksonLaboratory/ezomero
 
-  - repo: ome/omero-py
-    badges: travis, pypi
-
-  - repo: ome/omero-web
-    badges: travis, pypi
-
-  - repo: ome/omero-dropbox
-    badges: travis, pypi
-
-  - repo: ome/omero-marshal
-    badges: travis, pypi
-
-  - repo: ome/omero-cli-render
-    badges: travis, pypi
-
-- name: Training packages
+- name: OMERO Web Javascript apps
 
   packages:
+    - repo: ome/omero-iviewer
 
-  - repo: ome/omero-guides
-    badges: travis, rtd
-
-  - repo: ome/omero-guides-cellprofiler
-    badges: travis, rtd
-
-- name: Ansible packages
+- name: OME Linked Data
 
   packages:
+    - repo: German-BioImaging/omero-rdf
+    - repo: German-BioImaging/ome-ld
 
-  - repo: ome/ansible-role-omero-server
-    badges: travis
+- name: Training packages and documentation
 
-  - repo: ome/ansible-role-omero-web
-    badges: travis
+  packages:
+    - repo: ome/omero-guides
+    - repo: ome/status
+
+- name: Ansible, Docker and examples
+
+  packages:
+    - repo: ome/ansible-role-omero-server
+    - repo: ome/ansible-role-omero-web
+    - repo: ome/omero-deployment-examples
+    - repo: ome/omero-web-docker
