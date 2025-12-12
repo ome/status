@@ -1,13 +1,13 @@
-generated_at: '2025-12-11T06:35:50.006249Z'
+generated_at: '2025-12-12T06:35:31.083432Z'
 sections:
 - name: Bio-Formats packages
   packages:
   - last_commit:
       author: sbesson
-      date: '2025-12-03'
-      sha: 83654b6d12f629ba7b6295feee9af19bf54b885b
+      date: '2025-12-11'
+      sha: 3fa05af5a63128aec8ff5c1cc57ac6cf7def1e67
       status: SUCCESS
-      url: https://github.com/ome/bioformats/commit/83654b6d12f629ba7b6295feee9af19bf54b885b
+      url: https://github.com/ome/bioformats/commit/3fa05af5a63128aec8ff5c1cc57ac6cf7def1e67
     last_release:
       date: '2025-08-05'
       tag_name: v8.3.0
@@ -20,8 +20,8 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 174
-      size: 280215
+      open_issues: 172
+      size: 280237
       stargazers_count: 407
       topics:
       - bio-formats
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2025-12-03T10:42:48Z'
+      updated_at: '2025-12-11T18:28:27Z'
     user: ome
   - last_commit:
       author: sbesson
@@ -62,10 +62,10 @@ sections:
   packages:
   - last_commit:
       author: joshmoore
-      date: '2025-12-05'
-      sha: 26039d997f16509f4ef7f4006ea641bef73733f7
+      date: '2025-12-11'
+      sha: bea79a1cee2c62fc50dccf356caaf895ba0e3210
       status: SUCCESS
-      url: https://github.com/ome/ngff/commit/26039d997f16509f4ef7f4006ea641bef73733f7
+      url: https://github.com/ome/ngff/commit/bea79a1cee2c62fc50dccf356caaf895ba0e3210
     last_release:
       date: '2025-01-28'
       tag_name: 0.5.2
@@ -76,8 +76,8 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 136
-      size: 14194
+      open_issues: 131
+      size: 14249
       stargazers_count: 146
       topics:
       - bioimaging
@@ -85,7 +85,7 @@ sections:
       - data-science
       - file-formats
       - spec
-      updated_at: '2025-12-05T16:51:21Z'
+      updated_at: '2025-12-11T11:57:15Z'
     user: ome
   - last_commit:
       author: will-moore
@@ -147,13 +147,13 @@ sections:
         for storing bioimaging data in the cloud.
       open_issues: 86
       size: 1057
-      stargazers_count: 217
+      stargazers_count: 218
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2025-11-28T06:02:59Z'
+      updated_at: '2025-12-11T13:17:59Z'
     user: ome
   - last_commit:
       author: dominikl
@@ -231,7 +231,7 @@ sections:
       created_at: '2024-06-06T15:47:53Z'
       description: Project planning and material repository for the 2024 challenge
         to generate 1 PB of OME-Zarr data
-      open_issues: 15
+      open_issues: 16
       size: 1373
       stargazers_count: 20
       topics:
@@ -274,7 +274,7 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 34
+      open_issues: 35
       size: 154
       stargazers_count: 42
       topics:
@@ -329,7 +329,7 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 5
+      open_issues: 4
       size: 40633
       stargazers_count: 36
       topics:
@@ -441,7 +441,7 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 28
+      open_issues: 27
       size: 1985513
       stargazers_count: 214
       topics:
@@ -570,7 +570,7 @@ sections:
     repo_info:
       created_at: '2018-12-13T11:14:30Z'
       description: Gradle project containing Ice remoting code for OMERO
-      open_issues: 33
+      open_issues: 32
       size: 9335
       stargazers_count: 0
       topics:
@@ -596,7 +596,7 @@ sections:
     repo_info:
       created_at: '2019-02-18T10:01:04Z'
       description: Gradle project containing insight java client for OMERO
-      open_issues: 126
+      open_issues: 127
       size: 24869
       stargazers_count: 8
       topics:
@@ -708,11 +708,11 @@ sections:
       updated_at: '2025-11-27T10:31:21Z'
     user: ome
   - last_commit:
-      author: jburel
-      date: '2024-12-04'
-      sha: ce6e13cfea3157cab0d00fde40f6cc8158946264
+      author: dominikl
+      date: '2025-12-11'
+      sha: 68b73035cf2ab21ddd92022b80bda0966547b3c8
       status: SUCCESS
-      url: https://github.com/ome/omero-cli-render/commit/ce6e13cfea3157cab0d00fde40f6cc8158946264
+      url: https://github.com/ome/omero-cli-render/commit/68b73035cf2ab21ddd92022b80bda0966547b3c8
     last_release:
       date: '2025-12-04'
       tag_name: v0.8.1
@@ -722,8 +722,8 @@ sections:
     repo_info:
       created_at: '2017-08-15T10:45:26Z'
       description: OMERO command-line tool for rendering
-      open_issues: 12
-      size: 427
+      open_issues: 7
+      size: 434
       stargazers_count: 2
       topics:
       - cli
@@ -731,7 +731,7 @@ sections:
       - omero
       - plugin
       - python
-      updated_at: '2024-12-04T09:34:29Z'
+      updated_at: '2025-12-11T13:35:00Z'
     user: ome
   - last_commit:
       author: erickmartins
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-10'
-      sha: 34defb6a498df4e64622ff8641e070dc1289dfd2
+      date: '2025-12-11'
+      sha: a9da7b02294c12e388458fb2a74c50c9c78b966d
       status: SUCCESS
-      url: https://github.com/ome/status/commit/34defb6a498df4e64622ff8641e070dc1289dfd2
+      url: https://github.com/ome/status/commit/a9da7b02294c12e388458fb2a74c50c9c78b966d
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 0
-      size: 192
+      size: 193
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-10T06:35:17Z'
+      updated_at: '2025-12-11T06:35:54Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
