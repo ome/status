@@ -53,21 +53,20 @@
       }
 
       function createStatusIcon(status) {
-        if (!status) return null;
-        const normalized = String(status).toUpperCase();
+        const normalized = status ? String(status).toUpperCase() : 'NO_TESTS';
         const map = {
-          SUCCESS: { text: '✓', className: 'status-success' },
-          FAILURE: { text: '✗', className: 'status-failure' },
-          ERROR: { text: '✗', className: 'status-failure' },
-          PENDING: { text: '•', className: 'status-pending' },
+          SUCCESS: { text: '✓', className: 'status-success', title: 'Checks: ok' },
+          FAILURE: { text: '✗', className: 'status-failure', title: 'Checks: failed' },
+          ERROR: { text: '✗', className: 'status-failure', title: 'Checks: failed' },
+          PENDING: { text: '•', className: 'status-pending', title: 'Checks: in progress' },
+          NO_TESTS: { text: '−', className: 'status-absent', title: 'Checks: none' },
         };
         const match = map[normalized];
         if (!match) return null;
         const span = document.createElement('span');
         span.className = 'status-icon ' + match.className;
         span.textContent = match.text;
-        span.title = 'Checks: ' + normalized.toLowerCase();
-        return span;
+        span.title = match.title || 'Checks: ' + normalized.toLowerCase(); return span;
       }
 
       function normalizeSortValue(rawValue) {
