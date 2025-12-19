@@ -112,6 +112,11 @@ a:hover {
   color: #9a6700;
 }
 
+.status-absent {
+  color: #8c959f;
+}
+
+
 .status-warning {
   color: #c28e00;
 }
@@ -141,7 +146,7 @@ a:hover {
 }
 
 .commit-date.commit-old {
-  color: #b75a55;
+  color: #9a8f86;
 }
 
 .commit-actor {
