@@ -1,4 +1,4 @@
-generated_at: '2025-12-23T06:36:08.999359Z'
+generated_at: '2025-12-24T06:35:55.332669Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -379,8 +379,8 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 34
-      size: 1917
+      open_issues: 33
+      size: 1924
       stargazers_count: 36
       topics:
       - ngff
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-22'
-      sha: ebcbd8947c4f6d88acf5e0c022d26f87da9940ae
+      date: '2025-12-23'
+      sha: 564f5425c3e70e09e8f7a9d7cfd2c144ffcfe657
       status: SUCCESS
-      url: https://github.com/ome/status/commit/ebcbd8947c4f6d88acf5e0c022d26f87da9940ae
+      url: https://github.com/ome/status/commit/564f5425c3e70e09e8f7a9d7cfd2c144ffcfe657
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 3
-      size: 261
+      size: 262
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-22T06:37:02Z'
+      updated_at: '2025-12-23T06:36:13Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
@@ -1070,14 +1070,14 @@ sections:
       description: OMERO Docker compose example
       open_issues: 5
       size: 37
-      stargazers_count: 28
+      stargazers_count: 29
       topics:
       - deployment
       - docker
       - omero
       - omero-server
       - omero-web
-      updated_at: '2025-12-06T06:57:33Z'
+      updated_at: '2025-12-23T22:13:02Z'
     user: ome
   - last_commit:
       author: pwalczysko
