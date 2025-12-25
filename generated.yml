@@ -1,4 +1,4 @@
-generated_at: '2025-12-24T06:35:55.332669Z'
+generated_at: '2025-12-25T06:35:20.526828Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -22,7 +22,7 @@ sections:
         (GPL); commercial licenses are available from  Glencoe Software. '
       open_issues: 172
       size: 280237
-      stargazers_count: 407
+      stargazers_count: 408
       topics:
       - bio-formats
       - format-converter
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2025-12-11T18:28:27Z'
+      updated_at: '2025-12-24T08:14:25Z'
     user: ome
   - last_commit:
       author: sbesson
@@ -380,7 +380,7 @@ sections:
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
       open_issues: 33
-      size: 1924
+      size: 1928
       stargazers_count: 36
       topics:
       - ngff
@@ -596,7 +596,7 @@ sections:
     repo_info:
       created_at: '2019-02-18T10:01:04Z'
       description: Gradle project containing insight java client for OMERO
-      open_issues: 128
+      open_issues: 129
       size: 24869
       stargazers_count: 8
       topics:
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-23'
-      sha: 564f5425c3e70e09e8f7a9d7cfd2c144ffcfe657
+      date: '2025-12-24'
+      sha: d1fc3b7bed8471b8d72a1cf021c2415305388344
       status: SUCCESS
-      url: https://github.com/ome/status/commit/564f5425c3e70e09e8f7a9d7cfd2c144ffcfe657
+      url: https://github.com/ome/status/commit/d1fc3b7bed8471b8d72a1cf021c2415305388344
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 3
-      size: 262
+      size: 270
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-23T06:36:13Z'
+      updated_at: '2025-12-24T06:35:59Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
