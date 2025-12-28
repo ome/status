@@ -1,4 +1,4 @@
-generated_at: '2025-12-27T06:32:56.577966Z'
+generated_at: '2025-12-28T06:33:22.371408Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 172
+      open_issues: 173
       size: 280237
       stargazers_count: 408
       topics:
@@ -145,7 +145,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 87
+      open_issues: 88
       size: 1057
       stargazers_count: 219
       topics:
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-26'
-      sha: 1c11bc4a39f97c6b2f8b91152dd9cd7c38b4729a
+      date: '2025-12-27'
+      sha: 444c81dbf8b5f07ddd7b7f160a7f21e287db6caf
       status: SUCCESS
-      url: https://github.com/ome/status/commit/1c11bc4a39f97c6b2f8b91152dd9cd7c38b4729a
+      url: https://github.com/ome/status/commit/444c81dbf8b5f07ddd7b7f160a7f21e287db6caf
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 3
-      size: 280
+      size: 196
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-26T06:34:38Z'
+      updated_at: '2025-12-27T06:33:00Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
