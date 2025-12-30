@@ -1,4 +1,4 @@
-generated_at: '2025-12-29T06:37:40.437288Z'
+generated_at: '2025-12-30T06:35:05.021455Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -286,10 +286,10 @@ sections:
     user: ome
   - last_commit:
       author: thewtex
-      date: '2025-12-17'
-      sha: 24ccb1444b4dd84d525bb526ba9da999aa79b195
-      status: FAILURE
-      url: https://github.com/fideus-labs/ngff-zarr/commit/24ccb1444b4dd84d525bb526ba9da999aa79b195
+      date: '2025-12-29'
+      sha: b33feae6ab44446d13022e587fd69995b54f6638
+      status: SUCCESS
+      url: https://github.com/fideus-labs/ngff-zarr/commit/b33feae6ab44446d13022e587fd69995b54f6638
     last_release:
       date: '2025-11-24'
       tag_name: v0.20.0
@@ -300,8 +300,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 36
-      size: 8302
+      open_issues: 33
+      size: 8317
       stargazers_count: 55
       topics:
       - dask
@@ -311,7 +311,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2025-12-17T22:37:01Z'
+      updated_at: '2025-12-29T17:32:51Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-28'
-      sha: 755ce34cef1686ea0fc0bf1729872fdc15e2eda7
+      date: '2025-12-29'
+      sha: 4723ab2f55a329c6c14e44bb797388b399b8c754
       status: SUCCESS
-      url: https://github.com/ome/status/commit/755ce34cef1686ea0fc0bf1729872fdc15e2eda7
+      url: https://github.com/ome/status/commit/4723ab2f55a329c6c14e44bb797388b399b8c754
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 3
-      size: 205
+      size: 206
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-28T06:33:26Z'
+      updated_at: '2025-12-29T06:37:44Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
