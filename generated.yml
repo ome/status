@@ -1,4 +1,4 @@
-generated_at: '2025-12-30T06:35:05.021455Z'
+generated_at: '2025-12-31T06:35:36.194116Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -22,7 +22,7 @@ sections:
         (GPL); commercial licenses are available from  Glencoe Software. '
       open_issues: 173
       size: 280237
-      stargazers_count: 408
+      stargazers_count: 409
       topics:
       - bio-formats
       - format-converter
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2025-12-24T08:14:25Z'
+      updated_at: '2025-12-31T03:07:16Z'
     user: ome
   - last_commit:
       author: sbesson
@@ -286,10 +286,10 @@ sections:
     user: ome
   - last_commit:
       author: thewtex
-      date: '2025-12-29'
-      sha: b33feae6ab44446d13022e587fd69995b54f6638
-      status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/b33feae6ab44446d13022e587fd69995b54f6638
+      date: '2025-12-30'
+      sha: 1093917c2df095a7ecad3538828e97ac63246c58
+      status: FAILURE
+      url: https://github.com/fideus-labs/ngff-zarr/commit/1093917c2df095a7ecad3538828e97ac63246c58
     last_release:
       date: '2025-11-24'
       tag_name: v0.20.0
@@ -301,7 +301,7 @@ sections:
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
       open_issues: 33
-      size: 8317
+      size: 8335
       stargazers_count: 55
       topics:
       - dask
@@ -311,7 +311,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2025-12-29T17:32:51Z'
+      updated_at: '2025-12-30T20:57:43Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-29'
-      sha: 4723ab2f55a329c6c14e44bb797388b399b8c754
+      date: '2025-12-30'
+      sha: cbe5181d8d3e3fb2514a80bbfd930be35e512dc0
       status: SUCCESS
-      url: https://github.com/ome/status/commit/4723ab2f55a329c6c14e44bb797388b399b8c754
+      url: https://github.com/ome/status/commit/cbe5181d8d3e3fb2514a80bbfd930be35e512dc0
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 3
-      size: 206
+      size: 215
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-29T06:37:44Z'
+      updated_at: '2025-12-30T06:35:09Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
