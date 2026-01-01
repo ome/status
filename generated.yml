@@ -1,4 +1,4 @@
-generated_at: '2025-12-31T06:35:36.194116Z'
+generated_at: '2026-01-01T06:35:29.785743Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -379,7 +379,7 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 34
+      open_issues: 33
       size: 1928
       stargazers_count: 36
       topics:
@@ -971,10 +971,10 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-30'
-      sha: cbe5181d8d3e3fb2514a80bbfd930be35e512dc0
+      date: '2025-12-31'
+      sha: 207ae257a9831865c4f05aa915fcad112a97e01b
       status: SUCCESS
-      url: https://github.com/ome/status/commit/cbe5181d8d3e3fb2514a80bbfd930be35e512dc0
+      url: https://github.com/ome/status/commit/207ae257a9831865c4f05aa915fcad112a97e01b
     name: status
     repo: ome/status
     repo_info:
@@ -988,7 +988,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-30T06:35:09Z'
+      updated_at: '2025-12-31T06:35:40Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
