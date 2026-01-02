@@ -1,4 +1,4 @@
-generated_at: '2026-01-01T06:35:29.785743Z'
+generated_at: '2026-01-02T06:35:45.745605Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -76,7 +76,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 135
+      open_issues: 136
       size: 14254
       stargazers_count: 148
       topics:
@@ -380,7 +380,7 @@ sections:
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
       open_issues: 33
-      size: 1928
+      size: 1924
       stargazers_count: 36
       topics:
       - ngff
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-31'
-      sha: 207ae257a9831865c4f05aa915fcad112a97e01b
+      date: '2026-01-01'
+      sha: e6dd7bcaab6dfa36e208b34821990cc67265ae0d
       status: SUCCESS
-      url: https://github.com/ome/status/commit/207ae257a9831865c4f05aa915fcad112a97e01b
+      url: https://github.com/ome/status/commit/e6dd7bcaab6dfa36e208b34821990cc67265ae0d
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 3
-      size: 215
+      size: 224
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-31T06:35:40Z'
+      updated_at: '2026-01-01T06:35:33Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
