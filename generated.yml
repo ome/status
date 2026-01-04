@@ -1,4 +1,4 @@
-generated_at: '2026-01-03T06:33:20.340263Z'
+generated_at: '2026-01-04T06:33:41.069746Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -365,10 +365,10 @@ sections:
     user: zarrs
   - last_commit:
       author: dstansby
-      date: '2026-01-02'
-      sha: af50e91a57c52daf09bd4fe41aec73784113c101
+      date: '2026-01-03'
+      sha: 34fa7c92ca9d5a214f4fb19cce3162685187f28b
       status: SUCCESS
-      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/af50e91a57c52daf09bd4fe41aec73784113c101
+      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/34fa7c92ca9d5a214f4fb19cce3162685187f28b
     last_release:
       date: '2025-12-15'
       tag_name: v1.4
@@ -380,14 +380,14 @@ sections:
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
       open_issues: 32
-      size: 1936
+      size: 1962
       stargazers_count: 36
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-01-02T17:10:53Z'
+      updated_at: '2026-01-03T18:50:24Z'
     user: ome-zarr-models
   - last_commit:
       author: thewtex
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-01-02'
-      sha: ae4cb2ab8a7a2ce34a56f0ad62bbab7a198dd15d
+      date: '2026-01-03'
+      sha: 35cbe9442cbfb085ef67993493dffb2f40ccf35c
       status: SUCCESS
-      url: https://github.com/ome/status/commit/ae4cb2ab8a7a2ce34a56f0ad62bbab7a198dd15d
+      url: https://github.com/ome/status/commit/35cbe9442cbfb085ef67993493dffb2f40ccf35c
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 3
-      size: 224
+      size: 233
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-01-02T06:35:50Z'
+      updated_at: '2026-01-03T06:33:24Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
