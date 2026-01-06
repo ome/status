@@ -1,4 +1,4 @@
-generated_at: '2026-01-05T06:41:04.324493Z'
+generated_at: '2026-01-06T06:36:45.435540Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -76,7 +76,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 136
+      open_issues: 137
       size: 14254
       stargazers_count: 148
       topics:
@@ -286,10 +286,10 @@ sections:
     user: ome
   - last_commit:
       author: thewtex
-      date: '2025-12-30'
-      sha: 1093917c2df095a7ecad3538828e97ac63246c58
+      date: '2026-01-05'
+      sha: 7c071ae7ede3968880118a40a7aded3c20b05d1b
       status: FAILURE
-      url: https://github.com/fideus-labs/ngff-zarr/commit/1093917c2df095a7ecad3538828e97ac63246c58
+      url: https://github.com/fideus-labs/ngff-zarr/commit/7c071ae7ede3968880118a40a7aded3c20b05d1b
     last_release:
       date: '2025-11-24'
       tag_name: v0.20.0
@@ -300,8 +300,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 33
-      size: 8335
+      open_issues: 34
+      size: 8338
       stargazers_count: 55
       topics:
       - dask
@@ -311,7 +311,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2025-12-30T20:57:43Z'
+      updated_at: '2026-01-05T20:17:15Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
@@ -684,10 +684,10 @@ sections:
     user: ome
   - last_commit:
       author: sbesson
-      date: '2025-11-27'
-      sha: eb0e546bbef0d0668bb3a572acf486fd90a0f3fd
+      date: '2026-01-05'
+      sha: f8ff1c2e439f0599d96423b7f64898864548ba9f
       status: SUCCESS
-      url: https://github.com/ome/omero-marshal/commit/eb0e546bbef0d0668bb3a572acf486fd90a0f3fd
+      url: https://github.com/ome/omero-marshal/commit/f8ff1c2e439f0599d96423b7f64898864548ba9f
     last_release:
       date: '2025-11-27'
       tag_name: v0.9.1
@@ -698,14 +698,14 @@ sections:
       created_at: '2015-10-20T12:43:20Z'
       description: OMERO marshalling infrastructure
       open_issues: 6
-      size: 415
+      size: 416
       stargazers_count: 5
       topics:
       - marshalling
       - model
       - omero
       - pip
-      updated_at: '2025-11-27T10:31:21Z'
+      updated_at: '2026-01-05T13:26:02Z'
     user: ome
   - last_commit:
       author: dominikl
@@ -836,26 +836,26 @@ sections:
     user: ome
   - last_commit:
       author: will-moore
-      date: '2025-12-18'
-      sha: 88b01ef56d2140b716e7f7022a5e7bd3d4b2c654
+      date: '2026-01-05'
+      sha: ddcf816a934ca3f96d05d06cfe3c1fc46016f660
       status: SUCCESS
-      url: https://github.com/ome/omero-figure/commit/88b01ef56d2140b716e7f7022a5e7bd3d4b2c654
+      url: https://github.com/ome/omero-figure/commit/ddcf816a934ca3f96d05d06cfe3c1fc46016f660
     last_release:
-      date: '2025-12-04'
-      tag_name: v7.2.1
-      url: https://github.com/ome/omero-figure/releases/tag/v7.2.1
+      date: '2026-01-05'
+      tag_name: v7.3.0
+      url: https://github.com/ome/omero-figure/releases/tag/v7.3.0
     name: omero-figure
     repo: ome/omero-figure
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 70
-      size: 9023
+      open_issues: 69
+      size: 9048
       stargazers_count: 19
       topics:
       - omero
       - webapp
-      updated_at: '2025-12-18T15:51:36Z'
+      updated_at: '2026-01-05T16:00:17Z'
     user: ome
   - last_commit:
       author: Tom-TBT
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-01-04'
-      sha: 51166a7b75114bdd1e7df062c0f0b9ef73f74d5c
+      date: '2026-01-05'
+      sha: 33c6a8fe429091701043bd811dac1a79ab07c91d
       status: SUCCESS
-      url: https://github.com/ome/status/commit/51166a7b75114bdd1e7df062c0f0b9ef73f74d5c
+      url: https://github.com/ome/status/commit/33c6a8fe429091701043bd811dac1a79ab07c91d
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
-      open_issues: 3
-      size: 234
+      open_issues: 4
+      size: 243
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-01-04T06:33:45Z'
+      updated_at: '2026-01-05T20:02:06Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
