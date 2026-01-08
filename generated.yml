@@ -1,4 +1,4 @@
-generated_at: '2026-01-07T06:36:22.759848Z'
+generated_at: '2026-01-08T06:36:32.439476Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 175
+      open_issues: 176
       size: 280237
       stargazers_count: 409
       topics:
@@ -288,7 +288,7 @@ sections:
       author: thewtex
       date: '2026-01-07'
       sha: c2c80aa034312dcecc86c4b5a1b2e13a0dd4895a
-      status: PENDING
+      status: FAILURE
       url: https://github.com/fideus-labs/ngff-zarr/commit/c2c80aa034312dcecc86c4b5a1b2e13a0dd4895a
     last_release:
       date: '2025-11-24'
@@ -365,10 +365,10 @@ sections:
     user: zarrs
   - last_commit:
       author: dstansby
-      date: '2026-01-06'
-      sha: e7359b707cd9ddc182cfed30cef0fb6e78841f11
-      status: SUCCESS
-      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/e7359b707cd9ddc182cfed30cef0fb6e78841f11
+      date: '2026-01-07'
+      sha: 5b8555bed570c276ccc172651f904041dac88eef
+      status: FAILURE
+      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/5b8555bed570c276ccc172651f904041dac88eef
     last_release:
       date: '2026-01-06'
       tag_name: v1.5
@@ -379,15 +379,15 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 32
-      size: 1964
+      open_issues: 31
+      size: 2035
       stargazers_count: 36
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-01-06T14:30:34Z'
+      updated_at: '2026-01-07T17:01:50Z'
     user: ome-zarr-models
   - last_commit:
       author: thewtex
@@ -636,21 +636,21 @@ sections:
     user: ome
   - last_commit:
       author: knabar
-      date: '2025-12-03'
-      sha: 2636e2f1954232a8a67ae145d67856006319d67c
+      date: '2026-01-07'
+      sha: 1c82ac1f829e0d2a869aa15ef67dd64d08ff4d20
       status: SUCCESS
-      url: https://github.com/ome/omero-web/commit/2636e2f1954232a8a67ae145d67856006319d67c
+      url: https://github.com/ome/omero-web/commit/1c82ac1f829e0d2a869aa15ef67dd64d08ff4d20
     last_release:
-      date: '2025-12-04'
-      tag_name: v5.30.0
-      url: https://github.com/ome/omero-web/releases/tag/v5.30.0
+      date: '2026-01-07'
+      tag_name: v5.30.1
+      url: https://github.com/ome/omero-web/releases/tag/v5.30.1
     name: omero-web
     repo: ome/omero-web
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 147
-      size: 26520
+      open_issues: 143
+      size: 26539
       stargazers_count: 23
       topics:
       - client
@@ -658,7 +658,7 @@ sections:
       - omero
       - python
       - web
-      updated_at: '2025-12-03T09:25:43Z'
+      updated_at: '2026-01-07T09:56:34Z'
     user: ome
   - last_commit:
       author: sbesson
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-01-06'
-      sha: 14a759e45662e68ffd1013202848d33a03a9cea2
+      date: '2026-01-07'
+      sha: 96a0166c2fbf3de56d787a950c5fd3e68e044f84
       status: SUCCESS
-      url: https://github.com/ome/status/commit/14a759e45662e68ffd1013202848d33a03a9cea2
+      url: https://github.com/ome/status/commit/96a0166c2fbf3de56d787a950c5fd3e68e044f84
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 4
-      size: 243
+      size: 252
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-01-06T06:36:49Z'
+      updated_at: '2026-01-07T06:36:27Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
@@ -1091,7 +1091,7 @@ sections:
       created_at: '2017-06-14T20:57:33Z'
       description: OMERO.web production docker image
       open_issues: 20
-      size: 139
+      size: 140
       stargazers_count: 7
       topics:
       - docker
