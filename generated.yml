@@ -1,13 +1,13 @@
-generated_at: '2026-01-12T06:39:11.450800Z'
+generated_at: '2026-01-13T06:36:24.590587Z'
 sections:
 - name: Bio-Formats packages
   packages:
   - last_commit:
       author: sbesson
-      date: '2026-01-09'
-      sha: 82a61def84ce2d83dae75fe32edf33de5694beee
+      date: '2026-01-12'
+      sha: 8ba547afad0d419516ba30728c8a8127356f3f01
       status: SUCCESS
-      url: https://github.com/ome/bioformats/commit/82a61def84ce2d83dae75fe32edf33de5694beee
+      url: https://github.com/ome/bioformats/commit/8ba547afad0d419516ba30728c8a8127356f3f01
     last_release:
       date: '2025-08-05'
       tag_name: v8.3.0
@@ -20,8 +20,8 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 174
-      size: 280290
+      open_issues: 173
+      size: 280293
       stargazers_count: 409
       topics:
       - bio-formats
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-01-09T18:03:23Z'
+      updated_at: '2026-01-12T08:49:31Z'
     user: ome
   - last_commit:
       author: sbesson
@@ -76,7 +76,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 138
+      open_issues: 137
       size: 14254
       stargazers_count: 149
       topics:
@@ -146,7 +146,7 @@ sections:
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
       open_issues: 88
-      size: 1045
+      size: 1047
       stargazers_count: 220
       topics:
       - ngff
@@ -973,10 +973,10 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-01-11'
-      sha: 4b9085a23f09768f991d7a38459e2fd80bb5201d
+      date: '2026-01-12'
+      sha: 51ca319b6fc256763bac45aa9dd437770432f2f7
       status: SUCCESS
-      url: https://github.com/ome/status/commit/4b9085a23f09768f991d7a38459e2fd80bb5201d
+      url: https://github.com/ome/status/commit/51ca319b6fc256763bac45aa9dd437770432f2f7
     name: status
     repo: ome/status
     repo_info:
@@ -990,24 +990,24 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-01-11T06:34:29Z'
+      updated_at: '2026-01-12T06:39:15Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
   - last_commit:
       author: pwalczysko
-      date: '2025-11-28'
-      sha: 20622942c10e045ca4f0d22fd8a262122fa4e519
+      date: '2026-01-12'
+      sha: bc3cf0d9a18077b8e00156085d0455320fec4090
       status: SUCCESS
-      url: https://github.com/ome/prod-playbooks/commit/20622942c10e045ca4f0d22fd8a262122fa4e519
+      url: https://github.com/ome/prod-playbooks/commit/bc3cf0d9a18077b8e00156085d0455320fec4090
     name: prod-playbooks
     repo: ome/prod-playbooks
     repo_info:
       created_at: '2017-09-07T06:24:09Z'
       description: Playbooks used by the OME team for deploying production services
         including OMERO
-      open_issues: 12
-      size: 1382
+      open_issues: 11
+      size: 1383
       stargazers_count: 4
       topics:
       - ansible
@@ -1015,7 +1015,7 @@ sections:
       - omero
       - playbooks
       - production
-      updated_at: '2025-11-28T15:33:09Z'
+      updated_at: '2026-01-12T14:38:53Z'
     user: ome
   - last_commit:
       author: pwalczysko
