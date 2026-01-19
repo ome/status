@@ -1,4 +1,4 @@
-generated_at: '2026-01-18T06:33:31.665936Z'
+generated_at: '2026-01-19T06:40:46.024699Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -973,10 +973,10 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-01-17'
-      sha: c4999808a71745ca4f600bc1baaeae64a32d51d3
+      date: '2026-01-18'
+      sha: e8f34db66042c9e6702106c78f65dbddbb5fa60e
       status: SUCCESS
-      url: https://github.com/ome/status/commit/c4999808a71745ca4f600bc1baaeae64a32d51d3
+      url: https://github.com/ome/status/commit/e8f34db66042c9e6702106c78f65dbddbb5fa60e
     name: status
     repo: ome/status
     repo_info:
@@ -990,7 +990,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-01-17T06:32:56Z'
+      updated_at: '2026-01-18T06:33:35Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
@@ -1017,7 +1017,9 @@ sections:
       - production
       updated_at: '2026-01-12T14:38:53Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - Molecule
+    last_commit:
       author: pwalczysko
       date: '2025-11-18'
       sha: 680bf1f1c41dffbddfc057efe84e1026017b9c83
@@ -1038,7 +1040,9 @@ sections:
       - server
       updated_at: '2025-11-18T15:56:25Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - Molecule
+    last_commit:
       author: pwalczysko
       date: '2025-11-18'
       sha: b59eccf9e05ecaed6e2462c9f0b563c7e8dd4d9b
