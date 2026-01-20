@@ -1,4 +1,4 @@
-generated_at: '2026-01-19T06:40:46.024699Z'
+generated_at: '2026-01-20T06:38:39.670416Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 175
+      open_issues: 176
       size: 280305
       stargazers_count: 411
       topics:
@@ -76,7 +76,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 124
+      open_issues: 125
       size: 14661
       stargazers_count: 152
       topics:
@@ -145,15 +145,15 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 88
-      size: 1047
-      stargazers_count: 219
+      open_issues: 87
+      size: 1050
+      stargazers_count: 220
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-01-14T19:01:40Z'
+      updated_at: '2026-01-19T23:49:30Z'
     user: ome
   - last_commit:
       author: jburel
@@ -288,23 +288,23 @@ sections:
     user: ome
   - last_commit:
       author: thewtex
-      date: '2026-01-16'
-      sha: 6b87145f3a353e7de78ac7fe803886b4a618a050
+      date: '2026-01-19'
+      sha: b689366a3caf8c944ca579e02e9877e757a98e75
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/6b87145f3a353e7de78ac7fe803886b4a618a050
+      url: https://github.com/fideus-labs/ngff-zarr/commit/b689366a3caf8c944ca579e02e9877e757a98e75
     last_release:
-      date: '2026-01-09'
-      tag_name: v0.20.1
-      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/v0.20.1
+      date: '2026-01-19'
+      tag_name: v0.20.2
+      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/v0.20.2
     name: ngff-zarr
     repo: fideus-labs/ngff-zarr
     repo_info:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 33
-      size: 8505
-      stargazers_count: 56
+      open_issues: 35
+      size: 8533
+      stargazers_count: 57
       topics:
       - dask
       - imaging
@@ -313,7 +313,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-01-16T20:53:07Z'
+      updated_at: '2026-01-19T21:37:00Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
@@ -332,7 +332,7 @@ sections:
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
       open_issues: 5
-      size: 45104
+      size: 42150
       stargazers_count: 37
       topics:
       - ome-ngff
@@ -651,8 +651,8 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 146
-      size: 26539
+      open_issues: 147
+      size: 26544
       stargazers_count: 23
       topics:
       - client
@@ -838,26 +838,26 @@ sections:
     user: ome
   - last_commit:
       author: will-moore
-      date: '2026-01-05'
-      sha: ddcf816a934ca3f96d05d06cfe3c1fc46016f660
+      date: '2026-01-19'
+      sha: b79d638b95385463319f73afc484cf4a1ee3ba13
       status: SUCCESS
-      url: https://github.com/ome/omero-figure/commit/ddcf816a934ca3f96d05d06cfe3c1fc46016f660
+      url: https://github.com/ome/omero-figure/commit/b79d638b95385463319f73afc484cf4a1ee3ba13
     last_release:
-      date: '2026-01-05'
-      tag_name: v7.3.0
-      url: https://github.com/ome/omero-figure/releases/tag/v7.3.0
+      date: '2026-01-19'
+      tag_name: v7.3.1
+      url: https://github.com/ome/omero-figure/releases/tag/v7.3.1
     name: omero-figure
     repo: ome/omero-figure
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 73
-      size: 9048
+      open_issues: 71
+      size: 9055
       stargazers_count: 19
       topics:
       - omero
       - webapp
-      updated_at: '2026-01-05T16:00:17Z'
+      updated_at: '2026-01-19T13:50:17Z'
     user: ome
   - last_commit:
       author: Tom-TBT
@@ -874,8 +874,8 @@ sections:
     repo_info:
       created_at: '2023-06-27T13:49:38Z'
       description: Extensions to OMERO.web to enhance tagging
-      open_issues: 6
-      size: 1107
+      open_issues: 7
+      size: 1122
       stargazers_count: 0
       topics:
       - omero-web
@@ -973,24 +973,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-01-18'
-      sha: e8f34db66042c9e6702106c78f65dbddbb5fa60e
+      date: '2026-01-19'
+      sha: 10cb08188f3fdb2707d4f9f26f5b4ae201c448f6
       status: SUCCESS
-      url: https://github.com/ome/status/commit/e8f34db66042c9e6702106c78f65dbddbb5fa60e
+      url: https://github.com/ome/status/commit/10cb08188f3fdb2707d4f9f26f5b4ae201c448f6
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 4
-      size: 301
+      size: 310
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-01-18T06:33:35Z'
+      updated_at: '2026-01-19T06:40:50Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
