@@ -1,4 +1,4 @@
-generated_at: '2026-01-21T06:38:54.750420Z'
+generated_at: '2026-01-22T06:37:14.404895Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -145,15 +145,15 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 87
+      open_issues: 88
       size: 1050
-      stargazers_count: 220
+      stargazers_count: 221
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-01-19T23:49:30Z'
+      updated_at: '2026-01-21T11:17:23Z'
     user: ome
   - last_commit:
       author: jburel
@@ -317,10 +317,10 @@ sections:
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
-      date: '2025-12-16'
-      sha: cd1be3de10eead005f17d5da04d4ec641ef62167
-      status: SUCCESS
-      url: https://github.com/BioVisionCenter/ngio/commit/cd1be3de10eead005f17d5da04d4ec641ef62167
+      date: '2026-01-21'
+      sha: 6eefdcf450d0ad9f3ae34a1fb756e57610db48be
+      status: FAILURE
+      url: https://github.com/BioVisionCenter/ngio/commit/6eefdcf450d0ad9f3ae34a1fb756e57610db48be
     last_release:
       date: '2026-01-08'
       tag_name: v0.5.0b4
@@ -332,12 +332,12 @@ sections:
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
       open_issues: 5
-      size: 42150
+      size: 42151
       stargazers_count: 37
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2025-12-16T23:17:25Z'
+      updated_at: '2026-01-21T17:21:34Z'
     user: BioVisionCenter
   - last_commit:
       author: LDeakin
@@ -651,7 +651,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 147
+      open_issues: 148
       size: 26544
       stargazers_count: 23
       topics:
@@ -875,7 +875,7 @@ sections:
       created_at: '2023-06-27T13:49:38Z'
       description: Extensions to OMERO.web to enhance tagging
       open_issues: 6
-      size: 1133
+      size: 1144
       stargazers_count: 0
       topics:
       - omero-web
@@ -973,41 +973,41 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-01-20'
-      sha: 6c7f75714a5e28a0b2ce3d69d3b261f14bf808e9
+      date: '2026-01-21'
+      sha: 7095d2830f7baeede7fc842d427d92e02005e138
       status: SUCCESS
-      url: https://github.com/ome/status/commit/6c7f75714a5e28a0b2ce3d69d3b261f14bf808e9
+      url: https://github.com/ome/status/commit/7095d2830f7baeede7fc842d427d92e02005e138
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 4
-      size: 311
+      size: 197
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-01-20T06:38:44Z'
+      updated_at: '2026-01-21T06:38:59Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
   - last_commit:
       author: pwalczysko
-      date: '2026-01-12'
-      sha: bc3cf0d9a18077b8e00156085d0455320fec4090
+      date: '2026-01-21'
+      sha: 51f770329f6267821fae811d59594dff3cfa3b66
       status: SUCCESS
-      url: https://github.com/ome/prod-playbooks/commit/bc3cf0d9a18077b8e00156085d0455320fec4090
+      url: https://github.com/ome/prod-playbooks/commit/51f770329f6267821fae811d59594dff3cfa3b66
     name: prod-playbooks
     repo: ome/prod-playbooks
     repo_info:
       created_at: '2017-09-07T06:24:09Z'
       description: Playbooks used by the OME team for deploying production services
         including OMERO
-      open_issues: 12
-      size: 1383
+      open_issues: 11
+      size: 1365
       stargazers_count: 4
       topics:
       - ansible
@@ -1015,7 +1015,7 @@ sections:
       - omero
       - playbooks
       - production
-      updated_at: '2026-01-12T14:38:53Z'
+      updated_at: '2026-01-21T09:27:20Z'
     user: ome
   - last_commit:
       author: pwalczysko
