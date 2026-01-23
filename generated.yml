@@ -1,4 +1,4 @@
-generated_at: '2026-01-22T06:37:14.404895Z'
+generated_at: '2026-01-23T06:37:09.490892Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,9 +20,9 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 174
+      open_issues: 175
       size: 280376
-      stargazers_count: 411
+      stargazers_count: 412
       topics:
       - bio-formats
       - format-converter
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-01-20T14:35:05Z'
+      updated_at: '2026-01-22T07:26:12Z'
     user: ome
   - last_commit:
       author: melissalinkert
@@ -303,7 +303,7 @@ sections:
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
       open_issues: 35
-      size: 8536
+      size: 8553
       stargazers_count: 57
       topics:
       - dask
@@ -317,14 +317,14 @@ sections:
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
-      date: '2026-01-21'
-      sha: 6eefdcf450d0ad9f3ae34a1fb756e57610db48be
-      status: FAILURE
-      url: https://github.com/BioVisionCenter/ngio/commit/6eefdcf450d0ad9f3ae34a1fb756e57610db48be
+      date: '2026-01-22'
+      sha: 28d980bdb504cb2bdb0741b7570b5d6666ed452a
+      status: SUCCESS
+      url: https://github.com/BioVisionCenter/ngio/commit/28d980bdb504cb2bdb0741b7570b5d6666ed452a
     last_release:
-      date: '2026-01-08'
-      tag_name: v0.5.0b4
-      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.0b4
+      date: '2026-01-22'
+      tag_name: v0.5.0b5
+      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.0b5
     name: ngio
     repo: BioVisionCenter/ngio
     repo_info:
@@ -332,12 +332,12 @@ sections:
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
       open_issues: 5
-      size: 42151
+      size: 44177
       stargazers_count: 37
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-01-21T17:21:34Z'
+      updated_at: '2026-01-22T07:57:47Z'
     user: BioVisionCenter
   - last_commit:
       author: LDeakin
@@ -443,7 +443,7 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 28
+      open_issues: 29
       size: 1985513
       stargazers_count: 214
       topics:
@@ -546,7 +546,7 @@ sections:
     repo_info:
       created_at: '2018-12-13T09:10:43Z'
       description: Gradle project containing main server logic for OMERO
-      open_issues: 38
+      open_issues: 39
       size: 6091
       stargazers_count: 8
       topics:
@@ -572,7 +572,7 @@ sections:
     repo_info:
       created_at: '2018-12-13T11:14:30Z'
       description: Gradle project containing Ice remoting code for OMERO
-      open_issues: 32
+      open_issues: 33
       size: 9342
       stargazers_count: 0
       topics:
@@ -625,7 +625,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 64
+      open_issues: 65
       size: 12025
       stargazers_count: 27
       topics:
@@ -851,7 +851,7 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 71
+      open_issues: 72
       size: 9055
       stargazers_count: 19
       topics:
@@ -973,24 +973,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-01-21'
-      sha: 7095d2830f7baeede7fc842d427d92e02005e138
+      date: '2026-01-22'
+      sha: 4b89046eac0225f92e640ac54598e2ae7e4ac3db
       status: SUCCESS
-      url: https://github.com/ome/status/commit/7095d2830f7baeede7fc842d427d92e02005e138
+      url: https://github.com/ome/status/commit/4b89046eac0225f92e640ac54598e2ae7e4ac3db
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 4
-      size: 197
+      size: 198
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-01-21T06:38:59Z'
+      updated_at: '2026-01-22T06:37:18Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
