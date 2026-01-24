@@ -1,13 +1,13 @@
-generated_at: '2026-01-23T06:37:09.490892Z'
+generated_at: '2026-01-24T06:33:42.711074Z'
 sections:
 - name: Bio-Formats packages
   packages:
   - last_commit:
       author: melissalinkert
-      date: '2026-01-20'
-      sha: eb8fd308b0a1004596899247bc0505b9ee6a97f4
+      date: '2026-01-23'
+      sha: 23718345ab950caf923edca2cf795e5bc5d8d189
       status: SUCCESS
-      url: https://github.com/ome/bioformats/commit/eb8fd308b0a1004596899247bc0505b9ee6a97f4
+      url: https://github.com/ome/bioformats/commit/23718345ab950caf923edca2cf795e5bc5d8d189
     last_release:
       date: '2026-01-14'
       tag_name: v8.4.0
@@ -20,8 +20,8 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 175
-      size: 280376
+      open_issues: 176
+      size: 280379
       stargazers_count: 412
       topics:
       - bio-formats
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-01-22T07:26:12Z'
+      updated_at: '2026-01-23T21:57:01Z'
     user: ome
   - last_commit:
       author: melissalinkert
@@ -87,7 +87,9 @@ sections:
       - spec
       updated_at: '2026-01-16T15:53:21Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - Deploy VitePress site to Pages
+    last_commit:
       author: will-moore
       date: '2025-11-24'
       sha: 32050e65289e98b4a8af9a0ccf8226ff95467e8a
@@ -119,7 +121,7 @@ sections:
     repo_info:
       created_at: '2020-04-16T14:53:33Z'
       description: null
-      open_issues: 33
+      open_issues: 34
       size: 422
       stargazers_count: 18
       topics:
@@ -288,10 +290,10 @@ sections:
     user: ome
   - last_commit:
       author: thewtex
-      date: '2026-01-19'
-      sha: b689366a3caf8c944ca579e02e9877e757a98e75
+      date: '2026-01-23'
+      sha: 29f0f4bf3ef93a5c35c1e724267461b845fb8acb
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/b689366a3caf8c944ca579e02e9877e757a98e75
+      url: https://github.com/fideus-labs/ngff-zarr/commit/29f0f4bf3ef93a5c35c1e724267461b845fb8acb
     last_release:
       date: '2026-01-19'
       tag_name: v0.20.2
@@ -302,8 +304,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 35
-      size: 8553
+      open_issues: 36
+      size: 8556
       stargazers_count: 57
       topics:
       - dask
@@ -313,7 +315,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-01-19T21:37:00Z'
+      updated_at: '2026-01-23T19:12:11Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
@@ -424,10 +426,10 @@ sections:
   packages:
   - last_commit:
       author: sbesson
-      date: '2025-11-25'
-      sha: 0763546fbc345dbc1bbcf1995bd9d631f5ba1567
+      date: '2026-01-23'
+      sha: c91834ddda27657ef747f7a6647b46e28fd23a2d
       status: SUCCESS
-      url: https://github.com/ome/openmicroscopy/commit/0763546fbc345dbc1bbcf1995bd9d631f5ba1567
+      url: https://github.com/ome/openmicroscopy/commit/c91834ddda27657ef747f7a6647b46e28fd23a2d
     last_release:
       date: '2025-06-26'
       tag_name: v5.6.16
@@ -443,8 +445,8 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 29
-      size: 1985513
+      open_issues: 28
+      size: 1985515
       stargazers_count: 214
       topics:
       - database
@@ -453,7 +455,7 @@ sections:
       - omero
       - python
       - server
-      updated_at: '2025-11-25T19:22:52Z'
+      updated_at: '2026-01-23T07:08:44Z'
     user: ome
   - last_commit:
       author: sbesson
@@ -637,11 +639,11 @@ sections:
       updated_at: '2026-01-14T11:15:31Z'
     user: ome
   - last_commit:
-      author: knabar
-      date: '2026-01-07'
-      sha: 1c82ac1f829e0d2a869aa15ef67dd64d08ff4d20
+      author: will-moore
+      date: '2026-01-23'
+      sha: dcfc2e24d81f7f75a4091911ce8f04420871001b
       status: SUCCESS
-      url: https://github.com/ome/omero-web/commit/1c82ac1f829e0d2a869aa15ef67dd64d08ff4d20
+      url: https://github.com/ome/omero-web/commit/dcfc2e24d81f7f75a4091911ce8f04420871001b
     last_release:
       date: '2026-01-07'
       tag_name: v5.30.1
@@ -652,7 +654,7 @@ sections:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
       open_issues: 148
-      size: 26544
+      size: 26561
       stargazers_count: 23
       topics:
       - client
@@ -660,7 +662,7 @@ sections:
       - omero
       - python
       - web
-      updated_at: '2026-01-07T09:56:34Z'
+      updated_at: '2026-01-23T14:11:10Z'
     user: ome
   - last_commit:
       author: sbesson
@@ -851,7 +853,7 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 72
+      open_issues: 71
       size: 9055
       stargazers_count: 19
       topics:
@@ -973,24 +975,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-01-22'
-      sha: 4b89046eac0225f92e640ac54598e2ae7e4ac3db
+      date: '2026-01-23'
+      sha: 46cd2f8f0fb6c4931070b729d007ec068c9f3f1e
       status: SUCCESS
-      url: https://github.com/ome/status/commit/4b89046eac0225f92e640ac54598e2ae7e4ac3db
+      url: https://github.com/ome/status/commit/46cd2f8f0fb6c4931070b729d007ec068c9f3f1e
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 4
-      size: 198
+      size: 207
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-01-22T06:37:18Z'
+      updated_at: '2026-01-23T06:37:13Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
