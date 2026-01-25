@@ -1,4 +1,4 @@
-generated_at: '2026-01-24T06:33:42.711074Z'
+generated_at: '2026-01-25T06:34:34.244074Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -278,15 +278,15 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 35
+      open_issues: 36
       size: 154
-      stargazers_count: 42
+      stargazers_count: 43
       topics:
       - napari-plugin
       - ngff
       - python
       - zarr
-      updated_at: '2025-11-19T01:03:03Z'
+      updated_at: '2026-01-24T16:19:49Z'
     user: ome
   - last_commit:
       author: thewtex
@@ -664,7 +664,10 @@ sections:
       - web
       updated_at: '2026-01-23T14:11:10Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    - Tox
+    last_commit:
       author: sbesson
       date: '2025-11-25'
       sha: ac93ed4b4a139dd73b414ead55223071fc465de5
@@ -975,24 +978,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-01-23'
-      sha: 46cd2f8f0fb6c4931070b729d007ec068c9f3f1e
+      date: '2026-01-24'
+      sha: bb0c08f20e6d59e3e0513b1cb500c982394ce851
       status: SUCCESS
-      url: https://github.com/ome/status/commit/46cd2f8f0fb6c4931070b729d007ec068c9f3f1e
+      url: https://github.com/ome/status/commit/bb0c08f20e6d59e3e0513b1cb500c982394ce851
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 4
-      size: 207
+      size: 208
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-01-23T06:37:13Z'
+      updated_at: '2026-01-24T06:33:46Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
