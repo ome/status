@@ -1,4 +1,4 @@
-generated_at: '2026-02-04T06:54:41.879882Z'
+generated_at: '2026-02-05T07:01:13.155929Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 178
+      open_issues: 179
       size: 280389
       stargazers_count: 412
       topics:
@@ -76,16 +76,16 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 121
+      open_issues: 122
       size: 14689
-      stargazers_count: 152
+      stargazers_count: 153
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-02-02T14:39:59Z'
+      updated_at: '2026-02-04T20:03:53Z'
     user: ome
   - disabled_workflows:
     - Deploy VitePress site to Pages
@@ -133,10 +133,10 @@ sections:
     user: ome
   - last_commit:
       author: will-moore
-      date: '2026-02-03'
-      sha: 60c722cc1f2ae79c128ffa05729cc96b5ab206c9
+      date: '2026-02-04'
+      sha: 585daee36928c7032c8ae8fdb69ad1bb7cef9229
       status: SUCCESS
-      url: https://github.com/ome/ome-zarr-py/commit/60c722cc1f2ae79c128ffa05729cc96b5ab206c9
+      url: https://github.com/ome/ome-zarr-py/commit/585daee36928c7032c8ae8fdb69ad1bb7cef9229
     last_release:
       date: '2025-08-22'
       tag_name: v0.12.2
@@ -147,15 +147,15 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 88
-      size: 983
-      stargazers_count: 222
+      open_issues: 87
+      size: 984
+      stargazers_count: 223
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-02-03T15:12:37Z'
+      updated_at: '2026-02-04T20:03:09Z'
     user: ome
   - last_commit:
       author: jburel
@@ -290,10 +290,10 @@ sections:
     user: ome
   - last_commit:
       author: thewtex
-      date: '2026-02-04'
-      sha: 785c9e154f20c0b3674f8a0aa9fb6484ed80c915
+      date: '2026-02-05'
+      sha: 37500fddb6a42c6118a6685d6a0ebe89bb15efb9
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/785c9e154f20c0b3674f8a0aa9fb6484ed80c915
+      url: https://github.com/fideus-labs/ngff-zarr/commit/37500fddb6a42c6118a6685d6a0ebe89bb15efb9
     last_release:
       date: '2026-02-04'
       tag_name: py-v0.23.0
@@ -304,8 +304,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 38
-      size: 9121
+      open_issues: 35
+      size: 8651
       stargazers_count: 63
       topics:
       - dask
@@ -315,38 +315,38 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-02-04T01:02:12Z'
+      updated_at: '2026-02-05T02:17:34Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
-      date: '2026-02-02'
-      sha: ddf53051f2ae0cf4776883f03d30adeaeb593da4
+      date: '2026-02-04'
+      sha: 76d8435bf35dab1652d5f2ed6ecf2e9414128770
       status: SUCCESS
-      url: https://github.com/BioVisionCenter/ngio/commit/ddf53051f2ae0cf4776883f03d30adeaeb593da4
+      url: https://github.com/BioVisionCenter/ngio/commit/76d8435bf35dab1652d5f2ed6ecf2e9414128770
     last_release:
-      date: '2026-02-02'
-      tag_name: v0.5.0
-      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.0
+      date: '2026-02-04'
+      tag_name: v0.5.1
+      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.1
     name: ngio
     repo: BioVisionCenter/ngio
     repo_info:
       created_at: '2024-07-08T08:18:08Z'
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 4
-      size: 49689
+      open_issues: 5
+      size: 53018
       stargazers_count: 38
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-02-03T09:36:13Z'
+      updated_at: '2026-02-04T20:23:11Z'
     user: BioVisionCenter
   - last_commit:
-      author: LDeakin
-      date: '2026-02-01'
-      sha: cc16c5776fed01c1a9b65f67904a7160b2b17af7
+      author: clbarnes
+      date: '2026-02-05'
+      sha: 440f5431f2274be44b5bd0f515052e5f786b7833
       status: SUCCESS
-      url: https://github.com/zarrs/ome_zarr_metadata/commit/cc16c5776fed01c1a9b65f67904a7160b2b17af7
+      url: https://github.com/zarrs/ome_zarr_metadata/commit/440f5431f2274be44b5bd0f515052e5f786b7833
     last_release:
       date: '2025-08-29'
       tag_name: v0.2.5
@@ -356,8 +356,8 @@ sections:
     repo_info:
       created_at: '2024-07-22T22:01:37Z'
       description: A Rust library for OME-Zarr (previously OME-NGFF) metadata
-      open_issues: 4
-      size: 98
+      open_issues: 3
+      size: 99
       stargazers_count: 8
       topics:
       - ome
@@ -365,7 +365,7 @@ sections:
       - ome-zarr
       - rust
       - zarr
-      updated_at: '2026-02-01T11:06:56Z'
+      updated_at: '2026-02-05T03:55:01Z'
     user: zarrs
   - last_commit:
       author: dstansby
@@ -980,24 +980,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-02-03'
-      sha: b49bc0313cc4678bea6b50114bfad08995e82849
+      date: '2026-02-04'
+      sha: 6a3e12e25f0af802c458810783f0855e58c5b68f
       status: SUCCESS
-      url: https://github.com/ome/status/commit/b49bc0313cc4678bea6b50114bfad08995e82849
+      url: https://github.com/ome/status/commit/6a3e12e25f0af802c458810783f0855e58c5b68f
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 4
-      size: 256
+      size: 265
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-02-03T06:54:13Z'
+      updated_at: '2026-02-04T06:54:46Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
