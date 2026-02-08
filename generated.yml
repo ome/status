@@ -1,4 +1,4 @@
-generated_at: '2026-02-07T06:43:40.313949Z'
+generated_at: '2026-02-08T06:52:21.266120Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -22,7 +22,7 @@ sections:
         (GPL); commercial licenses are available from  Glencoe Software. '
       open_issues: 179
       size: 280389
-      stargazers_count: 412
+      stargazers_count: 413
       topics:
       - bio-formats
       - format-converter
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-01-27T22:40:54Z'
+      updated_at: '2026-02-07T16:13:04Z'
     user: ome
   - last_commit:
       author: melissalinkert
@@ -291,9 +291,9 @@ sections:
   - last_commit:
       author: thewtex
       date: '2026-02-07'
-      sha: f9676c96d79449aeddca66ffa284079ef5b487fd
-      status: FAILURE
-      url: https://github.com/fideus-labs/ngff-zarr/commit/f9676c96d79449aeddca66ffa284079ef5b487fd
+      sha: 122116f44c8308b5440c014db8a378dabfeb99f8
+      status: SUCCESS
+      url: https://github.com/fideus-labs/ngff-zarr/commit/122116f44c8308b5440c014db8a378dabfeb99f8
     last_release:
       date: '2026-02-05'
       tag_name: py-v0.24.0
@@ -304,8 +304,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 34
-      size: 8918
+      open_issues: 32
+      size: 8963
       stargazers_count: 63
       topics:
       - dask
@@ -315,7 +315,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-02-07T01:59:56Z'
+      updated_at: '2026-02-07T18:36:38Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
@@ -820,7 +820,9 @@ sections:
     user: TheJacksonLaboratory
 - name: OMERO Web Javascript apps
   packages:
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    last_commit:
       author: jburel
       date: '2025-12-04'
       sha: 5e2de43ad401fb00690a79644056e0ac15fabfd5
@@ -915,7 +917,9 @@ sections:
     user: German-BioImaging
 - name: OME Linked Data
   packages:
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    last_commit:
       author: joshmoore
       date: '2025-12-03'
       sha: 89f3ce0db8f642c9b599b24c8ecd868d0834c8e6
@@ -982,10 +986,10 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-02-06'
-      sha: 86963a60426e7063b2058b2456c563dfed6a5aad
+      date: '2026-02-07'
+      sha: c93586db829742ebac78d8a8104a73389ab0e3c7
       status: SUCCESS
-      url: https://github.com/ome/status/commit/86963a60426e7063b2058b2456c563dfed6a5aad
+      url: https://github.com/ome/status/commit/c93586db829742ebac78d8a8104a73389ab0e3c7
     name: status
     repo: ome/status
     repo_info:
@@ -999,7 +1003,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-02-06T06:57:11Z'
+      updated_at: '2026-02-07T06:43:44Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
