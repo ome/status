@@ -1,4 +1,4 @@
-generated_at: '2026-02-09T07:05:56.239298Z'
+generated_at: '2026-02-10T07:05:57.322652Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -147,8 +147,8 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 91
-      size: 986
+      open_issues: 93
+      size: 997
       stargazers_count: 224
       topics:
       - ngff
@@ -291,22 +291,22 @@ sections:
   - last_commit:
       author: thewtex
       date: '2026-02-09'
-      sha: 592a0109132a4d24273973dae2a39718c0216687
+      sha: 53d681580ebd1bf042c925904271c62993fddfe8
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/592a0109132a4d24273973dae2a39718c0216687
+      url: https://github.com/fideus-labs/ngff-zarr/commit/53d681580ebd1bf042c925904271c62993fddfe8
     last_release:
       date: '2026-02-09'
-      tag_name: ts-v0.7.2
-      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/ts-v0.7.2
+      tag_name: ts-v0.7.3
+      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/ts-v0.7.3
     name: ngff-zarr
     repo: fideus-labs/ngff-zarr
     repo_info:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 31
-      size: 9059
-      stargazers_count: 63
+      open_issues: 33
+      size: 9099
+      stargazers_count: 64
       topics:
       - dask
       - imaging
@@ -315,31 +315,31 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-02-09T00:56:46Z'
+      updated_at: '2026-02-09T19:54:20Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
-      date: '2026-02-06'
-      sha: 49fa53a72bf2f7c07d147f49fb0361e074db65c6
+      date: '2026-02-09'
+      sha: 5c5a751c5d6ff17618b7da939095deb62d73034b
       status: FAILURE
-      url: https://github.com/BioVisionCenter/ngio/commit/49fa53a72bf2f7c07d147f49fb0361e074db65c6
+      url: https://github.com/BioVisionCenter/ngio/commit/5c5a751c5d6ff17618b7da939095deb62d73034b
     last_release:
-      date: '2026-02-06'
-      tag_name: v0.5.2
-      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.2
+      date: '2026-02-09'
+      tag_name: v0.5.3
+      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.3
     name: ngio
     repo: BioVisionCenter/ngio
     repo_info:
       created_at: '2024-07-08T08:18:08Z'
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 5
-      size: 49710
+      open_issues: 3
+      size: 52046
       stargazers_count: 38
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-02-06T10:57:40Z'
+      updated_at: '2026-02-09T18:19:01Z'
     user: BioVisionCenter
   - last_commit:
       author: clbarnes
@@ -383,7 +383,7 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 33
+      open_issues: 34
       size: 2009
       stargazers_count: 36
       topics:
@@ -600,7 +600,7 @@ sections:
     repo_info:
       created_at: '2019-02-18T10:01:04Z'
       description: Gradle project containing insight java client for OMERO
-      open_issues: 127
+      open_issues: 128
       size: 24927
       stargazers_count: 8
       topics:
@@ -614,21 +614,21 @@ sections:
   packages:
   - last_commit:
       author: sbesson
-      date: '2026-01-14'
-      sha: ae0a0c7cdc87db340fc7255586cd8ec8293a45bc
+      date: '2026-02-09'
+      sha: 21f543a7c0c93432025bf34dd535561d6da44b28
       status: SUCCESS
-      url: https://github.com/ome/omero-py/commit/ae0a0c7cdc87db340fc7255586cd8ec8293a45bc
+      url: https://github.com/ome/omero-py/commit/21f543a7c0c93432025bf34dd535561d6da44b28
     last_release:
-      date: '2025-11-26'
-      tag_name: v5.21.3
-      url: https://github.com/ome/omero-py/releases/tag/v5.21.3
+      date: '2026-02-09'
+      tag_name: v5.22.0
+      url: https://github.com/ome/omero-py/releases/tag/v5.22.0
     name: omero-py
     repo: ome/omero-py
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 65
-      size: 12025
+      open_issues: 64
+      size: 12043
       stargazers_count: 27
       topics:
       - component
@@ -636,7 +636,7 @@ sections:
       - omero
       - omero-py
       - python
-      updated_at: '2026-01-14T11:15:31Z'
+      updated_at: '2026-02-09T10:38:35Z'
     user: ome
   - last_commit:
       author: knabar
@@ -986,24 +986,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-02-08'
-      sha: 59d3bf0f1ec260e26da34600e7983ca9a7e944cf
+      date: '2026-02-09'
+      sha: 69023e14551b94bceb28acef19a671279a59f673
       status: SUCCESS
-      url: https://github.com/ome/status/commit/59d3bf0f1ec260e26da34600e7983ca9a7e944cf
+      url: https://github.com/ome/status/commit/69023e14551b94bceb28acef19a671279a59f673
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 4
-      size: 284
+      size: 285
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-02-08T06:52:25Z'
+      updated_at: '2026-02-09T07:06:00Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
