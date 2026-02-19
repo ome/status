@@ -1,0 +1,1171 @@
+generated_at: '2026-02-19T11:52:13.852630Z'
+sections:
+- name: Bio-Formats packages
+  packages:
+  - last_commit:
+      author: sbesson
+      date: '2026-02-13'
+      sha: eddfa670652145530db288bc8d4aa2f3b245c75a
+      status: SUCCESS
+      url: https://github.com/ome/bioformats/commit/eddfa670652145530db288bc8d4aa2f3b245c75a
+    last_release:
+      date: '2026-01-14'
+      tag_name: v8.4.0
+      url: https://github.com/ome/bioformats/releases/tag/v8.4.0
+    name: bioformats
+    repo: ome/bioformats
+    repo_info:
+      created_at: '2011-10-04T08:06:14Z'
+      description: 'Bio-Formats is a Java library for reading and writing data in
+        life sciences image file formats. It is developed by the  Open Microscopy
+        Environment. Bio-Formats is released under the  GNU General Public License
+        (GPL); commercial licenses are available from  Glencoe Software. '
+      open_issues: 178
+      size: 280564
+      stargazers_count: 413
+      topics:
+      - bio-formats
+      - format-converter
+      - format-reader
+      - image
+      - java
+      - life-sciences-image
+      - lightsheet
+      - metadata
+      - whole-slide-imaging
+      - wsi
+      updated_at: '2026-02-19T11:42:22Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: melissalinkert
+      date: '2026-01-14'
+      sha: 0d488b4169da4fc3bc1a9659d3692bd10ce9499d
+      status: SUCCESS
+      url: https://github.com/ome/bio-formats-examples/commit/0d488b4169da4fc3bc1a9659d3692bd10ce9499d
+    name: bio-formats-examples
+    repo: ome/bio-formats-examples
+    repo_info:
+      created_at: '2013-11-11T14:42:35Z'
+      description: Examples of usage of the Bio-Formats API
+      open_issues: 1
+      size: 412
+      stargazers_count: 13
+      topics:
+      - api
+      - bio-formats
+      - examples
+      - gradle
+      - maven
+      updated_at: '2026-01-14T16:18:27Z'
+    user: ome
+    workflow_run_status: SUCCESS
+- name: OME-NGFF
+  packages:
+  - last_commit:
+      author: jo-mueller
+      date: '2026-02-16'
+      sha: b56fd004d1682e4b0ddd062c6e284c9e4c3ca81c
+      status: SUCCESS
+      url: https://github.com/ome/ngff/commit/b56fd004d1682e4b0ddd062c6e284c9e4c3ca81c
+    last_release:
+      date: '2025-01-28'
+      tag_name: 0.5.2
+      url: https://github.com/ome/ngff/releases/tag/0.5.2
+    name: ngff
+    repo: ome/ngff
+    repo_info:
+      created_at: '2020-11-17T14:55:39Z'
+      description: Next-generation file format (NGFF) specifications for storing bioimaging
+        data in the cloud.
+      open_issues: 120
+      size: 14714
+      stargazers_count: 153
+      topics:
+      - bioimaging
+      - cloud
+      - data-science
+      - file-formats
+      - spec
+      updated_at: '2026-02-16T04:31:18Z'
+    user: ome
+    workflow_run_status: FAILURE
+  - last_commit:
+      author: will-moore
+      date: '2025-11-24'
+      sha: 32050e65289e98b4a8af9a0ccf8226ff95467e8a
+      status: SUCCESS
+      url: https://github.com/BioNGFF/ome-zarr.js/commit/32050e65289e98b4a8af9a0ccf8226ff95467e8a
+    name: ome-zarr.js
+    repo: BioNGFF/ome-zarr.js
+    repo_info:
+      created_at: '2025-02-05T14:38:10Z'
+      description: Some JavaScript utils for simple rendering of OME-Zarr images
+      open_issues: 8
+      size: 1930
+      stargazers_count: 4
+      topics: []
+      updated_at: '2025-11-24T09:17:35Z'
+    user: BioNGFF
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: jburel
+      date: '2026-02-05'
+      sha: 9530c10ba9823fcba6b39139987bf4bcd4a60179
+      status: SUCCESS
+      url: https://github.com/ome/omero-cli-zarr/commit/9530c10ba9823fcba6b39139987bf4bcd4a60179
+    last_release:
+      date: '2025-06-06'
+      tag_name: v0.5.5
+      url: https://github.com/ome/omero-cli-zarr/releases/tag/v0.5.5
+    name: omero-cli-zarr
+    repo: ome/omero-cli-zarr
+    repo_info:
+      created_at: '2020-04-16T14:53:33Z'
+      description: null
+      open_issues: 33
+      size: 424
+      stargazers_count: 18
+      topics:
+      - ngff
+      - ome-zarr-converter
+      - omero
+      - zarr
+      updated_at: '2026-02-05T16:07:48Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: will-moore
+      date: '2026-02-17'
+      sha: 87f142f91b314ac3279196a60ff5e63190e2fcb4
+      status: SUCCESS
+      url: https://github.com/ome/ome-zarr-py/commit/87f142f91b314ac3279196a60ff5e63190e2fcb4
+    last_release:
+      date: '2026-02-06'
+      tag_name: v0.13.0
+      url: https://github.com/ome/ome-zarr-py/releases/tag/v0.13.0
+    name: ome-zarr-py
+    repo: ome/ome-zarr-py
+    repo_info:
+      created_at: '2020-05-06T09:40:59Z'
+      description: Implementation of next-generation file format (NGFF) specifications
+        for storing bioimaging data in the cloud.
+      open_issues: 94
+      size: 998
+      stargazers_count: 225
+      topics:
+      - ngff
+      - ome
+      - ome-zarr
+      - zarr
+      updated_at: '2026-02-17T13:12:59Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: jburel
+      date: '2026-01-14'
+      sha: f7116d6f3f523d1e9220524bf9e551f267832167
+      status: SUCCESS
+      url: https://github.com/ome/omero-zarr-pixel-buffer/commit/f7116d6f3f523d1e9220524bf9e551f267832167
+    name: omero-zarr-pixel-buffer
+    repo: ome/omero-zarr-pixel-buffer
+    repo_info:
+      created_at: '2025-06-25T13:39:12Z'
+      description: OMERO Zarr Pixel Buffer Implementation
+      open_issues: 3
+      size: 422
+      stargazers_count: 0
+      topics: []
+      updated_at: '2026-01-14T10:46:05Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: sbesson
+      date: '2025-10-29'
+      sha: 044d439d22e725f8f25237b7820354824e8ff2f8
+      status: SUCCESS
+      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/044d439d22e725f8f25237b7820354824e8ff2f8
+    last_release:
+      date: '2025-10-29'
+      tag_name: v0.6.1
+      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/releases/tag/v0.6.1
+    name: omero-zarr-pixel-buffer
+    repo: glencoesoftware/omero-zarr-pixel-buffer
+    repo_info:
+      created_at: '2024-03-12T15:38:57Z'
+      description: OMERO Zarr Pixel Buffer Implementation
+      open_issues: 4
+      size: 379
+      stargazers_count: 2
+      topics: []
+      updated_at: '2025-11-06T17:52:45Z'
+    user: glencoesoftware
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: will-moore
+      date: '2025-11-17'
+      sha: 01ca6c8dae499914114acd136353ac452f93bce4
+      status: SUCCESS
+      url: https://github.com/ome/ome-ngff-validator/commit/01ca6c8dae499914114acd136353ac452f93bce4
+    last_release:
+      date: '2025-09-05'
+      tag_name: '2025-09-05'
+      url: https://github.com/ome/ome-ngff-validator/releases/tag/2025-09-05
+    name: ome-ngff-validator
+    repo: ome/ome-ngff-validator
+    repo_info:
+      created_at: '2022-05-24T11:39:57Z'
+      description: Web page for validating OME-NGFF files
+      open_issues: 16
+      size: 1843
+      stargazers_count: 11
+      topics:
+      - ome-zarr
+      updated_at: '2026-01-16T14:27:37Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: joshmoore
+      date: '2026-01-09'
+      sha: 3bffdc7e599ac2e034f4ebe81f6503ebd3364d5c
+      status: FAILURE
+      url: https://github.com/ome/ome2024-ngff-challenge/commit/3bffdc7e599ac2e034f4ebe81f6503ebd3364d5c
+    last_release:
+      date: '2025-04-15'
+      tag_name: v1.0.3
+      url: https://github.com/ome/ome2024-ngff-challenge/releases/tag/v1.0.3
+    name: ome2024-ngff-challenge
+    repo: ome/ome2024-ngff-challenge
+    repo_info:
+      created_at: '2024-06-06T15:47:53Z'
+      description: Project planning and material repository for the 2024 challenge
+        to generate 1 PB of OME-Zarr data
+      open_issues: 15
+      size: 1377
+      stargazers_count: 21
+      topics:
+      - ome-ngff
+      - ome-zarr-converter
+      updated_at: '2026-01-26T12:14:56Z'
+    user: ome
+    workflow_run_status: FAILURE
+  - last_commit:
+      author: will-moore
+      date: '2025-07-15'
+      sha: 5e9b09130ca04575ea2c2aa1abdbcb771b8d5128
+      status: SUCCESS
+      url: https://github.com/ome/ome-ngff-tools/commit/5e9b09130ca04575ea2c2aa1abdbcb771b8d5128
+    name: ome-ngff-tools
+    repo: ome/ome-ngff-tools
+    repo_info:
+      created_at: '2022-10-31T12:02:26Z'
+      description: Document available viewers and other tools for the OME-NGFF image
+        format
+      open_issues: 14
+      size: 85
+      stargazers_count: 4
+      topics:
+      - ngff
+      - ome-zarr
+      updated_at: '2026-01-26T17:10:09Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: joshmoore
+      date: '2025-09-02'
+      sha: 82760e6788a9abb02f074919a095acad7bcee318
+      status: SUCCESS
+      url: https://github.com/ome/napari-ome-zarr/commit/82760e6788a9abb02f074919a095acad7bcee318
+    last_release:
+      date: '2024-07-15'
+      tag_name: v0.6.1
+      url: https://github.com/ome/napari-ome-zarr/releases/tag/v0.6.1
+    name: napari-ome-zarr
+    repo: ome/napari-ome-zarr
+    repo_info:
+      created_at: '2021-05-27T09:34:51Z'
+      description: A napari plugin for zarr backed OME-NGFF images
+      open_issues: 36
+      size: 154
+      stargazers_count: 44
+      topics:
+      - napari-plugin
+      - ngff
+      - python
+      - zarr
+      updated_at: '2026-02-16T01:44:24Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: thewtex
+      date: '2026-02-19'
+      sha: 0f9cc0139969d0aeaf0caa676f2014ac8893ba50
+      status: FAILURE
+      url: https://github.com/fideus-labs/ngff-zarr/commit/0f9cc0139969d0aeaf0caa676f2014ac8893ba50
+    last_release:
+      date: '2026-02-19'
+      tag_name: py-v0.28.1
+      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/py-v0.28.1
+    name: ngff-zarr
+    repo: fideus-labs/ngff-zarr
+    repo_info:
+      created_at: '2022-09-27T00:37:16Z'
+      description: A lean and kind Open Microscopy Environment (OME) Next Generation
+        File Format (NGFF) Zarr implementation.
+      open_issues: 42
+      size: 9173
+      stargazers_count: 66
+      topics:
+      - dask
+      - imaging
+      - medical
+      - microscopy
+      - ome-zarr
+      - ome-zarr-converter
+      - python
+      updated_at: '2026-02-19T00:23:52Z'
+    user: fideus-labs
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: lorenzocerrone
+      date: '2026-02-15'
+      sha: 132c1f9962f3dd34613ec0f5738da8403efb69b5
+      status: SUCCESS
+      url: https://github.com/BioVisionCenter/ngio/commit/132c1f9962f3dd34613ec0f5738da8403efb69b5
+    last_release:
+      date: '2026-02-09'
+      tag_name: v0.5.3
+      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.3
+    name: ngio
+    repo: BioVisionCenter/ngio
+    repo_info:
+      created_at: '2024-07-08T08:18:08Z'
+      description: Ngio is a Python library to streamline OME-Zarr image analysis
+        workflows.
+      open_issues: 3
+      size: 52717
+      stargazers_count: 38
+      topics:
+      - ome-ngff
+      - ome-zarr
+      updated_at: '2026-02-15T11:36:34Z'
+    user: BioVisionCenter
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: clbarnes
+      date: '2026-02-05'
+      sha: 440f5431f2274be44b5bd0f515052e5f786b7833
+      status: SUCCESS
+      url: https://github.com/zarrs/ome_zarr_metadata/commit/440f5431f2274be44b5bd0f515052e5f786b7833
+    last_release:
+      date: '2025-08-29'
+      tag_name: v0.2.5
+      url: https://github.com/zarrs/ome_zarr_metadata/releases/tag/v0.2.5
+    name: ome_zarr_metadata
+    repo: zarrs/ome_zarr_metadata
+    repo_info:
+      created_at: '2024-07-22T22:01:37Z'
+      description: A Rust library for OME-Zarr (previously OME-NGFF) metadata
+      open_issues: 4
+      size: 99
+      stargazers_count: 8
+      topics:
+      - ome
+      - ome-ngff
+      - ome-zarr
+      - rust
+      - zarr
+      updated_at: '2026-02-05T03:55:01Z'
+    user: zarrs
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: dstansby
+      date: '2026-02-11'
+      sha: 075fc241f52a8f44a686810bab4a57f3173af88f
+      status: SUCCESS
+      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/075fc241f52a8f44a686810bab4a57f3173af88f
+    last_release:
+      date: '2026-01-06'
+      tag_name: v1.5
+      url: https://github.com/ome-zarr-models/ome-zarr-models-py/releases/tag/v1.5
+    name: ome-zarr-models-py
+    repo: ome-zarr-models/ome-zarr-models-py
+    repo_info:
+      created_at: '2024-11-20T10:56:54Z'
+      description: A minimal Python package for reading, writing and validating OME-Zarr
+        (meta)data
+      open_issues: 38
+      size: 1942
+      stargazers_count: 36
+      topics:
+      - ngff
+      - ome
+      - ome-zarr
+      - zarr
+      updated_at: '2026-02-11T15:22:04Z'
+    user: ome-zarr-models
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: thewtex
+      date: '2025-11-13'
+      sha: 6217a331d3e0897dcb1d857086f68a6ab2a50f72
+      status: FAILURE
+      url: https://github.com/spatial-image/multiscale-spatial-image/commit/6217a331d3e0897dcb1d857086f68a6ab2a50f72
+    last_release:
+      date: '2025-11-13'
+      tag_name: v2.1.0
+      url: https://github.com/spatial-image/multiscale-spatial-image/releases/tag/v2.1.0
+    name: multiscale-spatial-image
+    repo: spatial-image/multiscale-spatial-image
+    repo_info:
+      created_at: '2021-06-23T17:17:08Z'
+      description: Generate a multiscale, chunked, multi-dimensional spatial image
+        data structure that can serialized to OME-NGFF.
+      open_issues: 19
+      size: 3046
+      stargazers_count: 55
+      topics:
+      - imaging
+      - multiscale
+      - ngff
+      - ome-zarr-converter
+      - python
+      - scientific-computing
+      - xarray
+      updated_at: '2026-01-04T18:43:24Z'
+    user: spatial-image
+    workflow_run_status: FAILURE
+- name: OMERO Java packages
+  packages:
+  - last_commit:
+      author: sbesson
+      date: '2026-02-16'
+      sha: fe46b79639396fd7473d874736918c245c8a7024
+      status: SUCCESS
+      url: https://github.com/ome/openmicroscopy/commit/fe46b79639396fd7473d874736918c245c8a7024
+    last_release:
+      date: '2026-02-16'
+      tag_name: v5.6.17
+      url: https://github.com/ome/openmicroscopy/releases/tag/v5.6.17
+    name: openmicroscopy
+    repo: ome/openmicroscopy
+    repo_info:
+      created_at: '2011-08-18T14:26:02Z'
+      description: OME (Open Microscopy Environment) develops open-source software
+        and data format standards for the storage and manipulation of biological light
+        microscopy data. A joint project between universities, research establishments
+        and industry in Europe and the USA, OME has over 20 active researchers with
+        strong links to the microscopy community. Funded by private and public research
+        grants, OME has been a major force on the international microscopy stage since
+        2000.
+      open_issues: 24
+      size: 1985560
+      stargazers_count: 215
+      topics:
+      - database
+      - image
+      - java
+      - omero
+      - python
+      - server
+      updated_at: '2026-02-16T09:01:46Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: sbesson
+      date: '2026-02-05'
+      sha: 9ff01829221696c4ddf63d6699897886840087ae
+      status: SUCCESS
+      url: https://github.com/ome/omero-model/commit/9ff01829221696c4ddf63d6699897886840087ae
+    last_release:
+      date: '2026-02-05'
+      tag_name: v5.7.4
+      url: https://github.com/ome/omero-model/releases/tag/v5.7.4
+    name: omero-model
+    repo: ome/omero-model
+    repo_info:
+      created_at: '2018-12-11T10:57:55Z'
+      description: Gradle project for generating model jar for OMERO
+      open_issues: 9
+      size: 7027
+      stargazers_count: 0
+      topics:
+      - component
+      - gradle
+      - jar
+      - library
+      - model
+      - omero
+      updated_at: '2026-02-05T13:40:49Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: sbesson
+      date: '2026-02-05'
+      sha: 945758166fb7095d7a25677d5af90ea4331c1253
+      status: SUCCESS
+      url: https://github.com/ome/omero-common/commit/945758166fb7095d7a25677d5af90ea4331c1253
+    last_release:
+      date: '2026-02-05'
+      tag_name: v5.7.4
+      url: https://github.com/ome/omero-common/releases/tag/v5.7.4
+    name: omero-common
+    repo: ome/omero-common
+    repo_info:
+      created_at: '2018-12-12T10:25:49Z'
+      description: Gradle project containing common utilities for OMERO
+      open_issues: 3
+      size: 1865
+      stargazers_count: 1
+      topics:
+      - library
+      - omero
+      - util
+      updated_at: '2026-02-05T14:29:47Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: sbesson
+      date: '2026-02-05'
+      sha: 12917585b2d5bc071e7867f2dcd20ae775e74712
+      status: SUCCESS
+      url: https://github.com/ome/omero-romio/commit/12917585b2d5bc071e7867f2dcd20ae775e74712
+    last_release:
+      date: '2026-02-05'
+      tag_name: v5.8.4
+      url: https://github.com/ome/omero-romio/releases/tag/v5.8.4
+    name: omero-romio
+    repo: ome/omero-romio
+    repo_info:
+      created_at: '2018-12-12T15:49:08Z'
+      description: Gradle project for the ROMIO library of OMERO
+      open_issues: 4
+      size: 674
+      stargazers_count: 0
+      topics:
+      - io
+      - jar
+      - library
+      - omero
+      updated_at: '2026-02-05T14:39:16Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: sbesson
+      date: '2026-02-05'
+      sha: ec96ad83f0a44d8241b1a4b45233029a0a9e11a5
+      status: SUCCESS
+      url: https://github.com/ome/omero-server/commit/ec96ad83f0a44d8241b1a4b45233029a0a9e11a5
+    last_release:
+      date: '2026-02-05'
+      tag_name: v5.7.4
+      url: https://github.com/ome/omero-server/releases/tag/v5.7.4
+    name: omero-server
+    repo: ome/omero-server
+    repo_info:
+      created_at: '2018-12-13T09:10:43Z'
+      description: Gradle project containing main server logic for OMERO
+      open_issues: 39
+      size: 6035
+      stargazers_count: 8
+      topics:
+      - component
+      - jar
+      - lib
+      - omero
+      - server
+      updated_at: '2026-02-05T14:57:36Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: sbesson
+      date: '2026-02-05'
+      sha: c1f935972f99775c61f4771aef9050e61a0e7b52
+      status: SUCCESS
+      url: https://github.com/ome/omero-blitz/commit/c1f935972f99775c61f4771aef9050e61a0e7b52
+    last_release:
+      date: '2026-02-05'
+      tag_name: v5.8.4
+      url: https://github.com/ome/omero-blitz/releases/tag/v5.8.4
+    name: omero-blitz
+    repo: ome/omero-blitz
+    repo_info:
+      created_at: '2018-12-13T11:14:30Z'
+      description: Gradle project containing Ice remoting code for OMERO
+      open_issues: 31
+      size: 9370
+      stargazers_count: 0
+      topics:
+      - component
+      - jar
+      - lib
+      - omero
+      - server
+      updated_at: '2026-02-05T15:18:20Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: jburel
+      date: '2026-02-16'
+      sha: 050a7aef07b24c5c0b030ec48d0f2a8b674f8ee9
+      status: SUCCESS
+      url: https://github.com/ome/omero-insight/commit/050a7aef07b24c5c0b030ec48d0f2a8b674f8ee9
+    last_release:
+      date: '2024-09-16'
+      tag_name: v5.8.6
+      url: https://github.com/ome/omero-insight/releases/tag/v5.8.6
+    name: omero-insight
+    repo: ome/omero-insight
+    repo_info:
+      created_at: '2019-02-18T10:01:04Z'
+      description: Gradle project containing insight java client for OMERO
+      open_issues: 128
+      size: 24994
+      stargazers_count: 9
+      topics:
+      - client
+      - gui
+      - java
+      - omero
+      updated_at: '2026-02-16T14:11:33Z'
+    user: ome
+    workflow_run_status: SUCCESS
+- name: OMERO Python packages
+  packages:
+  - last_commit:
+      author: sbesson
+      date: '2026-02-17'
+      sha: 08a4c1d057cdb0053fe839b44335304452818adf
+      status: SUCCESS
+      url: https://github.com/ome/omero-py/commit/08a4c1d057cdb0053fe839b44335304452818adf
+    last_release:
+      date: '2026-02-09'
+      tag_name: v5.22.0
+      url: https://github.com/ome/omero-py/releases/tag/v5.22.0
+    name: omero-py
+    repo: ome/omero-py
+    repo_info:
+      created_at: '2019-08-05T15:04:56Z'
+      description: Python project containing Ice remoting code for OMERO
+      open_issues: 65
+      size: 12049
+      stargazers_count: 27
+      topics:
+      - component
+      - lib
+      - omero
+      - omero-py
+      - python
+      updated_at: '2026-02-17T15:21:59Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: knabar
+      date: '2026-02-13'
+      sha: 4b7b4caff89adad43f4c7a0758f5ad5d5f4dd674
+      status: SUCCESS
+      url: https://github.com/ome/omero-web/commit/4b7b4caff89adad43f4c7a0758f5ad5d5f4dd674
+    last_release:
+      date: '2026-02-13'
+      tag_name: v5.31.0
+      url: https://github.com/ome/omero-web/releases/tag/v5.31.0
+    name: omero-web
+    repo: ome/omero-web
+    repo_info:
+      created_at: '2019-08-05T15:05:08Z'
+      description: Django-based OMERO.web client
+      open_issues: 140
+      size: 26735
+      stargazers_count: 23
+      topics:
+      - client
+      - django
+      - omero
+      - python
+      - web
+      updated_at: '2026-02-13T08:35:17Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: sbesson
+      date: '2025-11-25'
+      sha: ac93ed4b4a139dd73b414ead55223071fc465de5
+      status: SUCCESS
+      url: https://github.com/ome/omero-dropbox/commit/ac93ed4b4a139dd73b414ead55223071fc465de5
+    name: omero-dropbox
+    repo: ome/omero-dropbox
+    repo_info:
+      created_at: '2019-08-05T15:05:22Z'
+      description: OMERO.dropbox server for watching directories
+      open_issues: 4
+      size: 468
+      stargazers_count: 2
+      topics:
+      - component
+      - lib
+      - omero
+      - omero-import
+      - python
+      updated_at: '2025-11-25T15:02:46Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: sbesson
+      date: '2026-01-05'
+      sha: f8ff1c2e439f0599d96423b7f64898864548ba9f
+      status: SUCCESS
+      url: https://github.com/ome/omero-marshal/commit/f8ff1c2e439f0599d96423b7f64898864548ba9f
+    last_release:
+      date: '2025-11-27'
+      tag_name: v0.9.1
+      url: https://github.com/ome/omero-marshal/releases/tag/v0.9.1
+    name: omero-marshal
+    repo: ome/omero-marshal
+    repo_info:
+      created_at: '2015-10-20T12:43:20Z'
+      description: OMERO marshalling infrastructure
+      open_issues: 6
+      size: 416
+      stargazers_count: 5
+      topics:
+      - marshalling
+      - model
+      - omero
+      - pip
+      updated_at: '2026-01-05T13:26:02Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: dominikl
+      date: '2025-12-11'
+      sha: 68b73035cf2ab21ddd92022b80bda0966547b3c8
+      status: SUCCESS
+      url: https://github.com/ome/omero-cli-render/commit/68b73035cf2ab21ddd92022b80bda0966547b3c8
+    last_release:
+      date: '2025-12-04'
+      tag_name: v0.8.1
+      url: https://github.com/ome/omero-cli-render/releases/tag/v0.8.1
+    name: omero-cli-render
+    repo: ome/omero-cli-render
+    repo_info:
+      created_at: '2017-08-15T10:45:26Z'
+      description: OMERO command-line tool for rendering
+      open_issues: 7
+      size: 434
+      stargazers_count: 2
+      topics:
+      - cli
+      - command
+      - omero
+      - plugin
+      - python
+      updated_at: '2025-12-11T13:35:00Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: maartenpaul
+      date: '2026-02-17'
+      sha: 1d8a2ed19da5a787c18eda2779989f925d7a13a6
+      status: SUCCESS
+      url: https://github.com/ome/omero-cli-transfer/commit/1d8a2ed19da5a787c18eda2779989f925d7a13a6
+    last_release:
+      date: '2025-12-08'
+      tag_name: 1.3.1
+      url: https://github.com/ome/omero-cli-transfer/releases/tag/1.3.1
+    name: omero-cli-transfer
+    repo: ome/omero-cli-transfer
+    repo_info:
+      created_at: '2022-02-01T16:25:20Z'
+      description: An OMERO CLI plugin for creating transfer packets between OMERO
+        servers.
+      open_issues: 5
+      size: 3113
+      stargazers_count: 19
+      topics:
+      - omero
+      - omero-import
+      - omero-server
+      updated_at: '2026-02-17T16:25:52Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: sbesson
+      date: '2026-01-29'
+      sha: 5b4d76862a7141257c9ff221ff7f009f7ec416c0
+      status: SUCCESS
+      url: https://github.com/ome/omero-scripts/commit/5b4d76862a7141257c9ff221ff7f009f7ec416c0
+    last_release:
+      date: '2026-01-29'
+      tag_name: v5.10.0
+      url: https://github.com/ome/omero-scripts/releases/tag/v5.10.0
+    name: omero-scripts
+    repo: ome/omero-scripts
+    repo_info:
+      created_at: '2012-07-02T22:16:36Z'
+      description: Core OMERO Scripts
+      open_issues: 17
+      size: 1958
+      stargazers_count: 14
+      topics:
+      - omero
+      - python
+      - scripts
+      updated_at: '2026-01-29T08:54:09Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: erickmartins
+      date: '2025-11-30'
+      sha: 7d629c06741cc6cbc0d73667c0773e3fb4e181de
+      status: null
+      url: https://github.com/TheJacksonLaboratory/ezomero/commit/7d629c06741cc6cbc0d73667c0773e3fb4e181de
+    last_release:
+      date: '2025-06-30'
+      tag_name: 3.2.1
+      url: https://github.com/TheJacksonLaboratory/ezomero/releases/tag/3.2.1
+    name: ezomero
+    repo: TheJacksonLaboratory/ezomero
+    repo_info:
+      created_at: '2020-12-28T17:41:32Z'
+      description: A module with convenience functions for writing Python code that
+        interacts with OMERO.
+      open_issues: 5
+      size: 1599
+      stargazers_count: 46
+      topics:
+      - imaging-solutions
+      - omero
+      - omero-api
+      - omero-server
+      - python
+      updated_at: '2025-11-30T00:43:26Z'
+    user: TheJacksonLaboratory
+    workflow_run_status: SUCCESS
+- name: OMERO Web Javascript apps
+  packages:
+  - last_commit:
+      author: jburel
+      date: '2025-12-04'
+      sha: 5e2de43ad401fb00690a79644056e0ac15fabfd5
+      status: SUCCESS
+      url: https://github.com/ome/omero-iviewer/commit/5e2de43ad401fb00690a79644056e0ac15fabfd5
+    last_release:
+      date: '2025-12-04'
+      tag_name: v0.16.0
+      url: https://github.com/ome/omero-iviewer/releases/tag/v0.16.0
+    name: omero-iviewer
+    repo: ome/omero-iviewer
+    repo_info:
+      created_at: '2016-12-04T12:13:15Z'
+      description: An OMERO.web app allowing to view images
+      open_issues: 74
+      size: 12004
+      stargazers_count: 21
+      topics:
+      - omero
+      - webapp
+      updated_at: '2025-12-04T12:14:50Z'
+    user: ome
+    workflow_run_status: FAILURE
+  - last_commit:
+      author: will-moore
+      date: '2026-02-05'
+      sha: e241dc01b21d8800b6e34e087cbf7099046f68e6
+      status: SUCCESS
+      url: https://github.com/ome/omero-figure/commit/e241dc01b21d8800b6e34e087cbf7099046f68e6
+    last_release:
+      date: '2026-01-19'
+      tag_name: v7.3.1
+      url: https://github.com/ome/omero-figure/releases/tag/v7.3.1
+    name: omero-figure
+    repo: ome/omero-figure
+    repo_info:
+      created_at: '2013-09-29T22:16:03Z'
+      description: An OMERO.web app for creating Figures from images in OMERO
+      open_issues: 72
+      size: 9098
+      stargazers_count: 20
+      topics:
+      - omero
+      - webapp
+      updated_at: '2026-02-12T07:44:28Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: Tom-TBT
+      date: '2026-01-26'
+      sha: 9f3ce72ba0446515ce564491a412c5a0c5aba90b
+      status: SUCCESS
+      url: https://github.com/German-BioImaging/omero-autotag/commit/9f3ce72ba0446515ce564491a412c5a0c5aba90b
+    last_release:
+      date: '2026-01-26'
+      tag_name: v4.3.0
+      url: https://github.com/German-BioImaging/omero-autotag/releases/tag/v4.3.0
+    name: omero-autotag
+    repo: German-BioImaging/omero-autotag
+    repo_info:
+      created_at: '2023-06-27T13:49:38Z'
+      description: Extensions to OMERO.web to enhance tagging
+      open_issues: 4
+      size: 1145
+      stargazers_count: 0
+      topics:
+      - omero-web
+      updated_at: '2026-01-26T10:20:03Z'
+    user: German-BioImaging
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: Tom-TBT
+      date: '2025-12-04'
+      sha: 427b91de1dec2010220c556a533e2c25f5520719
+      status: SUCCESS
+      url: https://github.com/German-BioImaging/omero-tagsearch/commit/427b91de1dec2010220c556a533e2c25f5520719
+    last_release:
+      date: '2025-01-24'
+      tag_name: v4.3.0
+      url: https://github.com/German-BioImaging/omero-tagsearch/releases/tag/v4.3.0
+    name: omero-tagsearch
+    repo: German-BioImaging/omero-tagsearch
+    repo_info:
+      created_at: '2023-06-27T14:35:18Z'
+      description: Extensions to OMERO.web to enhance image/dataset/project filtering
+        from tags.
+      open_issues: 7
+      size: 200
+      stargazers_count: 0
+      topics:
+      - omero-web
+      updated_at: '2025-12-04T14:07:14Z'
+    user: German-BioImaging
+    workflow_run_status: SUCCESS
+- name: OME Linked Data
+  packages:
+  - last_commit:
+      author: joshmoore
+      date: '2025-12-03'
+      sha: 89f3ce0db8f642c9b599b24c8ecd868d0834c8e6
+      status: SUCCESS
+      url: https://github.com/German-BioImaging/omero-rdf/commit/89f3ce0db8f642c9b599b24c8ecd868d0834c8e6
+    last_release:
+      date: '2025-09-02'
+      tag_name: v0.6.3
+      url: https://github.com/German-BioImaging/omero-rdf/releases/tag/v0.6.3
+    name: omero-rdf
+    repo: German-BioImaging/omero-rdf
+    repo_info:
+      created_at: '2022-07-27T15:46:33Z'
+      description: A plugin for exporting RDF from OMERO
+      open_issues: 28
+      size: 118
+      stargazers_count: 15
+      topics:
+      - nfdi4bioimage
+      updated_at: '2025-12-03T09:48:06Z'
+    user: German-BioImaging
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: joshmoore
+      date: '2024-05-25'
+      sha: 792ef195dff78a67fc10c2f9dbaf0955842993a5
+      status: null
+      url: https://github.com/German-BioImaging/ome-ld/commit/792ef195dff78a67fc10c2f9dbaf0955842993a5
+    name: ome-ld
+    repo: German-BioImaging/ome-ld
+    repo_info:
+      created_at: '2024-04-16T07:59:07Z'
+      description: Linked Data support for the OME Model
+      open_issues: 7
+      size: 40
+      stargazers_count: 3
+      topics:
+      - nfdi4bioimage
+      updated_at: '2025-12-01T08:12:01Z'
+    user: German-BioImaging
+    workflow_run_status: null
+- name: Training packages and documentation
+  packages:
+  - last_commit:
+      author: pwalczysko
+      date: '2026-01-08'
+      sha: 6be1bbd6ca4abbdbe2176f9f23eab483b1a174f2
+      status: null
+      url: https://github.com/ome/omero-guides/commit/6be1bbd6ca4abbdbe2176f9f23eab483b1a174f2
+    name: omero-guides
+    repo: ome/omero-guides
+    repo_info:
+      created_at: '2019-08-15T09:18:40Z'
+      description: Guides for using OMERO
+      open_issues: 15
+      size: 998
+      stargazers_count: 1
+      topics:
+      - docs
+      - guides
+      - help
+      - manuals
+      - omero
+      - omero-training
+      updated_at: '2026-01-08T09:30:23Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: github-actions[bot]
+      date: '2026-02-19'
+      sha: 203040e5170d4456383e995c23cbc6e72653881c
+      status: SUCCESS
+      url: https://github.com/ome/status/commit/203040e5170d4456383e995c23cbc6e72653881c
+    name: status
+    repo: ome/status
+    repo_info:
+      created_at: '2019-08-22T12:20:48Z'
+      description: Status dashboard for the OME project
+      open_issues: 6
+      size: 241
+      stargazers_count: 1
+      topics:
+      - dashboard
+      - gh-pages
+      - ome
+      - status
+      updated_at: '2026-02-19T07:01:47Z'
+    user: ome
+    workflow_run_status: SUCCESS
+- name: Ansible, Docker and examples
+  packages:
+  - last_commit:
+      author: pwalczysko
+      date: '2026-01-21'
+      sha: 51f770329f6267821fae811d59594dff3cfa3b66
+      status: SUCCESS
+      url: https://github.com/ome/prod-playbooks/commit/51f770329f6267821fae811d59594dff3cfa3b66
+    name: prod-playbooks
+    repo: ome/prod-playbooks
+    repo_info:
+      created_at: '2017-09-07T06:24:09Z'
+      description: Playbooks used by the OME team for deploying production services
+        including OMERO
+      open_issues: 12
+      size: 1365
+      stargazers_count: 4
+      topics:
+      - ansible
+      - deployment
+      - omero
+      - playbooks
+      - production
+      updated_at: '2026-01-21T09:27:20Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: pwalczysko
+      date: '2026-02-19'
+      sha: 78b110c303e8e1e4a5ea41bed41d2d883ab5130a
+      status: SUCCESS
+      url: https://github.com/ome/ansible-role-omero-server/commit/78b110c303e8e1e4a5ea41bed41d2d883ab5130a
+    name: ansible-role-omero-server
+    repo: ome/ansible-role-omero-server
+    repo_info:
+      created_at: '2017-01-06T16:22:29Z'
+      description: Installs and configures OMERO.server
+      open_issues: 10
+      size: 319
+      stargazers_count: 4
+      topics:
+      - ansible
+      - omero
+      - role
+      - server
+      updated_at: '2026-02-19T10:59:45Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: pwalczysko
+      date: '2025-11-18'
+      sha: b59eccf9e05ecaed6e2462c9f0b563c7e8dd4d9b
+      status: SUCCESS
+      url: https://github.com/ome/ansible-role-omero-web/commit/b59eccf9e05ecaed6e2462c9f0b563c7e8dd4d9b
+    name: ansible-role-omero-web
+    repo: ome/ansible-role-omero-web
+    repo_info:
+      created_at: '2017-03-10T17:50:57Z'
+      description: Installs and configures OMERO.web and Nginx
+      open_issues: 4
+      size: 199
+      stargazers_count: 1
+      topics:
+      - ansible
+      - ome
+      - omero
+      - openmicroscopy
+      updated_at: '2025-11-18T12:38:51Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: jburel
+      date: '2025-12-06'
+      sha: 4434ad1a5df6fdbe75d2a01809f1f66a7d95524b
+      status: SUCCESS
+      url: https://github.com/ome/docker-example-omero/commit/4434ad1a5df6fdbe75d2a01809f1f66a7d95524b
+    name: docker-example-omero
+    repo: ome/docker-example-omero
+    repo_info:
+      created_at: '2019-06-13T13:14:28Z'
+      description: OMERO Docker compose example
+      open_issues: 5
+      size: 37
+      stargazers_count: 29
+      topics:
+      - deployment
+      - docker
+      - omero
+      - omero-server
+      - omero-web
+      updated_at: '2025-12-23T22:13:02Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: pwalczysko
+      date: '2025-11-24'
+      sha: 78d37cf650dc1e7401799f99f58c085c2be5d1c4
+      status: SUCCESS
+      url: https://github.com/ome/omero-web-docker/commit/78d37cf650dc1e7401799f99f58c085c2be5d1c4
+    name: omero-web-docker
+    repo: ome/omero-web-docker
+    repo_info:
+      created_at: '2017-06-14T20:57:33Z'
+      description: OMERO.web production docker image
+      open_issues: 20
+      size: 140
+      stargazers_count: 7
+      topics:
+      - docker
+      - ome
+      - omero
+      - omero-web
+      - openmicroscopy
+      updated_at: '2025-11-24T16:56:42Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: sbesson
+      date: '2026-02-16'
+      sha: 128baab7ba9c3d6fc3916443cd721dc28b3683e5
+      status: SUCCESS
+      url: https://github.com/ome/omero-server-docker/commit/128baab7ba9c3d6fc3916443cd721dc28b3683e5
+    name: omero-server-docker
+    repo: ome/omero-server-docker
+    repo_info:
+      created_at: '2017-05-22T14:57:16Z'
+      description: OMERO.server production docker image
+      open_issues: 18
+      size: 174
+      stargazers_count: 16
+      topics:
+      - docker
+      - ome
+      - omero
+      - omero-server
+      - openmicroscopy
+      updated_at: '2026-02-16T09:17:42Z'
+    user: ome
+    workflow_run_status: SUCCESS
