@@ -1,4 +1,4 @@
-generated_at: '2026-02-19T11:52:13.852630Z'
+generated_at: '2026-02-19T16:04:50.516691Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -313,7 +313,7 @@ sections:
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
       open_issues: 42
-      size: 9173
+      size: 9307
       stargazers_count: 66
       topics:
       - dask
@@ -981,7 +981,7 @@ sections:
       - nfdi4bioimage
       updated_at: '2025-12-01T08:12:01Z'
     user: German-BioImaging
-    workflow_run_status: null
+    workflow_run_status: NO_WORKFLOWS
 - name: Training packages and documentation
   packages:
   - last_commit:
@@ -1009,27 +1009,27 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: github-actions[bot]
+      author: lubianat
       date: '2026-02-19'
-      sha: 203040e5170d4456383e995c23cbc6e72653881c
-      status: SUCCESS
-      url: https://github.com/ome/status/commit/203040e5170d4456383e995c23cbc6e72653881c
+      sha: 15791f86017c1bf5311082c2339770847dc6ddaf
+      status: PENDING
+      url: https://github.com/ome/status/commit/15791f86017c1bf5311082c2339770847dc6ddaf
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
-      open_issues: 6
-      size: 241
+      open_issues: 4
+      size: 292
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-02-19T07:01:47Z'
+      updated_at: '2026-02-19T16:04:28Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: PENDING
 - name: Ansible, Docker and examples
   packages:
   - last_commit:
@@ -1068,7 +1068,7 @@ sections:
       created_at: '2017-01-06T16:22:29Z'
       description: Installs and configures OMERO.server
       open_issues: 10
-      size: 319
+      size: 322
       stargazers_count: 4
       topics:
       - ansible
