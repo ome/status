@@ -1,7 +1,7 @@
 name: Deploy/Preview
-# For it to work, make sure "GitHub Pages" is set to deploy
-#from "gh-pages" branch in the repository settings.
-
+# For it to work, make sure:
+# (1) GH Pages is deployed from the "gh-pages" branch
+# (2) The label "preview" exists in the repository
 
 on:
   push:
