@@ -1,4 +1,4 @@
-generated_at: '2026-02-19T13:52:43.031139Z'
+generated_at: '2026-02-19T14:46:30.298744Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -300,8 +300,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 43
-      size: 9172
+      open_issues: 42
+      size: 9173
       stargazers_count: 66
       topics:
       - dask
@@ -972,23 +972,23 @@ sections:
   - last_commit:
       author: lubianat
       date: '2026-02-19'
-      sha: f419e5bd2ff5367669bc29780bffe81fdbc9b4f2
+      sha: 53add358b1ca35de585dbdb9cf52fc7ea5270c96
       status: PENDING
-      url: https://github.com/ome/status/commit/f419e5bd2ff5367669bc29780bffe81fdbc9b4f2
+      url: https://github.com/ome/status/commit/53add358b1ca35de585dbdb9cf52fc7ea5270c96
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 246
+      size: 274
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-02-19T13:52:22Z'
+      updated_at: '2026-02-19T14:46:09Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
@@ -1004,7 +1004,7 @@ sections:
       created_at: '2017-09-07T06:24:09Z'
       description: Playbooks used by the OME team for deploying production services
         including OMERO
-      open_issues: 11
+      open_issues: 12
       size: 1365
       stargazers_count: 4
       topics:
