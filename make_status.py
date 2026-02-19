@@ -68,6 +68,7 @@ def fetch_workflow_runs_status(
 ) -> Optional[str]:
     """
     Fetch the status of the latest workflow runs for the default branch.
+    Returns one of: SUCCESS, FAILURE, PENDING, NO_TESTS, or None if unknown.
     """
     # Get the default branch name
     repo_resp = session.get(f"https://api.github.com/repos/{owner}/{repo}")
@@ -75,6 +76,25 @@ def fetch_workflow_runs_status(
         return None
 
     default_branch = repo_resp.json().get("default_branch")
+
+    # Get active workflows
+    active_workflow_ids = set()
+    active_workflows_resp = session.get(
+        f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
+        params={"per_page": 100},
+    )
+    if not active_workflows_resp.ok:
+        return None
+
+    workflows = active_workflows_resp.json().get("workflows", [])
+    for workflow in workflows:
+        if (workflow.get("state") or "").lower() == "active":
+            workflow_id = workflow.get("id")
+            if workflow_id is not None:
+                active_workflow_ids.add(workflow_id)
+
+    if not active_workflow_ids:
+        return "NO_TESTS"
 
     resp = session.get(
         f"https://api.github.com/repos/{owner}/{repo}/actions/runs",
@@ -85,18 +105,7 @@ def fetch_workflow_runs_status(
 
     runs = resp.json().get("workflow_runs", [])
     if not runs:
-        return None
-
-    # Get active workflows
-    active_workflow_ids = set()
-    active_workflows_resp = session.get(
-        f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
-        params={"per_page": 100},
-    )
-    if active_workflows_resp.ok:
-        workflows = active_workflows_resp.json().get("workflows", [])
-        for workflow in workflows:
-            active_workflow_ids.add(workflow.get("id"))
+        return "NO_TESTS"
 
     # Check latest run for active workflows
     latest_per_workflow = {}
@@ -108,7 +117,10 @@ def fetch_workflow_runs_status(
         ):
             latest_per_workflow[workflow_id] = run
 
-    # Determine overall status based on the latest runs
+    if not latest_per_workflow:
+        return "NO_TESTS"
+
+    # Determine overall status based on the latest runs.
     has_failure = False
     has_pending = False
 
@@ -124,8 +136,7 @@ def fetch_workflow_runs_status(
         return "FAILURE"
     elif has_pending:
         return "PENDING"
-    else:
-        return "SUCCESS"
+    return "SUCCESS"
 
 
 def fetch_last_commit_info(
