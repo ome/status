@@ -52,8 +52,38 @@
         return span;
       }
 
-      function createStatusIcon(status) {
+      function normalizeStatus(status) {
         const normalized = status ? String(status).toUpperCase() : 'NO_TESTS';
+        if (normalized === 'ERROR') return 'FAILURE';
+        if (normalized === 'EXPECTED') return 'PENDING';
+        return normalized;
+      }
+
+      function statusLabel(status) {
+        const normalized = normalizeStatus(status);
+        if (normalized === 'SUCCESS') return 'ok';
+        if (normalized === 'FAILURE') return 'failed';
+        if (normalized === 'PENDING') return 'in progress';
+        return 'none';
+      }
+
+      function mergeChecksStatus(commitStatus, workflowRunStatus) {
+        const statuses = [normalizeStatus(commitStatus), normalizeStatus(workflowRunStatus)];
+        if (statuses.includes('FAILURE')) return 'FAILURE';
+        if (statuses.includes('PENDING')) return 'PENDING';
+        if (statuses.includes('SUCCESS')) return 'SUCCESS';
+        return 'NO_TESTS';
+      }
+
+      function buildChecksTooltip(commitStatus, workflowRunStatus, mergedStatus) {
+        const parts = ['Checks: ' + statusLabel(mergedStatus)];
+        if (commitStatus) parts.push('Commit checks: ' + statusLabel(commitStatus));
+        if (workflowRunStatus) parts.push('Workflow runs: ' + statusLabel(workflowRunStatus));
+        return parts.join(' • ');
+      }
+
+      function createStatusIcon(status, titleOverride) {
+        const normalized = normalizeStatus(status);
         const map = {
           SUCCESS: { text: '✓', className: 'status-success', title: 'Checks: ok' },
           FAILURE: { text: '✗', className: 'status-failure', title: 'Checks: failed' },
@@ -66,7 +96,8 @@
         const span = document.createElement('span');
         span.className = 'status-icon ' + match.className;
         span.textContent = match.text;
-        span.title = match.title || 'Checks: ' + normalized.toLowerCase(); return span;
+        span.title = titleOverride || match.title || 'Checks: ' + normalized.toLowerCase();
+        return span;
       }
 
       function normalizeSortValue(rawValue) {
@@ -207,14 +238,17 @@
         return td;
       }
 
-      function createLastCommitCell(commit, disabledWorkflows, repo) {
+      function createLastCommitCell(commit, disabledWorkflows, repo, workflowRunStatus) {
         const td = document.createElement('td');
         td.className = 'commit-cell';
+        const mergedStatus = mergeChecksStatus(commit && commit.status, workflowRunStatus);
+        const statusTooltip = buildChecksTooltip(commit && commit.status, workflowRunStatus, mergedStatus);
         const hasCommitContent = commit && (commit.date || commit.url || commit.author);
+        const hasWorkflowStatus = Boolean(workflowRunStatus);
         const hasDisabled = Array.isArray(disabledWorkflows) && disabledWorkflows.length > 0;
         const sortDate = commit && commit.date ? Date.parse(commit.date) : null;
         td.dataset.order = normalizeSortValue(sortDate);
-        if (!hasCommitContent && !hasDisabled) {
+        if (!hasCommitContent && !hasDisabled && !hasWorkflowStatus) {
           td.appendChild(emptyMarker());
           return td;
         }
@@ -224,7 +258,7 @@
         if (dateClass) {
           dateDiv.classList.add(dateClass);
         }
-        const statusIcon = commit ? createStatusIcon(commit.status) : null;
+        const statusIcon = createStatusIcon(mergedStatus, statusTooltip);
         const disabledIcon = createDisabledScheduleIcon(disabledWorkflows, repo);
         if (commit && commit.url) {
           const link = document.createElement('a');
@@ -327,7 +361,7 @@
         tr.appendChild(createTextCell(formatNumber(repoInfo.stargazers_count), 'meta-cell', Number(repoInfo.stargazers_count)));
         tr.appendChild(createTextCell(repoInfo.open_issues, 'meta-cell', Number(repoInfo.open_issues)));
         tr.appendChild(createTextCell(formatYear(repoInfo.created_at), 'meta-cell', Date.parse(repoInfo.created_at || '')));
-        tr.appendChild(createLastCommitCell(pkg.last_commit, pkg.disabled_workflows, pkg.repo));
+        tr.appendChild(createLastCommitCell(pkg.last_commit, pkg.disabled_workflows, pkg.repo, pkg.workflow_run_status));
         tr.appendChild(createLastReleaseCell(pkg.last_release));
         tr.appendChild(createTopicsCell(repoInfo.topics));
         return tr;
