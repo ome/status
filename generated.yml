@@ -1,4 +1,4 @@
-generated_at: '2026-02-19T14:46:30.298744Z'
+generated_at: '2026-02-19T11:52:13.852630Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -36,6 +36,7 @@ sections:
       - wsi
       updated_at: '2026-02-19T11:42:22Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: melissalinkert
       date: '2026-01-14'
@@ -58,6 +59,7 @@ sections:
       - maven
       updated_at: '2026-01-14T16:18:27Z'
     user: ome
+    workflow_run_status: SUCCESS
 - name: OME-NGFF
   packages:
   - last_commit:
@@ -87,6 +89,7 @@ sections:
       - spec
       updated_at: '2026-02-16T04:31:18Z'
     user: ome
+    workflow_run_status: FAILURE
   - last_commit:
       author: will-moore
       date: '2025-11-24'
@@ -104,6 +107,7 @@ sections:
       topics: []
       updated_at: '2025-11-24T09:17:35Z'
     user: BioNGFF
+    workflow_run_status: SUCCESS
   - last_commit:
       author: jburel
       date: '2026-02-05'
@@ -129,6 +133,7 @@ sections:
       - zarr
       updated_at: '2026-02-05T16:07:48Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
       date: '2026-02-17'
@@ -155,6 +160,7 @@ sections:
       - zarr
       updated_at: '2026-02-17T13:12:59Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: jburel
       date: '2026-01-14'
@@ -172,6 +178,7 @@ sections:
       topics: []
       updated_at: '2026-01-14T10:46:05Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2025-10-29'
@@ -193,6 +200,7 @@ sections:
       topics: []
       updated_at: '2025-11-06T17:52:45Z'
     user: glencoesoftware
+    workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
       date: '2025-11-17'
@@ -215,6 +223,7 @@ sections:
       - ome-zarr
       updated_at: '2026-01-16T14:27:37Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: joshmoore
       date: '2026-01-09'
@@ -239,6 +248,7 @@ sections:
       - ome-zarr-converter
       updated_at: '2026-01-26T12:14:56Z'
     user: ome
+    workflow_run_status: FAILURE
   - last_commit:
       author: will-moore
       date: '2025-07-15'
@@ -259,6 +269,7 @@ sections:
       - ome-zarr
       updated_at: '2026-01-26T17:10:09Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: joshmoore
       date: '2025-09-02'
@@ -284,6 +295,7 @@ sections:
       - zarr
       updated_at: '2026-02-16T01:44:24Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
       date: '2026-02-19'
@@ -313,6 +325,7 @@ sections:
       - python
       updated_at: '2026-02-19T00:23:52Z'
     user: fideus-labs
+    workflow_run_status: SUCCESS
   - last_commit:
       author: lorenzocerrone
       date: '2026-02-15'
@@ -337,6 +350,7 @@ sections:
       - ome-zarr
       updated_at: '2026-02-15T11:36:34Z'
     user: BioVisionCenter
+    workflow_run_status: SUCCESS
   - last_commit:
       author: clbarnes
       date: '2026-02-05'
@@ -363,6 +377,7 @@ sections:
       - zarr
       updated_at: '2026-02-05T03:55:01Z'
     user: zarrs
+    workflow_run_status: SUCCESS
   - last_commit:
       author: dstansby
       date: '2026-02-11'
@@ -389,6 +404,7 @@ sections:
       - zarr
       updated_at: '2026-02-11T15:22:04Z'
     user: ome-zarr-models
+    workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
       date: '2025-11-13'
@@ -418,6 +434,7 @@ sections:
       - xarray
       updated_at: '2026-01-04T18:43:24Z'
     user: spatial-image
+    workflow_run_status: FAILURE
 - name: OMERO Java packages
   packages:
   - last_commit:
@@ -453,6 +470,7 @@ sections:
       - server
       updated_at: '2026-02-16T09:01:46Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -480,6 +498,7 @@ sections:
       - omero
       updated_at: '2026-02-05T13:40:49Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -504,6 +523,7 @@ sections:
       - util
       updated_at: '2026-02-05T14:29:47Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -529,6 +549,7 @@ sections:
       - omero
       updated_at: '2026-02-05T14:39:16Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -555,6 +576,7 @@ sections:
       - server
       updated_at: '2026-02-05T14:57:36Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -581,6 +603,7 @@ sections:
       - server
       updated_at: '2026-02-05T15:18:20Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: jburel
       date: '2026-02-16'
@@ -606,6 +629,7 @@ sections:
       - omero
       updated_at: '2026-02-16T14:11:33Z'
     user: ome
+    workflow_run_status: SUCCESS
 - name: OMERO Python packages
   packages:
   - last_commit:
@@ -634,6 +658,7 @@ sections:
       - python
       updated_at: '2026-02-17T15:21:59Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: knabar
       date: '2026-02-13'
@@ -660,6 +685,7 @@ sections:
       - web
       updated_at: '2026-02-13T08:35:17Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2025-11-25'
@@ -682,6 +708,7 @@ sections:
       - python
       updated_at: '2025-11-25T15:02:46Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-01-05'
@@ -707,6 +734,7 @@ sections:
       - pip
       updated_at: '2026-01-05T13:26:02Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: dominikl
       date: '2025-12-11'
@@ -733,6 +761,7 @@ sections:
       - python
       updated_at: '2025-12-11T13:35:00Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: maartenpaul
       date: '2026-02-17'
@@ -758,6 +787,7 @@ sections:
       - omero-server
       updated_at: '2026-02-17T16:25:52Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-01-29'
@@ -782,6 +812,7 @@ sections:
       - scripts
       updated_at: '2026-01-29T08:54:09Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: erickmartins
       date: '2025-11-30'
@@ -809,6 +840,7 @@ sections:
       - python
       updated_at: '2025-11-30T00:43:26Z'
     user: TheJacksonLaboratory
+    workflow_run_status: SUCCESS
 - name: OMERO Web Javascript apps
   packages:
   - last_commit:
@@ -834,6 +866,7 @@ sections:
       - webapp
       updated_at: '2025-12-04T12:14:50Z'
     user: ome
+    workflow_run_status: FAILURE
   - last_commit:
       author: will-moore
       date: '2026-02-05'
@@ -857,6 +890,7 @@ sections:
       - webapp
       updated_at: '2026-02-12T07:44:28Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: Tom-TBT
       date: '2026-01-26'
@@ -879,6 +913,7 @@ sections:
       - omero-web
       updated_at: '2026-01-26T10:20:03Z'
     user: German-BioImaging
+    workflow_run_status: SUCCESS
   - last_commit:
       author: Tom-TBT
       date: '2025-12-04'
@@ -902,6 +937,7 @@ sections:
       - omero-web
       updated_at: '2025-12-04T14:07:14Z'
     user: German-BioImaging
+    workflow_run_status: SUCCESS
 - name: OME Linked Data
   packages:
   - last_commit:
@@ -926,6 +962,7 @@ sections:
       - nfdi4bioimage
       updated_at: '2025-12-03T09:48:06Z'
     user: German-BioImaging
+    workflow_run_status: SUCCESS
   - last_commit:
       author: joshmoore
       date: '2024-05-25'
@@ -944,6 +981,7 @@ sections:
       - nfdi4bioimage
       updated_at: '2025-12-01T08:12:01Z'
     user: German-BioImaging
+    workflow_run_status: null
 - name: Training packages and documentation
   packages:
   - last_commit:
@@ -969,27 +1007,29 @@ sections:
       - omero-training
       updated_at: '2026-01-08T09:30:23Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
-      author: lubianat
+      author: github-actions[bot]
       date: '2026-02-19'
-      sha: 53add358b1ca35de585dbdb9cf52fc7ea5270c96
-      status: PENDING
-      url: https://github.com/ome/status/commit/53add358b1ca35de585dbdb9cf52fc7ea5270c96
+      sha: 203040e5170d4456383e995c23cbc6e72653881c
+      status: SUCCESS
+      url: https://github.com/ome/status/commit/203040e5170d4456383e995c23cbc6e72653881c
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 274
+      size: 241
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-02-19T14:46:09Z'
+      updated_at: '2026-02-19T07:01:47Z'
     user: ome
+    workflow_run_status: SUCCESS
 - name: Ansible, Docker and examples
   packages:
   - last_commit:
@@ -1015,6 +1055,7 @@ sections:
       - production
       updated_at: '2026-01-21T09:27:20Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: pwalczysko
       date: '2026-02-19'
@@ -1027,7 +1068,7 @@ sections:
       created_at: '2017-01-06T16:22:29Z'
       description: Installs and configures OMERO.server
       open_issues: 10
-      size: 322
+      size: 319
       stargazers_count: 4
       topics:
       - ansible
@@ -1036,6 +1077,7 @@ sections:
       - server
       updated_at: '2026-02-19T10:59:45Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: pwalczysko
       date: '2025-11-18'
@@ -1057,6 +1099,7 @@ sections:
       - openmicroscopy
       updated_at: '2025-11-18T12:38:51Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: jburel
       date: '2025-12-06'
@@ -1079,6 +1122,7 @@ sections:
       - omero-web
       updated_at: '2025-12-23T22:13:02Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: pwalczysko
       date: '2025-11-24'
@@ -1101,6 +1145,7 @@ sections:
       - openmicroscopy
       updated_at: '2025-11-24T16:56:42Z'
     user: ome
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-02-16'
@@ -1123,3 +1168,4 @@ sections:
       - openmicroscopy
       updated_at: '2026-02-16T09:17:42Z'
     user: ome
+    workflow_run_status: SUCCESS
