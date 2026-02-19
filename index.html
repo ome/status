@@ -64,22 +64,24 @@
         if (normalized === 'SUCCESS') return 'ok';
         if (normalized === 'FAILURE') return 'failed';
         if (normalized === 'PENDING') return 'in progress';
+        if (normalized === 'NO_WORKFLOWS') return 'no workflows';
         return 'none';
       }
 
       function mergeChecksStatus(commitStatus, workflowRunStatus) {
-        const statuses = [normalizeStatus(commitStatus), normalizeStatus(workflowRunStatus)];
-        if (statuses.includes('FAILURE')) return 'FAILURE';
-        if (statuses.includes('PENDING')) return 'PENDING';
-        if (statuses.includes('SUCCESS')) return 'SUCCESS';
-        return 'NO_TESTS';
+        const workflow = normalizeStatus(workflowRunStatus);
+        if (workflow !== 'NO_WORKFLOWS') return workflow;
+        return normalizeStatus(commitStatus);
       }
 
       function buildChecksTooltip(commitStatus, workflowRunStatus, mergedStatus) {
-        const parts = ['Checks: ' + statusLabel(mergedStatus)];
-        if (commitStatus) parts.push('Commit checks: ' + statusLabel(commitStatus));
-        if (workflowRunStatus) parts.push('Workflow runs: ' + statusLabel(workflowRunStatus));
-        return parts.join(' • ');
+        const plain = 'Checks: ' + statusLabel(mergedStatus);
+        const commit = normalizeStatus(commitStatus);
+        const workflow = normalizeStatus(workflowRunStatus);
+        if (commit === workflow) return plain;
+        return plain
+          + ' • Commit checks: ' + statusLabel(commit)
+          + ' • Workflow runs: ' + statusLabel(workflow);
       }
 
       function createStatusIcon(status, titleOverride) {
@@ -89,6 +91,7 @@
           FAILURE: { text: '✗', className: 'status-failure', title: 'Checks: failed' },
           ERROR: { text: '✗', className: 'status-failure', title: 'Checks: failed' },
           PENDING: { text: '•', className: 'status-pending', title: 'Checks: in progress' },
+          NO_WORKFLOWS: { text: '−', className: 'status-absent', title: 'Checks: no workflows' },
           NO_TESTS: { text: '−', className: 'status-absent', title: 'Checks: none' },
         };
         const match = map[normalized];

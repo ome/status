@@ -68,7 +68,7 @@ def fetch_workflow_runs_status(
 ) -> Optional[str]:
     """
     Fetch the status of the latest workflow runs for the default branch.
-    Returns one of: SUCCESS, FAILURE, PENDING, NO_TESTS, or None if unknown.
+    Returns one of: SUCCESS, FAILURE, PENDING, NO_WORKFLOWS, or None if unknown.
     """
     # Get the default branch name
     repo_resp = session.get(f"https://api.github.com/repos/{owner}/{repo}")
@@ -94,7 +94,7 @@ def fetch_workflow_runs_status(
                 active_workflow_ids.add(workflow_id)
 
     if not active_workflow_ids:
-        return "NO_TESTS"
+        return "NO_WORKFLOWS"
 
     resp = session.get(
         f"https://api.github.com/repos/{owner}/{repo}/actions/runs",
@@ -105,7 +105,7 @@ def fetch_workflow_runs_status(
 
     runs = resp.json().get("workflow_runs", [])
     if not runs:
-        return "NO_TESTS"
+        return "NO_WORKFLOWS"
 
     # Check latest run for active workflows
     latest_per_workflow = {}
@@ -118,7 +118,7 @@ def fetch_workflow_runs_status(
             latest_per_workflow[workflow_id] = run
 
     if not latest_per_workflow:
-        return "NO_TESTS"
+        return "NO_WORKFLOWS"
 
     # Determine overall status based on the latest runs.
     has_failure = False
