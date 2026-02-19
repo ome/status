@@ -78,7 +78,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 118
+      open_issues: 120
       size: 14714
       stargazers_count: 153
       topics:
