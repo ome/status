@@ -63,6 +63,82 @@ query($owner:String!,$name:String!){
 """
 
 
+def fetch_workflow_runs_status(
+    owner: str, repo: str, session: requests.Session
+) -> Optional[str]:
+    """
+    Fetch the status of the latest workflow runs for the default branch.
+    Returns one of: SUCCESS, FAILURE, PENDING, NO_WORKFLOWS, or None if unknown.
+    """
+    # Get the default branch name
+    repo_resp = session.get(f"https://api.github.com/repos/{owner}/{repo}")
+    if not repo_resp.ok:
+        return None
+
+    default_branch = repo_resp.json().get("default_branch")
+
+    # Get active workflows
+    active_workflow_ids = set()
+    active_workflows_resp = session.get(
+        f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
+        params={"per_page": 100},
+    )
+    if not active_workflows_resp.ok:
+        return None
+
+    workflows = active_workflows_resp.json().get("workflows", [])
+    for workflow in workflows:
+        if (workflow.get("state") or "").lower() == "active":
+            workflow_id = workflow.get("id")
+            if workflow_id is not None:
+                active_workflow_ids.add(workflow_id)
+
+    if not active_workflow_ids:
+        return "NO_WORKFLOWS"
+
+    resp = session.get(
+        f"https://api.github.com/repos/{owner}/{repo}/actions/runs",
+        params={"branch": default_branch, "per_page": 50},
+    )
+    if not resp.ok:
+        return None
+
+    runs = resp.json().get("workflow_runs", [])
+    if not runs:
+        return "NO_WORKFLOWS"
+
+    # Check latest run for active workflows
+    latest_per_workflow = {}
+    for run in runs:
+        workflow_id = run.get("workflow_id")
+        if (
+            workflow_id not in latest_per_workflow
+            and workflow_id in active_workflow_ids
+        ):
+            latest_per_workflow[workflow_id] = run
+
+    if not latest_per_workflow:
+        return "NO_WORKFLOWS"
+
+    # Determine overall status based on the latest runs.
+    has_failure = False
+    has_pending = False
+
+    for run in latest_per_workflow.values():
+        conclusion = run.get("conclusion")
+        status = run.get("status")
+        if status in ("queued", "in_progress", "waiting", "pending", "requested"):
+            has_pending = True
+        elif conclusion in ("failure", "timed_out", "action_required", "stale"):
+            has_failure = True
+
+    if has_failure:
+        return "FAILURE"
+    elif has_pending:
+        return "PENDING"
+    return "SUCCESS"
+
+
 def fetch_last_commit_info(
     owner: str, repo: str, session: requests.Session
 ) -> Optional[dict]:
@@ -71,7 +147,10 @@ def fetch_last_commit_info(
     """
     resp = session.post(
         "https://api.github.com/graphql",
-        json={"query": STATUS_ROLLUP_QUERY, "variables": {"owner": owner, "name": repo}},
+        json={
+            "query": STATUS_ROLLUP_QUERY,
+            "variables": {"owner": owner, "name": repo},
+        },
     )
     if not resp.ok:
         return None
@@ -84,11 +163,12 @@ def fetch_last_commit_info(
     author = (author_block.get("user") or {}).get("login") or author_block.get("name")
     committed_date = commit.get("committedDate")
     status_rollup = (commit.get("statusCheckRollup") or {}).get("state")
+
     return {
         "url": commit.get("commitUrl"),
         "date": format_date(committed_date) if committed_date else None,
         "author": author,
-        "status": status_rollup,
+        "status": status_rollup,  # The checks of the commit upon merge
         "sha": commit.get("oid"),
     }
 
@@ -158,8 +238,10 @@ def fetch_disabled_inactive_workflows(
         workflows = data.get("workflows") or []
         for workflow in workflows:
             if (workflow.get("state") or "").lower() == "disabled_inactivity":
-                label = workflow.get("name") or workflow.get("path") or str(
-                    workflow.get("id") or ""
+                label = (
+                    workflow.get("name")
+                    or workflow.get("path")
+                    or str(workflow.get("id") or "")
                 )
                 if label:
                     disabled.append(label)
@@ -175,6 +257,11 @@ def process_package(package: dict) -> None:
     """
     local_session = build_session()
     package["user"], package["name"] = package["repo"].split("/")
+
+    workflow_run_status = fetch_workflow_runs_status(
+        package["user"], package["name"], local_session
+    )
+    package["workflow_run_status"] = workflow_run_status
 
     repo_info = fetch_repo_info(package["user"], package["name"], local_session)
     if repo_info:
