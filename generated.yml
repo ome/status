@@ -1,4 +1,4 @@
-generated_at: '2026-02-19T16:04:50.516691Z'
+generated_at: '2026-02-20T06:59:08.266651Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -101,7 +101,7 @@ sections:
     repo_info:
       created_at: '2025-02-05T14:38:10Z'
       description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 8
+      open_issues: 9
       size: 1930
       stargazers_count: 4
       topics: []
@@ -299,9 +299,9 @@ sections:
   - last_commit:
       author: thewtex
       date: '2026-02-19'
-      sha: 0f9cc0139969d0aeaf0caa676f2014ac8893ba50
-      status: FAILURE
-      url: https://github.com/fideus-labs/ngff-zarr/commit/0f9cc0139969d0aeaf0caa676f2014ac8893ba50
+      sha: f75ea2918a595b85cd19928b2b070f8620060830
+      status: SUCCESS
+      url: https://github.com/fideus-labs/ngff-zarr/commit/f75ea2918a595b85cd19928b2b070f8620060830
     last_release:
       date: '2026-02-19'
       tag_name: py-v0.28.1
@@ -312,8 +312,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 42
-      size: 9307
+      open_issues: 39
+      size: 9345
       stargazers_count: 66
       topics:
       - dask
@@ -323,7 +323,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-02-19T00:23:52Z'
+      updated_at: '2026-02-19T23:27:11Z'
     user: fideus-labs
     workflow_run_status: SUCCESS
   - last_commit:
@@ -498,7 +498,7 @@ sections:
       - omero
       updated_at: '2026-02-05T13:40:49Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: PENDING
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -1009,25 +1009,25 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: lubianat
+      author: github-actions[bot]
       date: '2026-02-19'
-      sha: 15791f86017c1bf5311082c2339770847dc6ddaf
-      status: PENDING
-      url: https://github.com/ome/status/commit/15791f86017c1bf5311082c2339770847dc6ddaf
+      sha: 8606a81973b36d5bf4dca75051698012cb72f0ca
+      status: null
+      url: https://github.com/ome/status/commit/8606a81973b36d5bf4dca75051698012cb72f0ca
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
-      open_issues: 4
-      size: 292
+      open_issues: 5
+      size: 290
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-02-19T16:04:28Z'
+      updated_at: '2026-02-19T16:06:01Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
