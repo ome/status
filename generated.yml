@@ -1,4 +1,4 @@
-generated_at: '2026-02-21T06:43:49.950367Z'
+generated_at: '2026-02-22T06:51:20.548667Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -133,7 +133,7 @@ sections:
       - zarr
       updated_at: '2026-02-05T16:07:48Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: will-moore
       date: '2026-02-17'
@@ -312,7 +312,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 42
+      open_issues: 43
       size: 9426
       stargazers_count: 66
       topics:
@@ -342,7 +342,7 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 3
+      open_issues: 4
       size: 54358
       stargazers_count: 38
       topics:
@@ -1010,24 +1010,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-02-20'
-      sha: 61be759d8120e783892d72616c1770ff821fa059
+      date: '2026-02-21'
+      sha: 36c6788fa897f9a583bc356f89ce44647713f22c
       status: null
-      url: https://github.com/ome/status/commit/61be759d8120e783892d72616c1770ff821fa059
+      url: https://github.com/ome/status/commit/36c6788fa897f9a583bc356f89ce44647713f22c
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 5
-      size: 298
+      size: 300
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-02-20T06:59:12Z'
+      updated_at: '2026-02-21T06:43:54Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1100,7 +1100,9 @@ sections:
       updated_at: '2025-11-18T12:38:51Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - Build
+    last_commit:
       author: jburel
       date: '2025-12-06'
       sha: 4434ad1a5df6fdbe75d2a01809f1f66a7d95524b
@@ -1122,7 +1124,7 @@ sections:
       - omero-web
       updated_at: '2025-12-23T22:13:02Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: pwalczysko
       date: '2025-11-24'
