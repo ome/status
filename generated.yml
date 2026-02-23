@@ -1,4 +1,4 @@
-generated_at: '2026-02-22T06:51:20.548667Z'
+generated_at: '2026-02-23T07:06:44.032578Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -150,7 +150,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 94
+      open_issues: 95
       size: 998
       stargazers_count: 225
       topics:
@@ -312,7 +312,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 43
+      open_issues: 44
       size: 9426
       stargazers_count: 66
       topics:
@@ -344,11 +344,11 @@ sections:
         workflows.
       open_issues: 4
       size: 54358
-      stargazers_count: 38
+      stargazers_count: 39
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-02-20T15:06:13Z'
+      updated_at: '2026-02-22T12:31:43Z'
     user: BioVisionCenter
     workflow_run_status: FAILURE
   - last_commit:
@@ -1010,24 +1010,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-02-21'
-      sha: 36c6788fa897f9a583bc356f89ce44647713f22c
+      date: '2026-02-22'
+      sha: 63a87ed4d61971a2c73d54a53bd975f62588c0cf
       status: null
-      url: https://github.com/ome/status/commit/36c6788fa897f9a583bc356f89ce44647713f22c
+      url: https://github.com/ome/status/commit/63a87ed4d61971a2c73d54a53bd975f62588c0cf
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 5
-      size: 300
+      size: 307
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-02-21T06:43:54Z'
+      updated_at: '2026-02-22T06:51:24Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
