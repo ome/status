@@ -1,4 +1,4 @@
-generated_at: '2026-02-28T06:40:28.043930Z'
+generated_at: '2026-03-01T06:50:00.583825Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -342,7 +342,7 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 3
+      open_issues: 4
       size: 57064
       stargazers_count: 42
       topics:
@@ -350,7 +350,7 @@ sections:
       - ome-zarr
       updated_at: '2026-02-27T12:54:41Z'
     user: BioVisionCenter
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: clbarnes
       date: '2026-02-05'
@@ -1010,24 +1010,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-02-27'
-      sha: 1a54bc3f0e611121012d46358c4e470c5d7b54c5
+      date: '2026-02-28'
+      sha: 0cd2b5c5427ed9fcf2eb33aca2774fcb70bf4985
       status: null
-      url: https://github.com/ome/status/commit/1a54bc3f0e611121012d46358c4e470c5d7b54c5
+      url: https://github.com/ome/status/commit/0cd2b5c5427ed9fcf2eb33aca2774fcb70bf4985
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 5
-      size: 329
+      size: 337
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-02-27T06:57:11Z'
+      updated_at: '2026-02-28T06:40:32Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
