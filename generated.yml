@@ -1,4 +1,4 @@
-generated_at: '2026-03-03T16:00:33.711229Z'
+generated_at: '2026-03-03T16:01:54.445658Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -1009,11 +1009,11 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: lubianat
+      author: github-actions[bot]
       date: '2026-03-03'
-      sha: c0909c1af088987d5f39c1eb5d664e3cdeb8d618
-      status: PENDING
-      url: https://github.com/ome/status/commit/c0909c1af088987d5f39c1eb5d664e3cdeb8d618
+      sha: b7bf6e39c621ec078bdab517ea9133e047d90311
+      status: null
+      url: https://github.com/ome/status/commit/b7bf6e39c621ec078bdab517ea9133e047d90311
     name: status
     repo: ome/status
     repo_info:
@@ -1027,7 +1027,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-03T15:59:48Z'
+      updated_at: '2026-03-03T16:00:48Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
