@@ -1,4 +1,4 @@
-generated_at: '2026-03-03T16:01:54.445658Z'
+generated_at: '2026-03-04T06:51:03.778775Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -151,7 +151,7 @@ sections:
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
       open_issues: 94
-      size: 1224
+      size: 1249
       stargazers_count: 226
       topics:
       - ngff
@@ -325,7 +325,7 @@ sections:
       - python
       updated_at: '2026-03-03T04:04:23Z'
     user: fideus-labs
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: lorenzocerrone
       date: '2026-02-23'
@@ -498,7 +498,7 @@ sections:
       - omero
       updated_at: '2026-02-05T13:40:49Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: PENDING
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -674,7 +674,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 140
+      open_issues: 141
       size: 26735
       stargazers_count: 23
       topics:
@@ -882,8 +882,8 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 68
-      size: 9209
+      open_issues: 69
+      size: 9224
       stargazers_count: 20
       topics:
       - omero
@@ -1011,23 +1011,23 @@ sections:
   - last_commit:
       author: github-actions[bot]
       date: '2026-03-03'
-      sha: b7bf6e39c621ec078bdab517ea9133e047d90311
+      sha: 2f58ee24aa1e502bc49318e97b1fda030a2fa82d
       status: null
-      url: https://github.com/ome/status/commit/b7bf6e39c621ec078bdab517ea9133e047d90311
+      url: https://github.com/ome/status/commit/2f58ee24aa1e502bc49318e97b1fda030a2fa82d
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
-      open_issues: 5
-      size: 263
+      open_issues: 6
+      size: 276
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-03T16:00:48Z'
+      updated_at: '2026-03-03T16:17:10Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1100,9 +1100,7 @@ sections:
       updated_at: '2025-11-18T12:38:51Z'
     user: ome
     workflow_run_status: SUCCESS
-  - disabled_workflows:
-    - Build
-    last_commit:
+  - last_commit:
       author: jburel
       date: '2025-12-06'
       sha: 4434ad1a5df6fdbe75d2a01809f1f66a7d95524b
@@ -1124,7 +1122,7 @@ sections:
       - omero-web
       updated_at: '2025-12-23T22:13:02Z'
     user: ome
-    workflow_run_status: NO_WORKFLOWS
+    workflow_run_status: SUCCESS
   - last_commit:
       author: pwalczysko
       date: '2025-11-24'
