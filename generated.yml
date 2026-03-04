@@ -1,4 +1,4 @@
-generated_at: '2026-03-04T06:51:03.778775Z'
+generated_at: '2026-03-04T09:37:39.294996Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -79,7 +79,7 @@ sections:
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
       open_issues: 125
-      size: 14736
+      size: 14737
       stargazers_count: 155
       topics:
       - bioimaging
@@ -498,7 +498,7 @@ sections:
       - omero
       updated_at: '2026-02-05T13:40:49Z'
     user: ome
-    workflow_run_status: PENDING
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -1009,25 +1009,25 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: github-actions[bot]
-      date: '2026-03-03'
-      sha: 2f58ee24aa1e502bc49318e97b1fda030a2fa82d
-      status: null
-      url: https://github.com/ome/status/commit/2f58ee24aa1e502bc49318e97b1fda030a2fa82d
+      author: lubianat
+      date: '2026-03-04'
+      sha: c16e3405b47777234190dd7d53c65c9385b29b70
+      status: PENDING
+      url: https://github.com/ome/status/commit/c16e3405b47777234190dd7d53c65c9385b29b70
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 276
+      size: 278
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-03T16:17:10Z'
+      updated_at: '2026-03-04T09:35:05Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
