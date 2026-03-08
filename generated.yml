@@ -1,4 +1,4 @@
-generated_at: '2026-03-07T06:42:57.933809Z'
+generated_at: '2026-03-08T06:45:10.271211Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -135,11 +135,11 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: pwalczysko
-      date: '2026-03-05'
-      sha: db8073a3494bcf656cae7047630c68ee3b3382f8
+      author: will-moore
+      date: '2026-03-07'
+      sha: 0fc60fd5a5b4df590b3383ee42c7f2a3973080ff
       status: SUCCESS
-      url: https://github.com/ome/ome-zarr-py/commit/db8073a3494bcf656cae7047630c68ee3b3382f8
+      url: https://github.com/ome/ome-zarr-py/commit/0fc60fd5a5b4df590b3383ee42c7f2a3973080ff
     last_release:
       date: '2026-02-06'
       tag_name: v0.13.0
@@ -151,14 +151,14 @@ sections:
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
       open_issues: 97
-      size: 1115
+      size: 1126
       stargazers_count: 226
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-03-05T11:00:06Z'
+      updated_at: '2026-03-07T18:51:37Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1010,24 +1010,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-06'
-      sha: 8c7afbd52f23937959e278b7f24844ab30880745
+      date: '2026-03-07'
+      sha: 0a1cc5a0d75a05ec63c3101ac3d52a897b7da640
       status: null
-      url: https://github.com/ome/status/commit/8c7afbd52f23937959e278b7f24844ab30880745
+      url: https://github.com/ome/status/commit/0a1cc5a0d75a05ec63c3101ac3d52a897b7da640
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 301
+      size: 310
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-06T06:52:27Z'
+      updated_at: '2026-03-07T06:43:01Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
