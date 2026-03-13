@@ -1,4 +1,4 @@
-generated_at: '2026-03-12T06:58:09.091284Z'
+generated_at: '2026-03-13T06:56:29.288245Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -78,7 +78,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 127
+      open_issues: 128
       size: 14751
       stargazers_count: 155
       topics:
@@ -150,7 +150,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 73
+      open_issues: 70
       size: 1135
       stargazers_count: 226
       topics:
@@ -194,7 +194,7 @@ sections:
     repo_info:
       created_at: '2024-03-12T15:38:57Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 4
+      open_issues: 5
       size: 379
       stargazers_count: 2
       topics: []
@@ -271,11 +271,11 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: joshmoore
-      date: '2025-09-02'
-      sha: 82760e6788a9abb02f074919a095acad7bcee318
+      author: will-moore
+      date: '2026-03-12'
+      sha: 41e1fd020f915247b6de5b07e22447d08dc1881a
       status: SUCCESS
-      url: https://github.com/ome/napari-ome-zarr/commit/82760e6788a9abb02f074919a095acad7bcee318
+      url: https://github.com/ome/napari-ome-zarr/commit/41e1fd020f915247b6de5b07e22447d08dc1881a
     last_release:
       date: '2024-07-15'
       tag_name: v0.6.1
@@ -286,34 +286,34 @@ sections:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
       open_issues: 36
-      size: 154
+      size: 155
       stargazers_count: 45
       topics:
       - napari-plugin
       - ngff
       - python
       - zarr
-      updated_at: '2026-03-02T11:12:46Z'
+      updated_at: '2026-03-12T11:03:36Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-03-11'
-      sha: 641fb2c4c43fd864bde0e2a42d845285a45ffcea
+      date: '2026-03-12'
+      sha: e60521ed5f7c4a575554b1b82dfdada92d4de317
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/641fb2c4c43fd864bde0e2a42d845285a45ffcea
+      url: https://github.com/fideus-labs/ngff-zarr/commit/e60521ed5f7c4a575554b1b82dfdada92d4de317
     last_release:
-      date: '2026-03-11'
-      tag_name: ts-v0.16.0
-      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/ts-v0.16.0
+      date: '2026-03-12'
+      tag_name: py-v0.32.1
+      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/py-v0.32.1
     name: ngff-zarr
     repo: fideus-labs/ngff-zarr
     repo_info:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 35
-      size: 10031
+      open_issues: 37
+      size: 10075
       stargazers_count: 67
       topics:
       - dask
@@ -323,19 +323,19 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-03-11T20:39:48Z'
+      updated_at: '2026-03-12T19:40:26Z'
     user: fideus-labs
     workflow_run_status: FAILURE
   - last_commit:
       author: lorenzocerrone
-      date: '2026-03-09'
-      sha: 5632a2b2b9e27bbd885e96d6d553286cc41ee786
+      date: '2026-03-12'
+      sha: 17f43946ce4444605ec354d39c0c7a1a5b569d03
       status: SUCCESS
-      url: https://github.com/BioVisionCenter/ngio/commit/5632a2b2b9e27bbd885e96d6d553286cc41ee786
+      url: https://github.com/BioVisionCenter/ngio/commit/17f43946ce4444605ec354d39c0c7a1a5b569d03
     last_release:
-      date: '2026-02-23'
-      tag_name: v0.5.5
-      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.5
+      date: '2026-03-12'
+      tag_name: v0.5.6
+      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.6
     name: ngio
     repo: BioVisionCenter/ngio
     repo_info:
@@ -343,14 +343,14 @@ sections:
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
       open_issues: 2
-      size: 58703
+      size: 62375
       stargazers_count: 46
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-03-09T21:30:17Z'
+      updated_at: '2026-03-12T10:21:01Z'
     user: BioVisionCenter
-    workflow_run_status: null
+    workflow_run_status: SUCCESS
   - last_commit:
       author: clbarnes
       date: '2026-03-05'
@@ -395,7 +395,7 @@ sections:
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
       open_issues: 37
-      size: 1952
+      size: 2070
       stargazers_count: 37
       topics:
       - ngff
@@ -674,7 +674,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 142
+      open_issues: 143
       size: 26622
       stargazers_count: 23
       topics:
@@ -1010,24 +1010,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-11'
-      sha: df643c3fac6a2281e6782e8be58759c2805ffea4
+      date: '2026-03-12'
+      sha: 347080d96d7256364e07a7de2e929a728f08fd29
       status: null
-      url: https://github.com/ome/status/commit/df643c3fac6a2281e6782e8be58759c2805ffea4
+      url: https://github.com/ome/status/commit/347080d96d7256364e07a7de2e929a728f08fd29
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 330
+      size: 332
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-11T06:56:29Z'
+      updated_at: '2026-03-12T06:58:13Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
