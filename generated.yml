@@ -1,17 +1,17 @@
-generated_at: '2026-03-18T07:04:06.197970Z'
+generated_at: '2026-03-19T07:00:38.058422Z'
 sections:
 - name: Bio-Formats packages
   packages:
   - last_commit:
-      author: sbesson
-      date: '2026-03-17'
-      sha: d51c6f859fd7324fa0413e097a754449bc777c1d
+      author: melissalinkert
+      date: '2026-03-18'
+      sha: 4fe6b0d71ef4b201824ed2d5d90117e929420dfd
       status: SUCCESS
-      url: https://github.com/ome/bioformats/commit/d51c6f859fd7324fa0413e097a754449bc777c1d
+      url: https://github.com/ome/bioformats/commit/4fe6b0d71ef4b201824ed2d5d90117e929420dfd
     last_release:
-      date: '2026-01-14'
-      tag_name: v8.4.0
-      url: https://github.com/ome/bioformats/releases/tag/v8.4.0
+      date: '2026-03-18'
+      tag_name: v8.5.0
+      url: https://github.com/ome/bioformats/releases/tag/v8.5.0
     name: bioformats
     repo: ome/bioformats
     repo_info:
@@ -21,7 +21,7 @@ sections:
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
       open_issues: 169
-      size: 280678
+      size: 280682
       stargazers_count: 415
       topics:
       - bio-formats
@@ -34,22 +34,22 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-03-17T09:02:40Z'
+      updated_at: '2026-03-18T13:45:00Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: sbesson
-      date: '2026-02-23'
-      sha: 7fc9c2b1087feec5f2539d32cba358614dae34a1
+      author: melissalinkert
+      date: '2026-03-18'
+      sha: 669e8f37d483c62a4f8e9da89f14b7a8220b883f
       status: SUCCESS
-      url: https://github.com/ome/bio-formats-examples/commit/7fc9c2b1087feec5f2539d32cba358614dae34a1
+      url: https://github.com/ome/bio-formats-examples/commit/669e8f37d483c62a4f8e9da89f14b7a8220b883f
     name: bio-formats-examples
     repo: ome/bio-formats-examples
     repo_info:
       created_at: '2013-11-11T14:42:35Z'
       description: Examples of usage of the Bio-Formats API
       open_issues: 0
-      size: 416
+      size: 423
       stargazers_count: 13
       topics:
       - api
@@ -57,7 +57,7 @@ sections:
       - examples
       - gradle
       - maven
-      updated_at: '2026-02-23T21:06:53Z'
+      updated_at: '2026-03-18T14:19:06Z'
     user: ome
     workflow_run_status: SUCCESS
 - name: OME-NGFF
@@ -78,7 +78,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 114
+      open_issues: 115
       size: 14776
       stargazers_count: 155
       topics:
@@ -101,7 +101,7 @@ sections:
     repo_info:
       created_at: '2025-02-05T14:38:10Z'
       description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 9
+      open_issues: 10
       size: 1930
       stargazers_count: 4
       topics: []
@@ -312,8 +312,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 35
-      size: 9897
+      open_issues: 36
+      size: 9903
       stargazers_count: 67
       topics:
       - dask
@@ -486,7 +486,7 @@ sections:
     repo_info:
       created_at: '2018-12-11T10:57:55Z'
       description: Gradle project for generating model jar for OMERO
-      open_issues: 9
+      open_issues: 10
       size: 7027
       stargazers_count: 0
       topics:
@@ -565,7 +565,7 @@ sections:
     repo_info:
       created_at: '2018-12-13T09:10:43Z'
       description: Gradle project containing main server logic for OMERO
-      open_issues: 40
+      open_issues: 41
       size: 6035
       stargazers_count: 8
       topics:
@@ -858,8 +858,8 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 73
-      size: 11996
+      open_issues: 75
+      size: 12193
       stargazers_count: 21
       topics:
       - omero
@@ -1010,24 +1010,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-17'
-      sha: ad183665f821ea2e2a7657a37782899ef1d6dd93
+      date: '2026-03-18'
+      sha: 9ab8a7064b19a1a5b7d5bb28770dbb6edf8f6e27
       status: null
-      url: https://github.com/ome/status/commit/ad183665f821ea2e2a7657a37782899ef1d6dd93
+      url: https://github.com/ome/status/commit/9ab8a7064b19a1a5b7d5bb28770dbb6edf8f6e27
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 274
+      size: 284
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-17T07:06:56Z'
+      updated_at: '2026-03-18T07:04:10Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1157,7 +1157,7 @@ sections:
     repo_info:
       created_at: '2017-05-22T14:57:16Z'
       description: OMERO.server production docker image
-      open_issues: 18
+      open_issues: 19
       size: 174
       stargazers_count: 16
       topics:
