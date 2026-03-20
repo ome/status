@@ -1,4 +1,4 @@
-generated_at: '2026-03-19T07:00:38.058422Z'
+generated_at: '2026-03-20T06:58:09.297326Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -22,7 +22,7 @@ sections:
         (GPL); commercial licenses are available from  Glencoe Software. '
       open_issues: 169
       size: 280682
-      stargazers_count: 415
+      stargazers_count: 416
       topics:
       - bio-formats
       - format-converter
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-03-18T13:45:00Z'
+      updated_at: '2026-03-20T02:22:14Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -78,7 +78,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 115
+      open_issues: 117
       size: 14776
       stargazers_count: 155
       topics:
@@ -135,11 +135,11 @@ sections:
     user: ome
     workflow_run_status: FAILURE
   - last_commit:
-      author: will-moore
-      date: '2026-03-11'
-      sha: 59b3f65a87e66f43f8de8bed7a506d1efa54c768
+      author: jo-mueller
+      date: '2026-03-19'
+      sha: aacce7bbc87eeabe0efe21b2c0fc297de933f8d5
       status: SUCCESS
-      url: https://github.com/ome/ome-zarr-py/commit/59b3f65a87e66f43f8de8bed7a506d1efa54c768
+      url: https://github.com/ome/ome-zarr-py/commit/aacce7bbc87eeabe0efe21b2c0fc297de933f8d5
     last_release:
       date: '2026-03-10'
       tag_name: v0.14.0
@@ -151,14 +151,14 @@ sections:
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
       open_issues: 73
-      size: 1137
-      stargazers_count: 226
+      size: 1178
+      stargazers_count: 227
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-03-11T22:40:01Z'
+      updated_at: '2026-03-20T05:27:38Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -216,7 +216,7 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 17
+      open_issues: 18
       size: 1843
       stargazers_count: 11
       topics:
@@ -298,10 +298,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-03-17'
-      sha: 8f790a1838ad4303bd141a755d133c9271e89ac6
-      status: FAILURE
-      url: https://github.com/fideus-labs/ngff-zarr/commit/8f790a1838ad4303bd141a755d133c9271e89ac6
+      date: '2026-03-20'
+      sha: 260e19df913f3b8d4bde16c83c594534c7c6b65d
+      status: SUCCESS
+      url: https://github.com/fideus-labs/ngff-zarr/commit/260e19df913f3b8d4bde16c83c594534c7c6b65d
     last_release:
       date: '2026-03-16'
       tag_name: py-v0.32.2
@@ -312,8 +312,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 36
-      size: 9903
+      open_issues: 35
+      size: 9915
       stargazers_count: 67
       topics:
       - dask
@@ -323,15 +323,15 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-03-17T20:18:53Z'
+      updated_at: '2026-03-20T01:33:08Z'
     user: fideus-labs
     workflow_run_status: FAILURE
   - last_commit:
       author: lorenzocerrone
-      date: '2026-03-17'
-      sha: c633cac7a924bfde4cd3aa7516d9e3b6066e7fe0
+      date: '2026-03-19'
+      sha: de29e8f7cb45b0cd641d62388bfbaa91d6183bae
       status: SUCCESS
-      url: https://github.com/BioVisionCenter/ngio/commit/c633cac7a924bfde4cd3aa7516d9e3b6066e7fe0
+      url: https://github.com/BioVisionCenter/ngio/commit/de29e8f7cb45b0cd641d62388bfbaa91d6183bae
     last_release:
       date: '2026-03-17'
       tag_name: v0.5.7
@@ -343,12 +343,12 @@ sections:
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
       open_issues: 2
-      size: 57222
-      stargazers_count: 46
+      size: 60003
+      stargazers_count: 47
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-03-17T18:22:45Z'
+      updated_at: '2026-03-19T21:48:55Z'
     user: BioVisionCenter
     workflow_run_status: SUCCESS
   - last_commit:
@@ -394,7 +394,7 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 38
+      open_issues: 34
       size: 2093
       stargazers_count: 37
       topics:
@@ -468,7 +468,7 @@ sections:
       - omero
       - python
       - server
-      updated_at: '2026-03-04T18:00:45Z'
+      updated_at: '2026-03-19T11:43:52Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1010,24 +1010,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-18'
-      sha: 9ab8a7064b19a1a5b7d5bb28770dbb6edf8f6e27
+      date: '2026-03-19'
+      sha: 2c4fae4f6498ee5ba0682b787ccb6f09b3e00b75
       status: null
-      url: https://github.com/ome/status/commit/9ab8a7064b19a1a5b7d5bb28770dbb6edf8f6e27
+      url: https://github.com/ome/status/commit/2c4fae4f6498ee5ba0682b787ccb6f09b3e00b75
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 284
+      size: 285
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-18T07:04:10Z'
+      updated_at: '2026-03-19T07:00:44Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1077,7 +1077,7 @@ sections:
       - server
       updated_at: '2026-02-19T10:59:45Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: null
   - last_commit:
       author: pwalczysko
       date: '2025-11-18'
