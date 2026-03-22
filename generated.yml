@@ -1,4 +1,4 @@
-generated_at: '2026-03-21T06:46:56.382010Z'
+generated_at: '2026-03-22T06:54:32.053601Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -161,7 +161,9 @@ sections:
       updated_at: '2026-03-20T05:27:38Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - CodeQL Advanced
+    last_commit:
       author: jburel
       date: '2026-01-14'
       sha: f7116d6f3f523d1e9220524bf9e551f267832167
@@ -498,7 +500,7 @@ sections:
       - omero
       updated_at: '2026-03-20T15:50:24Z'
     user: ome
-    workflow_run_status: PENDING
+    workflow_run_status: FAILURE
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -549,7 +551,7 @@ sections:
       - omero
       updated_at: '2026-02-05T14:39:16Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -576,7 +578,7 @@ sections:
       - server
       updated_at: '2026-02-05T14:57:36Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: sbesson
       date: '2026-02-05'
@@ -603,7 +605,7 @@ sections:
       - server
       updated_at: '2026-02-05T15:18:20Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: jburel
       date: '2026-02-16'
@@ -1010,10 +1012,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-20'
-      sha: c9e00c9c80cecc2c5f30e8f9ddfd8896dd74964f
+      date: '2026-03-21'
+      sha: 5d9e6179b607e988fbfb43eedc636665f599cc15
       status: null
-      url: https://github.com/ome/status/commit/c9e00c9c80cecc2c5f30e8f9ddfd8896dd74964f
+      url: https://github.com/ome/status/commit/5d9e6179b607e988fbfb43eedc636665f599cc15
     name: status
     repo: ome/status
     repo_info:
@@ -1027,7 +1029,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-20T06:58:13Z'
+      updated_at: '2026-03-21T06:47:00Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
