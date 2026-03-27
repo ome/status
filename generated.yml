@@ -1,4 +1,4 @@
-generated_at: '2026-03-26T07:11:50.136723Z'
+generated_at: '2026-03-27T07:10:40.571211Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -152,13 +152,13 @@ sections:
         for storing bioimaging data in the cloud.
       open_issues: 73
       size: 1156
-      stargazers_count: 228
+      stargazers_count: 229
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-03-25T10:32:41Z'
+      updated_at: '2026-03-26T20:05:03Z'
     user: ome
     workflow_run_status: SUCCESS
   - disabled_workflows:
@@ -345,7 +345,7 @@ sections:
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
       open_issues: 2
-      size: 60201
+      size: 60206
       stargazers_count: 48
       topics:
       - ome-ngff
@@ -462,7 +462,7 @@ sections:
         2000.
       open_issues: 26
       size: 1985560
-      stargazers_count: 216
+      stargazers_count: 217
       topics:
       - database
       - image
@@ -470,26 +470,26 @@ sections:
       - omero
       - python
       - server
-      updated_at: '2026-03-19T11:43:52Z'
+      updated_at: '2026-03-27T02:34:22Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
-      date: '2026-03-20'
-      sha: 5b0b58454ba1e628740fe4e246ca3f48841ebe3d
+      date: '2026-03-26'
+      sha: 100a486f61917a7601b44c343387b7eb35bb534f
       status: SUCCESS
-      url: https://github.com/ome/omero-model/commit/5b0b58454ba1e628740fe4e246ca3f48841ebe3d
+      url: https://github.com/ome/omero-model/commit/100a486f61917a7601b44c343387b7eb35bb534f
     last_release:
-      date: '2026-02-05'
-      tag_name: v5.7.4
-      url: https://github.com/ome/omero-model/releases/tag/v5.7.4
+      date: '2026-03-26'
+      tag_name: v5.7.5
+      url: https://github.com/ome/omero-model/releases/tag/v5.7.5
     name: omero-model
     repo: ome/omero-model
     repo_info:
       created_at: '2018-12-11T10:57:55Z'
       description: Gradle project for generating model jar for OMERO
       open_issues: 9
-      size: 7027
+      size: 7029
       stargazers_count: 0
       topics:
       - component
@@ -498,7 +498,7 @@ sections:
       - library
       - model
       - omero
-      updated_at: '2026-03-20T15:50:24Z'
+      updated_at: '2026-03-26T10:36:56Z'
     user: ome
     workflow_run_status: PENDING
   - last_commit:
@@ -516,7 +516,7 @@ sections:
     repo_info:
       created_at: '2018-12-12T10:25:49Z'
       description: Gradle project containing common utilities for OMERO
-      open_issues: 1
+      open_issues: 2
       size: 1868
       stargazers_count: 1
       topics:
@@ -594,7 +594,7 @@ sections:
     repo_info:
       created_at: '2018-12-13T11:14:30Z'
       description: Gradle project containing Ice remoting code for OMERO
-      open_issues: 32
+      open_issues: 33
       size: 9370
       stargazers_count: 0
       topics:
@@ -860,8 +860,8 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 77
-      size: 12588
+      open_issues: 78
+      size: 12785
       stargazers_count: 21
       topics:
       - omero
@@ -871,10 +871,10 @@ sections:
     workflow_run_status: FAILURE
   - last_commit:
       author: will-moore
-      date: '2026-03-16'
-      sha: 02728d0a7bef3f949bcd5d926360881390f62bf1
+      date: '2026-03-26'
+      sha: 46ba7b1c481dd924e0785dc192a3d235643d4a98
       status: SUCCESS
-      url: https://github.com/ome/omero-figure/commit/02728d0a7bef3f949bcd5d926360881390f62bf1
+      url: https://github.com/ome/omero-figure/commit/46ba7b1c481dd924e0785dc192a3d235643d4a98
     last_release:
       date: '2026-03-09'
       tag_name: v7.4.1
@@ -884,13 +884,13 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 67
-      size: 9395
+      open_issues: 65
+      size: 10302
       stargazers_count: 20
       topics:
       - omero
       - webapp
-      updated_at: '2026-03-16T17:14:22Z'
+      updated_at: '2026-03-26T17:03:34Z'
     user: ome
     workflow_run_status: FAILURE
   - last_commit:
@@ -957,7 +957,7 @@ sections:
     repo_info:
       created_at: '2022-07-27T15:46:33Z'
       description: A plugin for exporting RDF from OMERO
-      open_issues: 35
+      open_issues: 36
       size: 162
       stargazers_count: 15
       topics:
@@ -1012,24 +1012,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-25'
-      sha: d895805a2a28d7231f3e1a58ed9b83c45c52b0d6
+      date: '2026-03-26'
+      sha: 21eb1394c6feb2063d0e999ad24ae6e55ecd0628
       status: null
-      url: https://github.com/ome/status/commit/d895805a2a28d7231f3e1a58ed9b83c45c52b0d6
+      url: https://github.com/ome/status/commit/21eb1394c6feb2063d0e999ad24ae6e55ecd0628
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 317
+      size: 326
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-25T07:04:26Z'
+      updated_at: '2026-03-26T07:11:56Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
