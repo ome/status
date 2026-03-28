@@ -1,4 +1,4 @@
-generated_at: '2026-03-27T07:10:40.571211Z'
+generated_at: '2026-03-28T07:00:55.631097Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -314,8 +314,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 40
-      size: 10276
+      open_issues: 38
+      size: 10277
       stargazers_count: 67
       topics:
       - dask
@@ -676,7 +676,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 144
+      open_issues: 145
       size: 26622
       stargazers_count: 23
       topics:
@@ -860,15 +860,15 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 78
-      size: 12785
+      open_issues: 79
+      size: 12982
       stargazers_count: 21
       topics:
       - omero
       - webapp
       updated_at: '2026-03-24T11:32:01Z'
     user: ome
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
       date: '2026-03-26'
@@ -884,7 +884,7 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 65
+      open_issues: 62
       size: 10302
       stargazers_count: 20
       topics:
@@ -893,7 +893,9 @@ sections:
       updated_at: '2026-03-26T17:03:34Z'
     user: ome
     workflow_run_status: FAILURE
-  - last_commit:
+  - disabled_workflows:
+    - PyPI
+    last_commit:
       author: Tom-TBT
       date: '2026-01-26'
       sha: 9f3ce72ba0446515ce564491a412c5a0c5aba90b
@@ -915,7 +917,7 @@ sections:
       - omero-web
       updated_at: '2026-01-26T10:20:03Z'
     user: German-BioImaging
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: Tom-TBT
       date: '2025-12-04'
@@ -1012,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-26'
-      sha: 21eb1394c6feb2063d0e999ad24ae6e55ecd0628
+      date: '2026-03-27'
+      sha: d1702d257a866565e637b7dd4d477205ae289ab8
       status: null
-      url: https://github.com/ome/status/commit/21eb1394c6feb2063d0e999ad24ae6e55ecd0628
+      url: https://github.com/ome/status/commit/d1702d257a866565e637b7dd4d477205ae289ab8
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 326
+      size: 327
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-26T07:11:56Z'
+      updated_at: '2026-03-27T07:10:44Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
