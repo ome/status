@@ -1,4 +1,4 @@
-generated_at: '2026-03-31T07:17:19.227597Z'
+generated_at: '2026-04-01T07:23:06.201683Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -150,7 +150,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 74
+      open_issues: 76
       size: 1158
       stargazers_count: 229
       topics:
@@ -161,9 +161,7 @@ sections:
       updated_at: '2026-03-30T07:49:01Z'
     user: ome
     workflow_run_status: SUCCESS
-  - disabled_workflows:
-    - CodeQL Advanced
-    last_commit:
+  - last_commit:
       author: jburel
       date: '2026-01-14'
       sha: f7116d6f3f523d1e9220524bf9e551f267832167
@@ -314,7 +312,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 40
+      open_issues: 41
       size: 10277
       stargazers_count: 67
       topics:
@@ -330,10 +328,10 @@ sections:
     workflow_run_status: FAILURE
   - last_commit:
       author: lorenzocerrone
-      date: '2026-03-30'
-      sha: 270f21840bf523ebb5aa3b490938d9cdafc04660
-      status: SUCCESS
-      url: https://github.com/BioVisionCenter/ngio/commit/270f21840bf523ebb5aa3b490938d9cdafc04660
+      date: '2026-03-31'
+      sha: 4e37a288504fb8ed2d5710a7631c3b5de5032c99
+      status: FAILURE
+      url: https://github.com/BioVisionCenter/ngio/commit/4e37a288504fb8ed2d5710a7631c3b5de5032c99
     last_release:
       date: '2026-03-23'
       tag_name: v0.5.8
@@ -345,31 +343,31 @@ sections:
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
       open_issues: 3
-      size: 60521
+      size: 60836
       stargazers_count: 48
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-03-30T08:43:14Z'
+      updated_at: '2026-03-31T15:25:33Z'
     user: BioVisionCenter
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: LDeakin
-      date: '2026-03-30'
-      sha: 949f758f3c9ec8811db1606b40a8970b8bcd5455
+      date: '2026-03-31'
+      sha: 5a8860eafa0f611b336d4ee723a46fa95872563a
       status: SUCCESS
-      url: https://github.com/zarrs/ome_zarr_metadata/commit/949f758f3c9ec8811db1606b40a8970b8bcd5455
+      url: https://github.com/zarrs/ome_zarr_metadata/commit/5a8860eafa0f611b336d4ee723a46fa95872563a
     last_release:
-      date: '2025-08-29'
-      tag_name: v0.2.5
-      url: https://github.com/zarrs/ome_zarr_metadata/releases/tag/v0.2.5
+      date: '2026-03-31'
+      tag_name: v0.3.0
+      url: https://github.com/zarrs/ome_zarr_metadata/releases/tag/v0.3.0
     name: ome_zarr_metadata
     repo: zarrs/ome_zarr_metadata
     repo_info:
       created_at: '2024-07-22T22:01:37Z'
       description: A Rust library for OME-Zarr (previously OME-NGFF) metadata
-      open_issues: 6
-      size: 110
+      open_issues: 5
+      size: 111
       stargazers_count: 8
       topics:
       - ome
@@ -377,7 +375,7 @@ sections:
       - ome-zarr
       - rust
       - zarr
-      updated_at: '2026-03-30T22:36:55Z'
+      updated_at: '2026-03-31T09:15:05Z'
     user: zarrs
     workflow_run_status: SUCCESS
   - last_commit:
@@ -462,7 +460,7 @@ sections:
         2000.
       open_issues: 26
       size: 1985560
-      stargazers_count: 216
+      stargazers_count: 215
       topics:
       - database
       - image
@@ -470,7 +468,7 @@ sections:
       - omero
       - python
       - server
-      updated_at: '2026-03-31T04:28:32Z'
+      updated_at: '2026-03-31T13:16:00Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -503,53 +501,53 @@ sections:
     workflow_run_status: PENDING
   - last_commit:
       author: sbesson
-      date: '2026-03-25'
-      sha: aa587cfbd1ec6095d144216becca4a5b3962c778
+      date: '2026-03-31'
+      sha: b3ec381de37646f94905d28d409073bf14b3802c
       status: SUCCESS
-      url: https://github.com/ome/omero-common/commit/aa587cfbd1ec6095d144216becca4a5b3962c778
+      url: https://github.com/ome/omero-common/commit/b3ec381de37646f94905d28d409073bf14b3802c
     last_release:
-      date: '2026-02-05'
-      tag_name: v5.7.4
-      url: https://github.com/ome/omero-common/releases/tag/v5.7.4
+      date: '2026-03-31'
+      tag_name: v5.7.5
+      url: https://github.com/ome/omero-common/releases/tag/v5.7.5
     name: omero-common
     repo: ome/omero-common
     repo_info:
       created_at: '2018-12-12T10:25:49Z'
       description: Gradle project containing common utilities for OMERO
-      open_issues: 2
-      size: 1868
+      open_issues: 1
+      size: 1871
       stargazers_count: 1
       topics:
       - library
       - omero
       - util
-      updated_at: '2026-03-25T08:54:10Z'
+      updated_at: '2026-03-31T07:54:34Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
-      date: '2026-02-05'
-      sha: 12917585b2d5bc071e7867f2dcd20ae775e74712
+      date: '2026-03-31'
+      sha: 2f497ed3b7da2fd21c0a0fca2f213b90d4548ca1
       status: SUCCESS
-      url: https://github.com/ome/omero-romio/commit/12917585b2d5bc071e7867f2dcd20ae775e74712
+      url: https://github.com/ome/omero-romio/commit/2f497ed3b7da2fd21c0a0fca2f213b90d4548ca1
     last_release:
-      date: '2026-02-05'
-      tag_name: v5.8.4
-      url: https://github.com/ome/omero-romio/releases/tag/v5.8.4
+      date: '2026-03-31'
+      tag_name: v5.8.5
+      url: https://github.com/ome/omero-romio/releases/tag/v5.8.5
     name: omero-romio
     repo: ome/omero-romio
     repo_info:
       created_at: '2018-12-12T15:49:08Z'
       description: Gradle project for the ROMIO library of OMERO
       open_issues: 4
-      size: 674
+      size: 676
       stargazers_count: 0
       topics:
       - io
       - jar
       - library
       - omero
-      updated_at: '2026-02-05T14:39:16Z'
+      updated_at: '2026-03-31T08:59:13Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -623,13 +621,13 @@ sections:
       description: Gradle project containing insight java client for OMERO
       open_issues: 127
       size: 24994
-      stargazers_count: 9
+      stargazers_count: 8
       topics:
       - client
       - gui
       - java
       - omero
-      updated_at: '2026-02-16T14:11:33Z'
+      updated_at: '2026-03-31T13:15:01Z'
     user: ome
     workflow_run_status: SUCCESS
 - name: OMERO Python packages
@@ -1014,24 +1012,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-30'
-      sha: e4ec6fab7bb979079033e8eca677e643d23066af
+      date: '2026-03-31'
+      sha: 348d367298073cd8e924a58ee9a182d1d3091e6c
       status: null
-      url: https://github.com/ome/status/commit/e4ec6fab7bb979079033e8eca677e643d23066af
+      url: https://github.com/ome/status/commit/348d367298073cd8e924a58ee9a182d1d3091e6c
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 347
+      size: 286
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-30T07:44:24Z'
+      updated_at: '2026-03-31T07:17:23Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
