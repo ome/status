@@ -1,4 +1,4 @@
-generated_at: '2026-04-01T07:23:06.201683Z'
+generated_at: '2026-04-02T07:15:15.854679Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -64,10 +64,10 @@ sections:
   packages:
   - last_commit:
       author: joshmoore
-      date: '2026-03-13'
-      sha: bc1197409362e5c2415844b72dd4eb02ee78e040
+      date: '2026-04-01'
+      sha: 657bb728df63cf53df843c6470ec64a99bf92673
       status: SUCCESS
-      url: https://github.com/ome/ngff/commit/bc1197409362e5c2415844b72dd4eb02ee78e040
+      url: https://github.com/ome/ngff/commit/657bb728df63cf53df843c6470ec64a99bf92673
     last_release:
       date: '2025-01-28'
       tag_name: 0.5.2
@@ -78,8 +78,8 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 118
-      size: 14776
+      open_issues: 125
+      size: 14746
       stargazers_count: 155
       topics:
       - bioimaging
@@ -87,7 +87,7 @@ sections:
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-03-13T13:04:54Z'
+      updated_at: '2026-04-01T09:14:34Z'
     user: ome
     workflow_run_status: FAILURE
   - last_commit:
@@ -312,7 +312,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 41
+      open_issues: 42
       size: 10277
       stargazers_count: 67
       topics:
@@ -330,7 +330,7 @@ sections:
       author: lorenzocerrone
       date: '2026-03-31'
       sha: 4e37a288504fb8ed2d5710a7631c3b5de5032c99
-      status: FAILURE
+      status: SUCCESS
       url: https://github.com/BioVisionCenter/ngio/commit/4e37a288504fb8ed2d5710a7631c3b5de5032c99
     last_release:
       date: '2026-03-23'
@@ -350,13 +350,13 @@ sections:
       - ome-zarr
       updated_at: '2026-03-31T15:25:33Z'
     user: BioVisionCenter
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
-      author: LDeakin
-      date: '2026-03-31'
-      sha: 5a8860eafa0f611b336d4ee723a46fa95872563a
+      author: clbarnes
+      date: '2026-04-01'
+      sha: f6732b4a3fcde1c6a178d1fcb3359a65c80d440f
       status: SUCCESS
-      url: https://github.com/zarrs/ome_zarr_metadata/commit/5a8860eafa0f611b336d4ee723a46fa95872563a
+      url: https://github.com/zarrs/ome_zarr_metadata/commit/f6732b4a3fcde1c6a178d1fcb3359a65c80d440f
     last_release:
       date: '2026-03-31'
       tag_name: v0.3.0
@@ -366,7 +366,7 @@ sections:
     repo_info:
       created_at: '2024-07-22T22:01:37Z'
       description: A Rust library for OME-Zarr (previously OME-NGFF) metadata
-      open_issues: 5
+      open_issues: 4
       size: 111
       stargazers_count: 8
       topics:
@@ -375,7 +375,7 @@ sections:
       - ome-zarr
       - rust
       - zarr
-      updated_at: '2026-03-31T09:15:05Z'
+      updated_at: '2026-04-01T18:30:04Z'
     user: zarrs
     workflow_run_status: SUCCESS
   - last_commit:
@@ -394,7 +394,7 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 35
+      open_issues: 36
       size: 2095
       stargazers_count: 37
       topics:
@@ -460,7 +460,7 @@ sections:
         2000.
       open_issues: 26
       size: 1985560
-      stargazers_count: 215
+      stargazers_count: 216
       topics:
       - database
       - image
@@ -468,7 +468,7 @@ sections:
       - omero
       - python
       - server
-      updated_at: '2026-03-31T13:16:00Z'
+      updated_at: '2026-04-01T18:01:59Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1012,24 +1012,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-31'
-      sha: 348d367298073cd8e924a58ee9a182d1d3091e6c
+      date: '2026-04-01'
+      sha: 95bb0856826c27cbeda0423d607699d556906001
       status: null
-      url: https://github.com/ome/status/commit/348d367298073cd8e924a58ee9a182d1d3091e6c
+      url: https://github.com/ome/status/commit/95bb0856826c27cbeda0423d607699d556906001
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 286
+      size: 287
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-31T07:17:23Z'
+      updated_at: '2026-04-01T07:23:10Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
