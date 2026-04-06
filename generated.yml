@@ -1,4 +1,4 @@
-generated_at: '2026-04-06T07:45:50.571401Z'
+generated_at: '2026-04-06T17:05:24.544216Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -88,6 +88,29 @@ sections:
       - file-formats
       - spec
       updated_at: '2026-04-01T09:14:34Z'
+    user: ome
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: joshmoore
+      date: '2026-04-02'
+      sha: 01bc83c24d909f1f9edf119423aa80f13e8d00ac
+      status: SUCCESS
+      url: https://github.com/ome/ngff-spec/commit/01bc83c24d909f1f9edf119423aa80f13e8d00ac
+    last_release:
+      date: '2026-03-13'
+      tag_name: 0.6.dev3
+      url: https://github.com/ome/ngff-spec/releases/tag/0.6.dev3
+    name: ngff-spec
+    repo: ome/ngff-spec
+    repo_info:
+      created_at: '2025-09-24T07:50:01Z'
+      description: Next-generation file format (NGFF) specifications for storing bioimaging
+        data in the cloud.
+      open_issues: 18
+      size: 2804
+      stargazers_count: 11
+      topics: []
+      updated_at: '2026-04-02T19:59:59Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1014,26 +1037,26 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-04-05'
-      sha: 4af027fde43342e70cd9cd3981d1a2dc3654e173
+      date: '2026-04-06'
+      sha: 86272d4757d6bedab781cc062ddf65c8951f53ef
       status: null
-      url: https://github.com/ome/status/commit/4af027fde43342e70cd9cd3981d1a2dc3654e173
+      url: https://github.com/ome/status/commit/86272d4757d6bedab781cc062ddf65c8951f53ef
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 307
+      size: 317
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-04-05T07:09:19Z'
+      updated_at: '2026-04-06T07:45:54Z'
     user: ome
-    workflow_run_status: PENDING
+    workflow_run_status: SUCCESS
 - name: Ansible, Docker and examples
   packages:
   - last_commit:

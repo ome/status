@@ -8,6 +8,7 @@
 
   packages:
     - repo: ome/ngff
+    - repo: ome/ngff-spec
     - repo: BioNGFF/ome-zarr.js
     - repo: ome/omero-cli-zarr
     - repo: ome/ome-zarr-py
@@ -75,4 +76,3 @@
     - repo: ome/docker-example-omero
     - repo: ome/omero-web-docker
     - repo: ome/omero-server-docker
-
