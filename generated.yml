@@ -1,4 +1,4 @@
-generated_at: '2026-04-06T07:45:50.571401Z'
+generated_at: '2026-04-07T07:20:03.685158Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -151,7 +151,7 @@ sections:
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
       open_issues: 76
-      size: 1158
+      size: 1159
       stargazers_count: 229
       topics:
       - ngff
@@ -285,8 +285,8 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 34
-      size: 164
+      open_issues: 35
+      size: 166
       stargazers_count: 46
       topics:
       - napari-plugin
@@ -312,7 +312,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 39
+      open_issues: 40
       size: 10282
       stargazers_count: 68
       topics:
@@ -352,11 +352,11 @@ sections:
     user: BioVisionCenter
     workflow_run_status: SUCCESS
   - last_commit:
-      author: clbarnes
-      date: '2026-04-01'
-      sha: f6732b4a3fcde1c6a178d1fcb3359a65c80d440f
+      author: LDeakin
+      date: '2026-04-07'
+      sha: bcd550e2583e40a3b2512ab758ca1a506e4604ce
       status: SUCCESS
-      url: https://github.com/zarrs/ome_zarr_metadata/commit/f6732b4a3fcde1c6a178d1fcb3359a65c80d440f
+      url: https://github.com/zarrs/ome_zarr_metadata/commit/bcd550e2583e40a3b2512ab758ca1a506e4604ce
     last_release:
       date: '2026-03-31'
       tag_name: v0.3.0
@@ -367,7 +367,7 @@ sections:
       created_at: '2024-07-22T22:01:37Z'
       description: A Rust library for OME-Zarr (previously OME-NGFF) metadata
       open_issues: 4
-      size: 111
+      size: 117
       stargazers_count: 8
       topics:
       - ome
@@ -375,7 +375,7 @@ sections:
       - ome-zarr
       - rust
       - zarr
-      updated_at: '2026-04-01T18:30:04Z'
+      updated_at: '2026-04-07T03:56:54Z'
     user: zarrs
     workflow_run_status: SUCCESS
   - last_commit:
@@ -498,7 +498,7 @@ sections:
       - omero
       updated_at: '2026-03-26T10:36:56Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: PENDING
   - last_commit:
       author: sbesson
       date: '2026-03-31'
@@ -647,7 +647,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 62
+      open_issues: 63
       size: 12043
       stargazers_count: 28
       topics:
@@ -884,15 +884,15 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 62
-      size: 10302
+      open_issues: 63
+      size: 10222
       stargazers_count: 20
       topics:
       - omero
       - webapp
       updated_at: '2026-03-26T17:03:34Z'
     user: ome
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - disabled_workflows:
     - PyPI
     last_commit:
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-04-05'
-      sha: 4af027fde43342e70cd9cd3981d1a2dc3654e173
+      date: '2026-04-06'
+      sha: 86272d4757d6bedab781cc062ddf65c8951f53ef
       status: null
-      url: https://github.com/ome/status/commit/4af027fde43342e70cd9cd3981d1a2dc3654e173
+      url: https://github.com/ome/status/commit/86272d4757d6bedab781cc062ddf65c8951f53ef
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
-      open_issues: 6
-      size: 307
+      open_issues: 7
+      size: 318
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-04-05T07:09:19Z'
+      updated_at: '2026-04-06T07:45:54Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
