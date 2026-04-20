@@ -1,4 +1,4 @@
-generated_at: '2026-04-19T07:21:37.194056Z'
+generated_at: '2026-04-20T08:10:12.192587Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -293,13 +293,13 @@ sections:
       description: A napari plugin for zarr backed OME-NGFF images
       open_issues: 35
       size: 168
-      stargazers_count: 46
+      stargazers_count: 47
       topics:
       - napari-plugin
       - ngff
       - python
       - zarr
-      updated_at: '2026-04-13T14:18:00Z'
+      updated_at: '2026-04-19T07:46:37Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -318,7 +318,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 34
+      open_issues: 35
       size: 10239
       stargazers_count: 69
       topics:
@@ -1032,24 +1032,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-04-18'
-      sha: 6679c9f7593785f8bc1cc68446338a085155b9b8
+      date: '2026-04-19'
+      sha: f9a2cbd38f1d4071e7a72cfa365f561be7952d86
       status: null
-      url: https://github.com/ome/status/commit/6679c9f7593785f8bc1cc68446338a085155b9b8
+      url: https://github.com/ome/status/commit/f9a2cbd38f1d4071e7a72cfa365f561be7952d86
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 7
-      size: 309
+      size: 310
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-04-18T07:11:03Z'
+      updated_at: '2026-04-19T07:21:41Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1183,13 +1183,13 @@ sections:
       description: OMERO.server production docker image
       open_issues: 19
       size: 174
-      stargazers_count: 15
+      stargazers_count: 16
       topics:
       - docker
       - ome
       - omero
       - omero-server
       - openmicroscopy
-      updated_at: '2026-03-31T04:28:33Z'
+      updated_at: '2026-04-19T15:47:39Z'
     user: ome
     workflow_run_status: SUCCESS
