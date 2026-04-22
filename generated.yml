@@ -1,4 +1,4 @@
-generated_at: '2026-04-21T07:53:26.638025Z'
+generated_at: '2026-04-22T07:50:19.813403Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -92,10 +92,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
-      date: '2026-04-16'
-      sha: cdee44d1c500cfb2bbcf0f177c339fdb670bd26c
+      date: '2026-04-21'
+      sha: 3c61bca3135967ee71888b6edcdde23c7678737f
       status: SUCCESS
-      url: https://github.com/BioNGFF/ome-zarr.js/commit/cdee44d1c500cfb2bbcf0f177c339fdb670bd26c
+      url: https://github.com/BioNGFF/ome-zarr.js/commit/3c61bca3135967ee71888b6edcdde23c7678737f
     last_release:
       date: '2026-04-16'
       tag_name: v0.0.19
@@ -105,11 +105,11 @@ sections:
     repo_info:
       created_at: '2025-02-05T14:38:10Z'
       description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 4
-      size: 1995
+      open_issues: 3
+      size: 1996
       stargazers_count: 5
       topics: []
-      updated_at: '2026-04-16T11:13:28Z'
+      updated_at: '2026-04-21T12:03:29Z'
     user: BioNGFF
     workflow_run_status: SUCCESS
   - last_commit:
@@ -127,7 +127,7 @@ sections:
     repo_info:
       created_at: '2020-04-16T14:53:33Z'
       description: null
-      open_issues: 34
+      open_issues: 35
       size: 468
       stargazers_count: 19
       topics:
@@ -154,7 +154,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 78
+      open_issues: 79
       size: 1781
       stargazers_count: 233
       topics:
@@ -177,20 +177,18 @@ sections:
       created_at: '2025-06-25T13:39:12Z'
       description: OMERO Zarr Pixel Buffer Implementation
       open_issues: 3
-      size: 576
+      size: 578
       stargazers_count: 0
       topics: []
       updated_at: '2026-01-14T10:46:05Z'
     user: ome
     workflow_run_status: SUCCESS
-  - disabled_workflows:
-    - CodeQL Advanced
-    last_commit:
+  - last_commit:
       author: sbesson
-      date: '2025-10-29'
-      sha: 044d439d22e725f8f25237b7820354824e8ff2f8
+      date: '2026-04-21'
+      sha: 76a1bfeea24076d3246c39d4304a4aa111e7a69d
       status: SUCCESS
-      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/044d439d22e725f8f25237b7820354824e8ff2f8
+      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/76a1bfeea24076d3246c39d4304a4aa111e7a69d
     last_release:
       date: '2025-10-29'
       tag_name: v0.6.1
@@ -200,19 +198,19 @@ sections:
     repo_info:
       created_at: '2024-03-12T15:38:57Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 6
-      size: 379
+      open_issues: 5
+      size: 441
       stargazers_count: 2
       topics: []
-      updated_at: '2025-11-06T17:52:45Z'
+      updated_at: '2026-04-21T07:54:53Z'
     user: glencoesoftware
     workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
-      date: '2025-11-17'
-      sha: 01ca6c8dae499914114acd136353ac452f93bce4
+      date: '2026-04-21'
+      sha: 05331eeb15d0568f930451e012670f24e3e7abfb
       status: SUCCESS
-      url: https://github.com/ome/ome-ngff-validator/commit/01ca6c8dae499914114acd136353ac452f93bce4
+      url: https://github.com/ome/ome-ngff-validator/commit/05331eeb15d0568f930451e012670f24e3e7abfb
     last_release:
       date: '2025-09-05'
       tag_name: '2025-09-05'
@@ -222,12 +220,12 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 20
-      size: 1843
+      open_issues: 19
+      size: 1970
       stargazers_count: 11
       topics:
       - ome-zarr
-      updated_at: '2026-01-16T14:27:37Z'
+      updated_at: '2026-04-21T12:02:43Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -291,15 +289,15 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 35
+      open_issues: 36
       size: 168
-      stargazers_count: 47
+      stargazers_count: 48
       topics:
       - napari-plugin
       - ngff
       - python
       - zarr
-      updated_at: '2026-04-19T07:46:37Z'
+      updated_at: '2026-04-21T14:03:44Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -318,7 +316,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 35
+      open_issues: 37
       size: 10239
       stargazers_count: 69
       topics:
@@ -339,9 +337,9 @@ sections:
       status: SUCCESS
       url: https://github.com/BioVisionCenter/ngio/commit/7cb77e2a53761e3c4a6d157f4164b2edf5b21e23
     last_release:
-      date: '2026-03-23'
-      tag_name: v0.5.8
-      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.8
+      date: '2026-04-22'
+      tag_name: v0.5.9
+      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.9
     name: ngio
     repo: BioVisionCenter/ngio
     repo_info:
@@ -466,7 +464,7 @@ sections:
         2000.
       open_issues: 26
       size: 1985560
-      stargazers_count: 216
+      stargazers_count: 217
       topics:
       - database
       - image
@@ -474,7 +472,7 @@ sections:
       - omero
       - python
       - server
-      updated_at: '2026-04-01T18:01:59Z'
+      updated_at: '2026-04-21T20:44:05Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -504,7 +502,7 @@ sections:
       - omero
       updated_at: '2026-03-26T10:36:56Z'
     user: ome
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-03-31'
@@ -656,7 +654,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 63
+      open_issues: 62
       size: 12043
       stargazers_count: 28
       topics:
@@ -887,10 +885,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
-      date: '2026-04-20'
-      sha: 81942e6a93f2514a6905ef250aae162b2a3ece43
+      date: '2026-04-21'
+      sha: 7a45167a6e86d410609537c85e39941be849be00
       status: SUCCESS
-      url: https://github.com/ome/omero-figure/commit/81942e6a93f2514a6905ef250aae162b2a3ece43
+      url: https://github.com/ome/omero-figure/commit/7a45167a6e86d410609537c85e39941be849be00
     last_release:
       date: '2026-04-20'
       tag_name: v8.0.1.rc1
@@ -900,13 +898,13 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 65
-      size: 15074
+      open_issues: 63
+      size: 16164
       stargazers_count: 20
       topics:
       - omero
       - webapp
-      updated_at: '2026-04-20T10:55:31Z'
+      updated_at: '2026-04-21T16:43:42Z'
     user: ome
     workflow_run_status: SUCCESS
   - disabled_workflows:
@@ -1032,24 +1030,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-04-20'
-      sha: 25eb951fb2fb760a5e47203b8cde1bde2268bd03
+      date: '2026-04-21'
+      sha: 1974b6d820bf2aa4f04c4a51949c94d3bbe8b844
       status: null
-      url: https://github.com/ome/status/commit/25eb951fb2fb760a5e47203b8cde1bde2268bd03
+      url: https://github.com/ome/status/commit/1974b6d820bf2aa4f04c4a51949c94d3bbe8b844
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 7
-      size: 319
+      size: 320
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-04-20T08:10:17Z'
+      updated_at: '2026-04-21T07:53:31Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
