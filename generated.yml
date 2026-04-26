@@ -1,4 +1,4 @@
-generated_at: '2026-04-25T07:19:18.258854Z'
+generated_at: '2026-04-26T07:41:57.865812Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -502,7 +502,7 @@ sections:
       - omero
       updated_at: '2026-03-26T10:36:56Z'
     user: ome
-    workflow_run_status: PENDING
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-03-31'
@@ -1030,24 +1030,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-04-24'
-      sha: 81ffb8c14f72fa83721e0b8d08db0207de3f2a41
+      date: '2026-04-25'
+      sha: 17304bc53d8ef076b0f8ad1470efba653d8736a9
       status: null
-      url: https://github.com/ome/status/commit/81ffb8c14f72fa83721e0b8d08db0207de3f2a41
+      url: https://github.com/ome/status/commit/17304bc53d8ef076b0f8ad1470efba653d8736a9
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 7
-      size: 341
+      size: 342
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-04-24T08:06:04Z'
+      updated_at: '2026-04-25T07:19:24Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1190,4 +1190,4 @@ sections:
       - openmicroscopy
       updated_at: '2026-04-19T15:47:39Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
