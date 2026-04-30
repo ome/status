@@ -1,4 +1,4 @@
-generated_at: '2026-04-29T08:21:18.411156Z'
+generated_at: '2026-04-30T08:23:58.315707Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -244,7 +244,7 @@ sections:
       created_at: '2024-06-06T15:47:53Z'
       description: Project planning and material repository for the 2024 challenge
         to generate 1 PB of OME-Zarr data
-      open_issues: 17
+      open_issues: 18
       size: 1525
       stargazers_count: 21
       topics:
@@ -316,7 +316,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 43
+      open_issues: 44
       size: 10239
       stargazers_count: 69
       topics:
@@ -383,11 +383,11 @@ sections:
     user: zarrs
     workflow_run_status: SUCCESS
   - last_commit:
-      author: jo-mueller
-      date: '2026-04-23'
-      sha: 8f94c682db2d60398f14ca3f3c1214d3ce628e88
+      author: dstansby
+      date: '2026-04-29'
+      sha: 1335cf85f47f158df513440323a713cb79fd0162
       status: SUCCESS
-      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/8f94c682db2d60398f14ca3f3c1214d3ce628e88
+      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/1335cf85f47f158df513440323a713cb79fd0162
     last_release:
       date: '2026-04-16'
       tag_name: v1.7
@@ -399,14 +399,14 @@ sections:
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
       open_issues: 34
-      size: 2021
+      size: 2022
       stargazers_count: 37
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-04-23T15:18:01Z'
+      updated_at: '2026-04-29T10:05:21Z'
     user: ome-zarr-models
     workflow_run_status: SUCCESS
   - last_commit:
@@ -847,14 +847,14 @@ sections:
         interacts with OMERO.
       open_issues: 5
       size: 1599
-      stargazers_count: 46
+      stargazers_count: 47
       topics:
       - imaging-solutions
       - omero
       - omero-api
       - omero-server
       - python
-      updated_at: '2025-11-30T00:43:26Z'
+      updated_at: '2026-04-29T13:49:11Z'
     user: TheJacksonLaboratory
     workflow_run_status: SUCCESS
 - name: OMERO Web Javascript apps
@@ -898,7 +898,7 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 64
+      open_issues: 65
       size: 17242
       stargazers_count: 20
       topics:
@@ -1030,24 +1030,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-04-28'
-      sha: 5770fca7e20c6a2e5eac53e64895e530311f56ae
+      date: '2026-04-29'
+      sha: a28fcc617cfa743a1321b83001c02a5a4f97a43d
       status: null
-      url: https://github.com/ome/status/commit/5770fca7e20c6a2e5eac53e64895e530311f56ae
+      url: https://github.com/ome/status/commit/a28fcc617cfa743a1321b83001c02a5a4f97a43d
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 7
-      size: 361
+      size: 362
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-04-28T08:27:12Z'
+      updated_at: '2026-04-29T08:21:22Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1089,7 +1089,7 @@ sections:
     repo_info:
       created_at: '2017-01-06T16:22:29Z'
       description: Installs and configures OMERO.server
-      open_issues: 10
+      open_issues: 11
       size: 322
       stargazers_count: 4
       topics:
