@@ -1,4 +1,4 @@
-generated_at: '2026-05-03T08:02:38.082676Z'
+generated_at: '2026-05-04T08:31:36.844205Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -105,7 +105,7 @@ sections:
     repo_info:
       created_at: '2025-02-05T14:38:10Z'
       description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 4
+      open_issues: 5
       size: 1996
       stargazers_count: 7
       topics: []
@@ -316,7 +316,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 44
+      open_issues: 46
       size: 10239
       stargazers_count: 69
       topics:
@@ -400,13 +400,13 @@ sections:
         (meta)data
       open_issues: 34
       size: 2022
-      stargazers_count: 37
+      stargazers_count: 38
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-04-29T10:05:21Z'
+      updated_at: '2026-05-03T20:57:36Z'
     user: ome-zarr-models
     workflow_run_status: SUCCESS
   - last_commit:
@@ -792,7 +792,7 @@ sections:
       created_at: '2022-02-01T16:25:20Z'
       description: An OMERO CLI plugin for creating transfer packets between OMERO
         servers.
-      open_issues: 6
+      open_issues: 7
       size: 3113
       stargazers_count: 19
       topics:
@@ -1032,24 +1032,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-05-02'
-      sha: 90cb5a38f8905d09bc751c82a0c26ee23778506e
+      date: '2026-05-03'
+      sha: 62f6f18f37ff025910500a842dda51b52b729b09
       status: null
-      url: https://github.com/ome/status/commit/90cb5a38f8905d09bc751c82a0c26ee23778506e
+      url: https://github.com/ome/status/commit/62f6f18f37ff025910500a842dda51b52b729b09
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 7
-      size: 382
+      size: 312
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-05-02T07:46:23Z'
+      updated_at: '2026-05-03T08:02:42Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1099,7 +1099,7 @@ sections:
       - server
       updated_at: '2026-02-19T10:59:45Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: pwalczysko
       date: '2025-11-18'
@@ -1121,7 +1121,7 @@ sections:
       - openmicroscopy
       updated_at: '2025-11-18T12:38:51Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: jburel
       date: '2025-12-06'
