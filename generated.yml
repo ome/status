@@ -1,4 +1,4 @@
-generated_at: '2026-05-07T08:35:20.896003Z'
+generated_at: '2026-05-08T07:44:07.715223Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -80,14 +80,14 @@ sections:
         data in the cloud.
       open_issues: 122
       size: 14757
-      stargazers_count: 157
+      stargazers_count: 158
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-05-06T14:19:46Z'
+      updated_at: '2026-05-07T17:26:46Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -156,13 +156,13 @@ sections:
         for storing bioimaging data in the cloud.
       open_issues: 80
       size: 1785
-      stargazers_count: 238
+      stargazers_count: 240
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-05-01T15:53:50Z'
+      updated_at: '2026-05-07T18:17:29Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -276,10 +276,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
-      date: '2026-04-13'
-      sha: 612ecaffa3c0e187c64f6a16166ecafcce767ee3
+      date: '2026-05-07'
+      sha: 7dc8897c6d276e3b28bcd3fa500d2f82a57d49fd
       status: SUCCESS
-      url: https://github.com/ome/napari-ome-zarr/commit/612ecaffa3c0e187c64f6a16166ecafcce767ee3
+      url: https://github.com/ome/napari-ome-zarr/commit/7dc8897c6d276e3b28bcd3fa500d2f82a57d49fd
     last_release:
       date: '2026-03-25'
       tag_name: v0.7.3
@@ -290,14 +290,14 @@ sections:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
       open_issues: 36
-      size: 168
+      size: 170
       stargazers_count: 50
       topics:
       - napari-plugin
       - ngff
       - python
       - zarr
-      updated_at: '2026-04-28T07:48:14Z'
+      updated_at: '2026-05-07T12:52:21Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -398,7 +398,7 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 34
+      open_issues: 35
       size: 2022
       stargazers_count: 38
       topics:
@@ -462,8 +462,8 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 26
-      size: 1985560
+      open_issues: 27
+      size: 1985557
       stargazers_count: 218
       topics:
       - database
@@ -583,21 +583,21 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
-      date: '2026-04-22'
-      sha: 9fd172db516262d3d272c268cbdb9158d64a33a6
-      status: null
-      url: https://github.com/ome/omero-blitz/commit/9fd172db516262d3d272c268cbdb9158d64a33a6
+      date: '2026-05-07'
+      sha: 5a4dc90f55b4b9428eec6b2f3acfc71da21c21a1
+      status: SUCCESS
+      url: https://github.com/ome/omero-blitz/commit/5a4dc90f55b4b9428eec6b2f3acfc71da21c21a1
     last_release:
-      date: '2026-02-05'
-      tag_name: v5.8.4
-      url: https://github.com/ome/omero-blitz/releases/tag/v5.8.4
+      date: '2026-05-07'
+      tag_name: v5.8.5
+      url: https://github.com/ome/omero-blitz/releases/tag/v5.8.5
     name: omero-blitz
     repo: ome/omero-blitz
     repo_info:
       created_at: '2018-12-13T11:14:30Z'
       description: Gradle project containing Ice remoting code for OMERO
-      open_issues: 33
-      size: 9349
+      open_issues: 32
+      size: 9353
       stargazers_count: 0
       topics:
       - component
@@ -605,7 +605,7 @@ sections:
       - lib
       - omero
       - server
-      updated_at: '2026-04-22T17:52:56Z'
+      updated_at: '2026-05-07T20:43:22Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -895,9 +895,7 @@ sections:
       updated_at: '2026-05-05T21:28:58Z'
     user: ome
     workflow_run_status: FAILURE
-  - disabled_workflows:
-    - PyPI
-    last_commit:
+  - last_commit:
       author: Tom-TBT
       date: '2026-01-26'
       sha: 9f3ce72ba0446515ce564491a412c5a0c5aba90b
@@ -919,10 +917,8 @@ sections:
       - omero-web
       updated_at: '2026-01-26T10:20:03Z'
     user: German-BioImaging
-    workflow_run_status: NO_WORKFLOWS
-  - disabled_workflows:
-    - PyPI
-    last_commit:
+    workflow_run_status: SUCCESS
+  - last_commit:
       author: Tom-TBT
       date: '2025-12-04'
       sha: 427b91de1dec2010220c556a533e2c25f5520719
@@ -945,7 +941,7 @@ sections:
       - omero-web
       updated_at: '2025-12-04T14:07:14Z'
     user: German-BioImaging
-    workflow_run_status: NO_WORKFLOWS
+    workflow_run_status: SUCCESS
 - name: OME Linked Data
   packages:
   - disabled_workflows:
@@ -1020,24 +1016,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-05-05'
-      sha: 1b3cffd6c3eaa71781b6cfc54a4d7ef072ab871b
+      date: '2026-05-07'
+      sha: 558b3c4e73775fe104980823ec5c51299878dbd2
       status: null
-      url: https://github.com/ome/status/commit/1b3cffd6c3eaa71781b6cfc54a4d7ef072ab871b
+      url: https://github.com/ome/status/commit/558b3c4e73775fe104980823ec5c51299878dbd2
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 7
-      size: 322
+      size: 324
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-05-05T08:12:01Z'
+      updated_at: '2026-05-07T08:35:32Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1078,7 +1074,7 @@ sections:
       created_at: '2017-01-06T16:22:29Z'
       description: Installs and configures OMERO.server
       open_issues: 11
-      size: 322
+      size: 325
       stargazers_count: 4
       topics:
       - ansible
@@ -1100,7 +1096,7 @@ sections:
       created_at: '2017-03-10T17:50:57Z'
       description: Installs and configures OMERO.web and Nginx
       open_issues: 4
-      size: 199
+      size: 191
       stargazers_count: 1
       topics:
       - ansible
@@ -1133,9 +1129,7 @@ sections:
       updated_at: '2026-03-31T04:28:33Z'
     user: ome
     workflow_run_status: SUCCESS
-  - disabled_workflows:
-    - Build
-    last_commit:
+  - last_commit:
       author: pwalczysko
       date: '2025-11-24'
       sha: 78d37cf650dc1e7401799f99f58c085c2be5d1c4
