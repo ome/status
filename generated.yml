@@ -1,4 +1,4 @@
-generated_at: '2026-05-15T08:50:39.404323Z'
+generated_at: '2026-05-16T08:06:06.964476Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -78,7 +78,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 124
+      open_issues: 125
       size: 14761
       stargazers_count: 159
       topics:
@@ -154,7 +154,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 69
+      open_issues: 68
       size: 1765
       stargazers_count: 239
       topics:
@@ -302,10 +302,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-04-16'
-      sha: b9293d07b3e80d8d96a8be1e3cd234b97b58d6f5
-      status: FAILURE
-      url: https://github.com/fideus-labs/ngff-zarr/commit/b9293d07b3e80d8d96a8be1e3cd234b97b58d6f5
+      date: '2026-05-15'
+      sha: 1c307eb38fbf242535353eaecd14dd0adaf350a2
+      status: SUCCESS
+      url: https://github.com/fideus-labs/ngff-zarr/commit/1c307eb38fbf242535353eaecd14dd0adaf350a2
     last_release:
       date: '2026-04-16'
       tag_name: ts-v0.18.1
@@ -316,8 +316,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 44
-      size: 10272
+      open_issues: 43
+      size: 10012
       stargazers_count: 70
       topics:
       - dask
@@ -327,7 +327,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-05-11T11:18:48Z'
+      updated_at: '2026-05-15T16:47:18Z'
     user: fideus-labs
     workflow_run_status: FAILURE
   - last_commit:
@@ -462,8 +462,8 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 27
-      size: 1985558
+      open_issues: 28
+      size: 1985563
       stargazers_count: 218
       topics:
       - database
@@ -678,7 +678,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 146
+      open_issues: 148
       size: 26622
       stargazers_count: 23
       topics:
@@ -1016,24 +1016,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-05-14'
-      sha: 9ddf5b9ee8d13a284c2d03b2e8cdb6b2545fb8e2
+      date: '2026-05-15'
+      sha: d2cb3cf3b5c524175f98d58c1341cb43cd0fae9d
       status: null
-      url: https://github.com/ome/status/commit/9ddf5b9ee8d13a284c2d03b2e8cdb6b2545fb8e2
+      url: https://github.com/ome/status/commit/d2cb3cf3b5c524175f98d58c1341cb43cd0fae9d
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 7
-      size: 364
+      size: 365
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-05-14T08:38:57Z'
+      updated_at: '2026-05-15T08:50:43Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
