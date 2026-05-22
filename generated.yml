@@ -1,4 +1,4 @@
-generated_at: '2026-05-21T09:42:35.631686Z'
+generated_at: '2026-05-22T09:26:54.949164Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 174
+      open_issues: 172
       size: 280682
       stargazers_count: 421
       topics:
@@ -78,16 +78,16 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 126
-      size: 14761
-      stargazers_count: 164
+      open_issues: 127
+      size: 14763
+      stargazers_count: 165
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-05-19T19:25:18Z'
+      updated_at: '2026-05-21T09:55:51Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -154,7 +154,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 70
+      open_issues: 71
       size: 1765
       stargazers_count: 241
       topics:
@@ -177,7 +177,7 @@ sections:
       created_at: '2025-06-25T13:39:12Z'
       description: OMERO Zarr Pixel Buffer Implementation
       open_issues: 1
-      size: 617
+      size: 615
       stargazers_count: 0
       topics: []
       updated_at: '2026-05-12T12:05:49Z'
@@ -289,7 +289,7 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 37
+      open_issues: 38
       size: 192
       stargazers_count: 50
       topics:
@@ -346,7 +346,7 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 5
+      open_issues: 6
       size: 67516
       stargazers_count: 49
       topics:
@@ -623,7 +623,7 @@ sections:
     repo_info:
       created_at: '2019-02-18T10:01:04Z'
       description: Gradle project containing insight java client for OMERO
-      open_issues: 128
+      open_issues: 129
       size: 24994
       stargazers_count: 8
       topics:
@@ -1016,24 +1016,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-05-20'
-      sha: 72970c0a635879d469f2279b56d6e288690ee41c
+      date: '2026-05-21'
+      sha: 7f1228b6c6cc4db5e919177b1f64949024a6ebb8
       status: null
-      url: https://github.com/ome/status/commit/72970c0a635879d469f2279b56d6e288690ee41c
+      url: https://github.com/ome/status/commit/7f1228b6c6cc4db5e919177b1f64949024a6ebb8
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 396
+      size: 328
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-05-20T09:36:34Z'
+      updated_at: '2026-05-21T09:42:40Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1073,7 +1073,7 @@ sections:
     repo_info:
       created_at: '2017-01-06T16:22:29Z'
       description: Installs and configures OMERO.server
-      open_issues: 11
+      open_issues: 12
       size: 325
       stargazers_count: 5
       topics:
@@ -1095,7 +1095,7 @@ sections:
     repo_info:
       created_at: '2017-03-10T17:50:57Z'
       description: Installs and configures OMERO.web and Nginx
-      open_issues: 4
+      open_issues: 5
       size: 191
       stargazers_count: 2
       topics:
