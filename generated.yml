@@ -1,4 +1,4 @@
-generated_at: '2026-05-23T08:21:12.054039Z'
+generated_at: '2026-05-24T08:30:13.938701Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -37,7 +37,10 @@ sections:
       updated_at: '2026-05-19T21:49:01Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - Gradle
+    - Maven
+    last_commit:
       author: melissalinkert
       date: '2026-03-18'
       sha: 669e8f37d483c62a4f8e9da89f14b7a8220b883f
@@ -59,7 +62,7 @@ sections:
       - maven
       updated_at: '2026-03-18T14:19:06Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
 - name: OME-NGFF
   packages:
   - last_commit:
@@ -816,7 +819,7 @@ sections:
       - scripts
       updated_at: '2026-01-29T08:54:09Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: erickmartins
       date: '2025-11-30'
@@ -862,7 +865,7 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 75
+      open_issues: 76
       size: 12660
       stargazers_count: 20
       topics:
@@ -1014,24 +1017,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-05-22'
-      sha: d827e3ddf1fa02515b2634420517afc0fd9236e2
+      date: '2026-05-23'
+      sha: a607d882dd984ed46e95eba1786a279a9b6db07c
       status: null
-      url: https://github.com/ome/status/commit/d827e3ddf1fa02515b2634420517afc0fd9236e2
+      url: https://github.com/ome/status/commit/a607d882dd984ed46e95eba1786a279a9b6db07c
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 329
+      size: 338
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-05-22T09:26:59Z'
+      updated_at: '2026-05-23T08:21:16Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
