@@ -1,13 +1,13 @@
-generated_at: '2026-05-31T08:46:47.327757Z'
+generated_at: '2026-06-01T11:36:44.259572Z'
 sections:
 - name: Bio-Formats packages
   packages:
   - last_commit:
       author: sbesson
-      date: '2026-05-26'
-      sha: 91002976a2ccee6f909f443ea4c588d0ff6b469b
+      date: '2026-06-01'
+      sha: 4a4394c012f29567b95902f4c0705fbb352a512c
       status: SUCCESS
-      url: https://github.com/ome/bioformats/commit/91002976a2ccee6f909f443ea4c588d0ff6b469b
+      url: https://github.com/ome/bioformats/commit/4a4394c012f29567b95902f4c0705fbb352a512c
     last_release:
       date: '2026-03-18'
       tag_name: v8.5.0
@@ -20,9 +20,9 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 169
-      size: 280711
-      stargazers_count: 421
+      open_issues: 168
+      size: 280695
+      stargazers_count: 422
       topics:
       - bio-formats
       - format-converter
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-05-26T08:30:29Z'
+      updated_at: '2026-06-01T11:15:36Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -105,7 +105,7 @@ sections:
     repo_info:
       created_at: '2025-02-05T14:38:10Z'
       description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 4
+      open_issues: 5
       size: 2109
       stargazers_count: 7
       topics: []
@@ -316,7 +316,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 34
+      open_issues: 36
       size: 10417
       stargazers_count: 70
       topics:
@@ -384,10 +384,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: dstansby
-      date: '2026-05-29'
-      sha: 6d704cbba3f5377ef68e7a7e59660e0ee0e06cb0
+      date: '2026-06-01'
+      sha: 30bc1359ddb0bbc2b04538187cbdd8f18ad89ffb
       status: SUCCESS
-      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/6d704cbba3f5377ef68e7a7e59660e0ee0e06cb0
+      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/30bc1359ddb0bbc2b04538187cbdd8f18ad89ffb
     last_release:
       date: '2026-04-16'
       tag_name: v1.7
@@ -398,15 +398,15 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 33
-      size: 2138
+      open_issues: 32
+      size: 2151
       stargazers_count: 39
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-05-29T09:02:40Z'
+      updated_at: '2026-06-01T08:34:25Z'
     user: ome-zarr-models
     workflow_run_status: SUCCESS
   - last_commit:
@@ -504,7 +504,7 @@ sections:
       - omero
       updated_at: '2026-03-26T10:36:56Z'
     user: ome
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - disabled_workflows:
     - CodeQL Advanced
     - Gradle
@@ -1024,24 +1024,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-05-30'
-      sha: b970fa9b0d06a110465b17c6c9b47741e4241c46
+      date: '2026-05-31'
+      sha: 2eadc1f42694a2e6cd8f4135593e36e6969368f8
       status: null
-      url: https://github.com/ome/status/commit/b970fa9b0d06a110465b17c6c9b47741e4241c46
+      url: https://github.com/ome/status/commit/2eadc1f42694a2e6cd8f4135593e36e6969368f8
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 370
+      size: 381
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-05-30T08:29:14Z'
+      updated_at: '2026-05-31T08:46:51Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1091,7 +1091,7 @@ sections:
       - server
       updated_at: '2026-05-25T08:51:29Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: pwalczysko
       date: '2026-05-25'
