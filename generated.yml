@@ -1,4 +1,4 @@
-generated_at: '2026-06-02T10:25:21.911932Z'
+generated_at: '2026-06-03T11:01:21.918714Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -63,11 +63,11 @@ sections:
 - name: OME-NGFF
   packages:
   - last_commit:
-      author: jwindhager
-      date: '2026-05-28'
-      sha: ae880f1148b0cfc48fbd8eb067e29b74462cf3fe
+      author: joshmoore
+      date: '2026-06-03'
+      sha: 52fff2ea006d7558adc31e732d1649b97258b62e
       status: SUCCESS
-      url: https://github.com/ome/ngff/commit/ae880f1148b0cfc48fbd8eb067e29b74462cf3fe
+      url: https://github.com/ome/ngff/commit/52fff2ea006d7558adc31e732d1649b97258b62e
     last_release:
       date: '2025-01-28'
       tag_name: 0.5.2
@@ -78,16 +78,16 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 133
-      size: 14765
-      stargazers_count: 165
+      open_issues: 134
+      size: 14909
+      stargazers_count: 164
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-05-28T11:17:58Z'
+      updated_at: '2026-06-03T09:35:34Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -207,10 +207,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
-      date: '2026-05-06'
-      sha: 1e3230b4a6fbe326b696f56aef37abd717a3c6b0
+      date: '2026-06-02'
+      sha: 14d43c95b7facbd5fcf81083c7d2bdbd2b07e4ee
       status: SUCCESS
-      url: https://github.com/ome/ome-ngff-validator/commit/1e3230b4a6fbe326b696f56aef37abd717a3c6b0
+      url: https://github.com/ome/ome-ngff-validator/commit/14d43c95b7facbd5fcf81083c7d2bdbd2b07e4ee
     last_release:
       date: '2025-09-05'
       tag_name: '2025-09-05'
@@ -221,11 +221,11 @@ sections:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
       open_issues: 19
-      size: 2109
+      size: 2240
       stargazers_count: 12
       topics:
       - ome-zarr
-      updated_at: '2026-05-20T12:57:03Z'
+      updated_at: '2026-06-02T20:00:56Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -302,10 +302,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-06-01'
-      sha: 4ae90d6d51bdb6fd4b886b9425ec276eef2a4334
+      date: '2026-06-02'
+      sha: 14f771878c9a2f932e1eda584b4529b642e70558
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/4ae90d6d51bdb6fd4b886b9425ec276eef2a4334
+      url: https://github.com/fideus-labs/ngff-zarr/commit/14f771878c9a2f932e1eda584b4529b642e70558
     last_release:
       date: '2026-05-28'
       tag_name: py-v0.34.2
@@ -316,8 +316,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 36
-      size: 10390
+      open_issues: 33
+      size: 10418
       stargazers_count: 70
       topics:
       - dask
@@ -327,7 +327,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-06-01T19:02:53Z'
+      updated_at: '2026-06-02T17:14:54Z'
     user: fideus-labs
     workflow_run_status: FAILURE
   - last_commit:
@@ -475,9 +475,7 @@ sections:
       updated_at: '2026-05-26T05:06:21Z'
     user: ome
     workflow_run_status: SUCCESS
-  - disabled_workflows:
-    - CodeQL Advanced
-    last_commit:
+  - last_commit:
       author: sbesson
       date: '2026-03-26'
       sha: 100a486f61917a7601b44c343387b7eb35bb534f
@@ -792,7 +790,7 @@ sections:
       created_at: '2022-02-01T16:25:20Z'
       description: An OMERO CLI plugin for creating transfer packets between OMERO
         servers.
-      open_issues: 7
+      open_issues: 8
       size: 3113
       stargazers_count: 19
       topics:
@@ -1024,24 +1022,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-06-01'
-      sha: 84a2927803d399027a6bbbd8417e08a7b76e72e8
+      date: '2026-06-02'
+      sha: 3996c5492d80bc85539754bef0fa893022c86394
       status: null
-      url: https://github.com/ome/status/commit/84a2927803d399027a6bbbd8417e08a7b76e72e8
+      url: https://github.com/ome/status/commit/3996c5492d80bc85539754bef0fa893022c86394
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 381
+      size: 391
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-06-01T11:36:49Z'
+      updated_at: '2026-06-02T10:25:26Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
