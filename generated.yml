@@ -1,4 +1,4 @@
-generated_at: '2026-06-08T10:58:08.567407Z'
+generated_at: '2026-06-09T09:46:25.141243Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 166
+      open_issues: 168
       size: 280728
       stargazers_count: 422
       topics:
@@ -140,10 +140,10 @@ sections:
     workflow_run_status: FAILURE
   - last_commit:
       author: will-moore
-      date: '2026-05-13'
-      sha: 66478bb662723ad87928eb28fb7261042604edca
+      date: '2026-06-09'
+      sha: 3557f04a2f547dcbf1a22cf5bab270461b1c53b5
       status: SUCCESS
-      url: https://github.com/ome/ome-zarr-py/commit/66478bb662723ad87928eb28fb7261042604edca
+      url: https://github.com/ome/ome-zarr-py/commit/3557f04a2f547dcbf1a22cf5bab270461b1c53b5
     last_release:
       date: '2026-04-14'
       tag_name: v0.16.0
@@ -155,14 +155,14 @@ sections:
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
       open_issues: 74
-      size: 1763
+      size: 1764
       stargazers_count: 242
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-06-07T19:34:21Z'
+      updated_at: '2026-06-09T08:22:05Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -220,7 +220,7 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 20
+      open_issues: 22
       size: 2410
       stargazers_count: 12
       topics:
@@ -289,7 +289,7 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 36
+      open_issues: 37
       size: 196
       stargazers_count: 52
       topics:
@@ -333,9 +333,9 @@ sections:
   - last_commit:
       author: lorenzocerrone
       date: '2026-06-08'
-      sha: ce1cb534d1b88e81542606c21312027e6b332956
-      status: FAILURE
-      url: https://github.com/BioVisionCenter/ngio/commit/ce1cb534d1b88e81542606c21312027e6b332956
+      sha: 751828b419753dfa0f47d0c4bf45f5c851f6dd2f
+      status: SUCCESS
+      url: https://github.com/BioVisionCenter/ngio/commit/751828b419753dfa0f47d0c4bf45f5c851f6dd2f
     last_release:
       date: '2026-05-28'
       tag_name: v0.5.12
@@ -346,15 +346,15 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 8
-      size: 63296
+      open_issues: 5
+      size: 63924
       stargazers_count: 49
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-06-08T08:27:16Z'
+      updated_at: '2026-06-08T11:31:52Z'
     user: BioVisionCenter
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: LDeakin
       date: '2026-04-07'
@@ -1022,24 +1022,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-06-07'
-      sha: c2795135c6137ec91d5dd3222c1f2c131692710b
+      date: '2026-06-08'
+      sha: 6611f24169bcdd0e37a9407f20f974fbe0d8d8b3
       status: null
-      url: https://github.com/ome/status/commit/c2795135c6137ec91d5dd3222c1f2c131692710b
+      url: https://github.com/ome/status/commit/6611f24169bcdd0e37a9407f20f974fbe0d8d8b3
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 350
+      size: 351
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-06-07T08:57:08Z'
+      updated_at: '2026-06-08T10:58:13Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
