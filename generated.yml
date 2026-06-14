@@ -1,4 +1,4 @@
-generated_at: '2026-06-13T09:17:44.748759Z'
+generated_at: '2026-06-14T09:36:30.625907Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -474,7 +474,7 @@ sections:
       - server
       updated_at: '2026-05-26T05:06:21Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: sbesson
       date: '2026-03-26'
@@ -894,8 +894,8 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 64
-      size: 12976
+      open_issues: 65
+      size: 12991
       stargazers_count: 21
       topics:
       - omero
@@ -1022,24 +1022,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-06-12'
-      sha: 01bc388a37c01b19aa652c5fed02ce45dcbba68f
+      date: '2026-06-13'
+      sha: 79c1944d1f969c078e5e05cc1201f8cf0693ba29
       status: null
-      url: https://github.com/ome/status/commit/01bc388a37c01b19aa652c5fed02ce45dcbba68f
+      url: https://github.com/ome/status/commit/79c1944d1f969c078e5e05cc1201f8cf0693ba29
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 372
+      size: 381
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-06-12T10:15:17Z'
+      updated_at: '2026-06-13T09:17:49Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
