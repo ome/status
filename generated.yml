@@ -1,4 +1,4 @@
-generated_at: '2026-06-19T10:27:26.329177Z'
+generated_at: '2026-06-20T08:58:14.764387Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -22,7 +22,7 @@ sections:
         (GPL); commercial licenses are available from  Glencoe Software. '
       open_issues: 163
       size: 280738
-      stargazers_count: 422
+      stargazers_count: 423
       topics:
       - bio-formats
       - format-converter
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-06-12T08:24:42Z'
+      updated_at: '2026-06-20T08:22:58Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -302,22 +302,22 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-06-18'
-      sha: 30aa96a4bc50682cdec4e58f87a5c9328697b86b
-      status: FAILURE
-      url: https://github.com/fideus-labs/ngff-zarr/commit/30aa96a4bc50682cdec4e58f87a5c9328697b86b
+      date: '2026-06-19'
+      sha: 6dce127a8bf6e3e4953c32cb8e2960f1dca7c171
+      status: SUCCESS
+      url: https://github.com/fideus-labs/ngff-zarr/commit/6dce127a8bf6e3e4953c32cb8e2960f1dca7c171
     last_release:
-      date: '2026-06-18'
-      tag_name: ts-v0.20.0
-      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/ts-v0.20.0
+      date: '2026-06-19'
+      tag_name: py-v0.36.2
+      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/py-v0.36.2
     name: ngff-zarr
     repo: fideus-labs/ngff-zarr
     repo_info:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 20
-      size: 10067
+      open_issues: 18
+      size: 10089
       stargazers_count: 71
       topics:
       - dask
@@ -327,9 +327,9 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-06-18T18:08:41Z'
+      updated_at: '2026-06-19T17:07:59Z'
     user: fideus-labs
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: lorenzocerrone
       date: '2026-06-15'
@@ -686,7 +686,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 145
+      open_issues: 146
       size: 26682
       stargazers_count: 24
       topics:
@@ -870,8 +870,8 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 73
-      size: 12878
+      open_issues: 74
+      size: 12476
       stargazers_count: 20
       topics:
       - omero
@@ -894,7 +894,7 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 64
+      open_issues: 63
       size: 14027
       stargazers_count: 21
       topics:
@@ -1022,24 +1022,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-06-18'
-      sha: 823173c2fc617f586a98aad038bccdff73267bba
+      date: '2026-06-19'
+      sha: 5f733dda2c3227ac2dd79709a52ffc886b6caccf
       status: null
-      url: https://github.com/ome/status/commit/823173c2fc617f586a98aad038bccdff73267bba
+      url: https://github.com/ome/status/commit/5f733dda2c3227ac2dd79709a52ffc886b6caccf
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 403
+      size: 413
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-06-18T10:22:17Z'
+      updated_at: '2026-06-19T10:27:30Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
