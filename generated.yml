@@ -1,4 +1,4 @@
-generated_at: '2026-06-20T08:58:14.764387Z'
+generated_at: '2026-06-21T09:51:39.702677Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -346,7 +346,7 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 5
+      open_issues: 7
       size: 64252
       stargazers_count: 50
       topics:
@@ -354,7 +354,7 @@ sections:
       - ome-zarr
       updated_at: '2026-06-17T15:31:45Z'
     user: BioVisionCenter
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: LDeakin
       date: '2026-04-07'
@@ -894,8 +894,8 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 63
-      size: 14027
+      open_issues: 64
+      size: 14041
       stargazers_count: 21
       topics:
       - omero
@@ -1022,24 +1022,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-06-19'
-      sha: 5f733dda2c3227ac2dd79709a52ffc886b6caccf
+      date: '2026-06-20'
+      sha: 7b135b4c68b7f14073212425619013a0e011d9d2
       status: null
-      url: https://github.com/ome/status/commit/5f733dda2c3227ac2dd79709a52ffc886b6caccf
+      url: https://github.com/ome/status/commit/7b135b4c68b7f14073212425619013a0e011d9d2
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 413
+      size: 414
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-06-19T10:27:30Z'
+      updated_at: '2026-06-20T08:58:19Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
