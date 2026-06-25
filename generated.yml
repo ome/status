@@ -1,4 +1,4 @@
-generated_at: '2026-06-24T09:31:51.687312Z'
+generated_at: '2026-06-25T09:23:41.968599Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 162
+      open_issues: 163
       size: 280739
       stargazers_count: 423
       topics:
@@ -79,7 +79,7 @@ sections:
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
       open_issues: 131
-      size: 14970
+      size: 14960
       stargazers_count: 165
       topics:
       - bioimaging
@@ -302,10 +302,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-06-23'
-      sha: 50bd13c8a32e612957cac05156013df63d22a5b1
+      date: '2026-06-24'
+      sha: c202d92852940f4e1b4c0528abea2ede49ef8341
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/50bd13c8a32e612957cac05156013df63d22a5b1
+      url: https://github.com/fideus-labs/ngff-zarr/commit/c202d92852940f4e1b4c0528abea2ede49ef8341
     last_release:
       date: '2026-06-19'
       tag_name: py-v0.36.2
@@ -316,8 +316,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 19
-      size: 10317
+      open_issues: 21
+      size: 10635
       stargazers_count: 71
       topics:
       - dask
@@ -327,7 +327,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-06-23T21:02:07Z'
+      updated_at: '2026-06-24T13:26:52Z'
     user: fideus-labs
     workflow_run_status: SUCCESS
   - last_commit:
@@ -678,7 +678,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 146
+      open_issues: 147
       size: 26682
       stargazers_count: 24
       topics:
@@ -862,8 +862,8 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 76
-      size: 12894
+      open_issues: 77
+      size: 13107
       stargazers_count: 20
       topics:
       - omero
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-06-23'
-      sha: b7cf2c4a532933bf03444d5c7b3ca06f003f5b3b
+      date: '2026-06-24'
+      sha: fc8c0b598313a22ad57a1cf8500734641437d85c
       status: null
-      url: https://github.com/ome/status/commit/b7cf2c4a532933bf03444d5c7b3ca06f003f5b3b
+      url: https://github.com/ome/status/commit/fc8c0b598313a22ad57a1cf8500734641437d85c
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 433
+      size: 350
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-06-23T09:40:57Z'
+      updated_at: '2026-06-24T09:31:56Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1063,23 +1063,23 @@ sections:
   - last_commit:
       author: pwalczysko
       date: '2026-06-24'
-      sha: 099438c05ab0a0aaaaa1907367f408dc9dc76796
+      sha: b58b6d02c0e4efc08049f481516c26f8c7e38cc2
       status: SUCCESS
-      url: https://github.com/ome/ansible-role-omero-server/commit/099438c05ab0a0aaaaa1907367f408dc9dc76796
+      url: https://github.com/ome/ansible-role-omero-server/commit/b58b6d02c0e4efc08049f481516c26f8c7e38cc2
     name: ansible-role-omero-server
     repo: ome/ansible-role-omero-server
     repo_info:
       created_at: '2017-01-06T16:22:29Z'
       description: Installs and configures OMERO.server
-      open_issues: 12
-      size: 330
+      open_issues: 11
+      size: 326
       stargazers_count: 5
       topics:
       - ansible
       - omero
       - role
       - server
-      updated_at: '2026-06-24T08:56:33Z'
+      updated_at: '2026-06-24T09:52:11Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1094,7 +1094,7 @@ sections:
       created_at: '2017-03-10T17:50:57Z'
       description: Installs and configures OMERO.web and Nginx
       open_issues: 4
-      size: 199
+      size: 205
       stargazers_count: 2
       topics:
       - ansible
