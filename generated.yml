@@ -1,13 +1,13 @@
-generated_at: '2026-06-29T11:01:31.230809Z'
+generated_at: '2026-06-30T09:37:40.843175Z'
 sections:
 - name: Bio-Formats packages
   packages:
   - last_commit:
       author: sbesson
-      date: '2026-06-24'
-      sha: dcdbd99c4bdc3f9e0b1391f9703eb92ad3394ff5
+      date: '2026-06-30'
+      sha: 1178fa8b255244a5b6089a0a4cb2068203b94e86
       status: SUCCESS
-      url: https://github.com/ome/bioformats/commit/dcdbd99c4bdc3f9e0b1391f9703eb92ad3394ff5
+      url: https://github.com/ome/bioformats/commit/1178fa8b255244a5b6089a0a4cb2068203b94e86
     last_release:
       date: '2026-03-18'
       tag_name: v8.5.0
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 164
+      open_issues: 162
       size: 280739
       stargazers_count: 423
       topics:
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-06-24T07:47:26Z'
+      updated_at: '2026-06-30T08:52:45Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -92,24 +92,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
-      date: '2026-06-10'
-      sha: e71a098257017c3ed53cac6ca5ae81d7b0d01b6a
+      date: '2026-06-29'
+      sha: 37c4ed5037902d0a4999bf207debf53710e4f4e6
       status: SUCCESS
-      url: https://github.com/BioNGFF/ome-zarr.js/commit/e71a098257017c3ed53cac6ca5ae81d7b0d01b6a
+      url: https://github.com/BioNGFF/ome-zarr.js/commit/37c4ed5037902d0a4999bf207debf53710e4f4e6
     last_release:
-      date: '2026-04-16'
-      tag_name: v0.0.19
-      url: https://github.com/BioNGFF/ome-zarr.js/releases/tag/v0.0.19
+      date: '2026-06-29'
+      tag_name: v0.0.20
+      url: https://github.com/BioNGFF/ome-zarr.js/releases/tag/v0.0.20
     name: ome-zarr.js
     repo: BioNGFF/ome-zarr.js
     repo_info:
       created_at: '2025-02-05T14:38:10Z'
       description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 6
-      size: 1980
+      open_issues: 3
+      size: 2043
       stargazers_count: 7
       topics: []
-      updated_at: '2026-06-10T13:27:32Z'
+      updated_at: '2026-06-29T14:00:26Z'
     user: BioNGFF
     workflow_run_status: SUCCESS
   - last_commit:
@@ -154,8 +154,8 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 76
-      size: 1960
+      open_issues: 77
+      size: 1946
       stargazers_count: 244
       topics:
       - ngff
@@ -198,7 +198,7 @@ sections:
     repo_info:
       created_at: '2024-03-12T15:38:57Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 6
+      open_issues: 7
       size: 494
       stargazers_count: 2
       topics: []
@@ -220,7 +220,7 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 20
+      open_issues: 21
       size: 2312
       stargazers_count: 12
       topics:
@@ -543,7 +543,7 @@ sections:
     repo_info:
       created_at: '2018-12-12T15:49:08Z'
       description: Gradle project for the ROMIO library of OMERO
-      open_issues: 4
+      open_issues: 3
       size: 676
       stargazers_count: 0
       topics:
@@ -651,7 +651,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 61
+      open_issues: 62
       size: 12054
       stargazers_count: 28
       topics:
@@ -678,7 +678,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 148
+      open_issues: 147
       size: 26682
       stargazers_count: 24
       topics:
@@ -862,7 +862,7 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 77
+      open_issues: 79
       size: 13107
       stargazers_count: 20
       topics:
@@ -870,7 +870,7 @@ sections:
       - webapp
       updated_at: '2026-05-28T08:47:19Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: will-moore
       date: '2026-06-16'
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-06-28'
-      sha: 1f4122176a677afcc35cba45493af181c5d07618
+      date: '2026-06-29'
+      sha: 064805272812ccba7a1940a9b8aa7d775222d401
       status: null
-      url: https://github.com/ome/status/commit/1f4122176a677afcc35cba45493af181c5d07618
+      url: https://github.com/ome/status/commit/064805272812ccba7a1940a9b8aa7d775222d401
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 371
+      size: 372
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-06-28T08:53:31Z'
+      updated_at: '2026-06-29T11:01:38Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
