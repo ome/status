@@ -1,4 +1,4 @@
-generated_at: '2026-06-30T09:37:40.843175Z'
+generated_at: '2026-07-01T09:49:04.300630Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -21,7 +21,7 @@ sections:
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
       open_issues: 162
-      size: 280739
+      size: 280741
       stargazers_count: 423
       topics:
       - bio-formats
@@ -78,7 +78,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 130
+      open_issues: 131
       size: 14928
       stargazers_count: 165
       topics:
@@ -220,7 +220,7 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 21
+      open_issues: 22
       size: 2312
       stargazers_count: 12
       topics:
@@ -316,7 +316,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 21
+      open_issues: 22
       size: 10650
       stargazers_count: 71
       topics:
@@ -346,8 +346,8 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 7
-      size: 64896
+      open_issues: 9
+      size: 64902
       stargazers_count: 50
       topics:
       - ome-ngff
@@ -462,7 +462,7 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 26
+      open_issues: 27
       size: 1985593
       stargazers_count: 218
       topics:
@@ -678,7 +678,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 147
+      open_issues: 148
       size: 26682
       stargazers_count: 24
       topics:
@@ -862,15 +862,15 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 79
-      size: 13107
+      open_issues: 81
+      size: 13319
       stargazers_count: 20
       topics:
       - omero
       - webapp
       updated_at: '2026-05-28T08:47:19Z'
     user: ome
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
       date: '2026-06-16'
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-06-29'
-      sha: 064805272812ccba7a1940a9b8aa7d775222d401
+      date: '2026-06-30'
+      sha: d25104803bfc484ee122edcff57a3f6b92a1d480
       status: null
-      url: https://github.com/ome/status/commit/064805272812ccba7a1940a9b8aa7d775222d401
+      url: https://github.com/ome/status/commit/d25104803bfc484ee122edcff57a3f6b92a1d480
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 372
+      size: 382
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-06-29T11:01:38Z'
+      updated_at: '2026-06-30T09:37:45Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
