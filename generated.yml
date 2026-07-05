@@ -1,4 +1,4 @@
-generated_at: '2026-07-04T08:38:09.292603Z'
+generated_at: '2026-07-05T08:53:42.210870Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -36,7 +36,7 @@ sections:
       - wsi
       updated_at: '2026-06-30T08:52:45Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: melissalinkert
       date: '2026-03-18'
@@ -105,7 +105,7 @@ sections:
     repo_info:
       created_at: '2025-02-05T14:38:10Z'
       description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 3
+      open_issues: 4
       size: 2043
       stargazers_count: 7
       topics: []
@@ -346,7 +346,7 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 5
+      open_issues: 6
       size: 70229
       stargazers_count: 50
       topics:
@@ -354,7 +354,7 @@ sections:
       - ome-zarr
       updated_at: '2026-07-03T16:14:41Z'
     user: BioVisionCenter
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: LDeakin
       date: '2026-04-07'
@@ -554,7 +554,9 @@ sections:
       updated_at: '2026-03-31T08:59:13Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - Gradle
+    last_commit:
       author: sbesson
       date: '2026-05-05'
       sha: c9573f3f94b57105a1948164d2cb38d953055cf2
@@ -690,7 +692,10 @@ sections:
       updated_at: '2026-06-17T17:03:43Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    - Tox
+    last_commit:
       author: sbesson
       date: '2025-11-25'
       sha: ac93ed4b4a139dd73b414ead55223071fc465de5
@@ -712,7 +717,7 @@ sections:
       - python
       updated_at: '2025-11-25T15:02:46Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: sbesson
       date: '2026-01-05'
@@ -739,7 +744,9 @@ sections:
       updated_at: '2026-01-05T13:26:02Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    last_commit:
       author: dominikl
       date: '2025-12-11'
       sha: 68b73035cf2ab21ddd92022b80bda0966547b3c8
@@ -792,7 +799,9 @@ sections:
       updated_at: '2026-06-05T11:56:04Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    last_commit:
       author: sbesson
       date: '2026-01-29'
       sha: 5b4d76862a7141257c9ff221ff7f009f7ec416c0
@@ -966,7 +975,7 @@ sections:
       - nfdi4bioimage
       updated_at: '2026-06-04T14:25:51Z'
     user: German-BioImaging
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: joshmoore
       date: '2024-05-25'
@@ -1014,24 +1023,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-07-03'
-      sha: a119b3377cfa217f28d1a397b8235ebccd062aaf
+      date: '2026-07-04'
+      sha: 25e59dff7450c8d0fe2c76899b8998fdef8cf82b
       status: null
-      url: https://github.com/ome/status/commit/a119b3377cfa217f28d1a397b8235ebccd062aaf
+      url: https://github.com/ome/status/commit/25e59dff7450c8d0fe2c76899b8998fdef8cf82b
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 393
+      size: 403
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-07-03T09:19:27Z'
+      updated_at: '2026-07-04T08:38:13Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
