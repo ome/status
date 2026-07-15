@@ -1,4 +1,4 @@
-generated_at: '2026-07-14T08:06:04.976871Z'
+generated_at: '2026-07-15T08:11:35.554511Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -22,7 +22,7 @@ sections:
         (GPL); commercial licenses are available from  Glencoe Software. '
       open_issues: 167
       size: 280741
-      stargazers_count: 423
+      stargazers_count: 424
       topics:
       - bio-formats
       - format-converter
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-06-30T08:52:45Z'
+      updated_at: '2026-07-14T16:41:24Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -105,7 +105,7 @@ sections:
     repo_info:
       created_at: '2025-02-05T14:38:10Z'
       description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 5
+      open_issues: 6
       size: 2043
       stargazers_count: 7
       topics: []
@@ -184,11 +184,11 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: sbesson
-      date: '2026-06-10'
-      sha: e195bc0db6acf1cf9ed8420b960a80a850f7b129
+      author: chris-allan
+      date: '2026-07-14'
+      sha: 5f974148ba1e607ab259d5883497364fd519d3c4
       status: SUCCESS
-      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/e195bc0db6acf1cf9ed8420b960a80a850f7b129
+      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/5f974148ba1e607ab259d5883497364fd519d3c4
     last_release:
       date: '2026-06-10'
       tag_name: v0.7.0-rc1
@@ -198,11 +198,11 @@ sections:
     repo_info:
       created_at: '2024-03-12T15:38:57Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 8
-      size: 494
+      open_issues: 7
+      size: 502
       stargazers_count: 2
       topics: []
-      updated_at: '2026-06-10T19:58:21Z'
+      updated_at: '2026-07-14T17:41:39Z'
     user: glencoesoftware
     workflow_run_status: SUCCESS
   - last_commit:
@@ -462,7 +462,7 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 29
+      open_issues: 31
       size: 1985593
       stargazers_count: 218
       topics:
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-07-13'
-      sha: c0cb96719f8c76b0769ed9e70a366fae8237f3d8
+      date: '2026-07-14'
+      sha: 96eec3e3a55d8817512139aaa6a462e29377b0cd
       status: null
-      url: https://github.com/ome/status/commit/c0cb96719f8c76b0769ed9e70a366fae8237f3d8
+      url: https://github.com/ome/status/commit/96eec3e3a55d8817512139aaa6a462e29377b0cd
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 382
+      size: 383
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-07-13T09:29:14Z'
+      updated_at: '2026-07-14T08:06:10Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
