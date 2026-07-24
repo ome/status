@@ -1,4 +1,4 @@
-generated_at: '2026-07-23T08:31:34.992642Z'
+generated_at: '2026-07-24T08:28:15.145916Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -156,13 +156,13 @@ sections:
         for storing bioimaging data in the cloud.
       open_issues: 74
       size: 2337
-      stargazers_count: 249
+      stargazers_count: 250
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-07-20T03:21:43Z'
+      updated_at: '2026-07-24T06:44:01Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -289,7 +289,7 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 37
+      open_issues: 38
       size: 277
       stargazers_count: 53
       topics:
@@ -302,10 +302,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-07-22'
-      sha: 0bef92537de58f38987858f4599063c19bf888b6
+      date: '2026-07-23'
+      sha: 401bc5406a0528a066a4f637e5712c3c689abd8a
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/0bef92537de58f38987858f4599063c19bf888b6
+      url: https://github.com/fideus-labs/ngff-zarr/commit/401bc5406a0528a066a4f637e5712c3c689abd8a
     last_release:
       date: '2026-07-17'
       tag_name: ts-v0.24.0
@@ -316,8 +316,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 21
-      size: 10967
+      open_issues: 19
+      size: 10928
       stargazers_count: 72
       topics:
       - dask
@@ -327,7 +327,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-07-22T12:16:03Z'
+      updated_at: '2026-07-23T15:00:37Z'
     user: fideus-labs
     workflow_run_status: SUCCESS
   - last_commit:
@@ -623,7 +623,7 @@ sections:
     repo_info:
       created_at: '2019-02-18T10:01:04Z'
       description: Gradle project containing insight java client for OMERO
-      open_issues: 130
+      open_issues: 131
       size: 24994
       stargazers_count: 8
       topics:
@@ -886,15 +886,15 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 64
-      size: 14044
+      open_issues: 65
+      size: 14057
       stargazers_count: 21
       topics:
       - omero
       - webapp
       updated_at: '2026-06-16T14:51:44Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: Tom-TBT
       date: '2026-01-26'
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-07-22'
-      sha: c4e607b87f4e74f0269aadc36c57b22506439503
+      date: '2026-07-23'
+      sha: fbcc2dbc1e1f2786835d873c8b04c5b48627bc3a
       status: null
-      url: https://github.com/ome/status/commit/c4e607b87f4e74f0269aadc36c57b22506439503
+      url: https://github.com/ome/status/commit/fbcc2dbc1e1f2786835d873c8b04c5b48627bc3a
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 425
+      size: 435
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-07-22T08:31:32Z'
+      updated_at: '2026-07-23T09:03:16Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
