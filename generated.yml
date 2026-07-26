@@ -1,4 +1,4 @@
-generated_at: '2026-07-25T08:06:57.625002Z'
+generated_at: '2026-07-26T08:26:53.311039Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -22,7 +22,7 @@ sections:
         (GPL); commercial licenses are available from  Glencoe Software. '
       open_issues: 167
       size: 280713
-      stargazers_count: 425
+      stargazers_count: 426
       topics:
       - bio-formats
       - format-converter
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-07-21T13:30:55Z'
+      updated_at: '2026-07-25T14:25:50Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -863,7 +863,7 @@ sections:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
       open_issues: 82
-      size: 13529
+      size: 13950
       stargazers_count: 20
       topics:
       - omero
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-07-24'
-      sha: 71303f859ec81c045c3ac5746c03364082577609
+      date: '2026-07-25'
+      sha: 322562a1aab4f114e102d5af1631b78cc2a50b08
       status: null
-      url: https://github.com/ome/status/commit/71303f859ec81c045c3ac5746c03364082577609
+      url: https://github.com/ome/status/commit/322562a1aab4f114e102d5af1631b78cc2a50b08
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 435
+      size: 445
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-07-24T08:28:28Z'
+      updated_at: '2026-07-25T08:07:10Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
