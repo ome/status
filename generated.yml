@@ -1,4 +1,4 @@
-generated_at: '2026-07-26T08:26:53.311039Z'
+generated_at: '2026-07-27T09:53:09.791771Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -78,7 +78,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 114
+      open_issues: 115
       size: 15041
       stargazers_count: 166
       topics:
@@ -316,7 +316,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 18
+      open_issues: 19
       size: 10955
       stargazers_count: 72
       topics:
@@ -346,8 +346,8 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 6
-      size: 73296
+      open_issues: 10
+      size: 73316
       stargazers_count: 50
       topics:
       - ome-ngff
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-07-25'
-      sha: 322562a1aab4f114e102d5af1631b78cc2a50b08
+      date: '2026-07-26'
+      sha: 1bac6fa4b8a9148da309ddd3df91c351f7947b07
       status: null
-      url: https://github.com/ome/status/commit/322562a1aab4f114e102d5af1631b78cc2a50b08
+      url: https://github.com/ome/status/commit/1bac6fa4b8a9148da309ddd3df91c351f7947b07
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 445
+      size: 446
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-07-25T08:07:10Z'
+      updated_at: '2026-07-26T08:26:59Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
