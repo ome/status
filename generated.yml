@@ -1,4 +1,4 @@
-generated_at: '2026-07-28T08:34:36.676670Z'
+generated_at: '2026-07-29T08:41:40.096850Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -80,14 +80,14 @@ sections:
         data in the cloud.
       open_issues: 115
       size: 15041
-      stargazers_count: 166
+      stargazers_count: 167
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-07-17T07:08:09Z'
+      updated_at: '2026-07-29T07:45:28Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -166,21 +166,21 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: dominikl
-      date: '2026-05-12'
-      sha: 3e9b9dafce22abae92d59ecc1cdb81161c16c2a7
+      author: chris-allan
+      date: '2026-07-20'
+      sha: 45627b5ed61cb6f2ab7407b95263122f06674609
       status: SUCCESS
-      url: https://github.com/ome/omero-zarr-pixel-buffer/commit/3e9b9dafce22abae92d59ecc1cdb81161c16c2a7
+      url: https://github.com/ome/omero-zarr-pixel-buffer/commit/45627b5ed61cb6f2ab7407b95263122f06674609
     name: omero-zarr-pixel-buffer
     repo: ome/omero-zarr-pixel-buffer
     repo_info:
       created_at: '2025-06-25T13:39:12Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 1
-      size: 609
+      open_issues: 0
+      size: 644
       stargazers_count: 0
       topics: []
-      updated_at: '2026-05-12T12:05:49Z'
+      updated_at: '2026-07-28T10:05:38Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -332,10 +332,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: lorenzocerrone
-      date: '2026-07-27'
-      sha: 2407b80932a1b4cd1bdc07aacb16252a4a871d14
+      date: '2026-07-29'
+      sha: 62a16683b07f1caf18d4507bf0ab7949a8f717ed
       status: SUCCESS
-      url: https://github.com/BioVisionCenter/ngio/commit/2407b80932a1b4cd1bdc07aacb16252a4a871d14
+      url: https://github.com/BioVisionCenter/ngio/commit/62a16683b07f1caf18d4507bf0ab7949a8f717ed
     last_release:
       date: '2026-07-09'
       tag_name: v0.5.14
@@ -346,13 +346,13 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 6
-      size: 73641
+      open_issues: 4
+      size: 72124
       stargazers_count: 50
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-07-27T12:00:39Z'
+      updated_at: '2026-07-29T07:27:48Z'
     user: BioVisionCenter
     workflow_run_status: SUCCESS
   - last_commit:
@@ -462,7 +462,7 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 39
+      open_issues: 35
       size: 1985614
       stargazers_count: 219
       topics:
@@ -862,7 +862,7 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 82
+      open_issues: 83
       size: 12309
       stargazers_count: 20
       topics:
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-07-27'
-      sha: 062b902af0039f210f853e86e7c2e2c0014ddecd
+      date: '2026-07-28'
+      sha: 167b90d27a8dc16000ba26e1e95ecf043536e1ec
       status: null
-      url: https://github.com/ome/status/commit/062b902af0039f210f853e86e7c2e2c0014ddecd
+      url: https://github.com/ome/status/commit/167b90d27a8dc16000ba26e1e95ecf043536e1ec
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 455
+      size: 385
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-07-27T09:54:41Z'
+      updated_at: '2026-07-28T08:35:25Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
