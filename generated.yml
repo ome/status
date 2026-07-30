@@ -1,13 +1,13 @@
-generated_at: '2026-07-29T08:41:40.096850Z'
+generated_at: '2026-07-30T08:27:33.497108Z'
 sections:
 - name: Bio-Formats packages
   packages:
   - last_commit:
-      author: melissalinkert
-      date: '2026-07-21'
-      sha: b486f7c4b47a90af6093b56f9f6e006ad5243010
+      author: sbesson
+      date: '2026-07-30'
+      sha: 5a05d54bd36c23405c7d93db6a02d57b09469624
       status: SUCCESS
-      url: https://github.com/ome/bioformats/commit/b486f7c4b47a90af6093b56f9f6e006ad5243010
+      url: https://github.com/ome/bioformats/commit/5a05d54bd36c23405c7d93db6a02d57b09469624
     last_release:
       date: '2026-03-18'
       tag_name: v8.5.0
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 168
+      open_issues: 167
       size: 280713
       stargazers_count: 426
       topics:
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-07-25T14:25:50Z'
+      updated_at: '2026-07-30T07:46:42Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -78,8 +78,8 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 115
-      size: 15041
+      open_issues: 116
+      size: 15076
       stargazers_count: 167
       topics:
       - bioimaging
@@ -190,9 +190,9 @@ sections:
       status: SUCCESS
       url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/45627b5ed61cb6f2ab7407b95263122f06674609
     last_release:
-      date: '2026-06-10'
-      tag_name: v0.7.0-rc1
-      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/releases/tag/v0.7.0-rc1
+      date: '2026-07-29'
+      tag_name: v0.7.0-rc2
+      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/releases/tag/v0.7.0-rc2
     name: omero-zarr-pixel-buffer
     repo: glencoesoftware/omero-zarr-pixel-buffer
     repo_info:
@@ -220,7 +220,7 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 22
+      open_issues: 24
       size: 2312
       stargazers_count: 12
       topics:
@@ -316,7 +316,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 19
+      open_issues: 20
       size: 10955
       stargazers_count: 72
       topics:
@@ -346,8 +346,8 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 4
-      size: 72124
+      open_issues: 5
+      size: 72218
       stargazers_count: 50
       topics:
       - ome-ngff
@@ -849,10 +849,10 @@ sections:
   packages:
   - last_commit:
       author: will-moore
-      date: '2026-05-28'
-      sha: cae0b0260125ca856c05b4ac7d723879827a6e76
+      date: '2026-07-29'
+      sha: 3c4c747556745b12489eeeba58345e6186eeb1de
       status: SUCCESS
-      url: https://github.com/ome/omero-iviewer/commit/cae0b0260125ca856c05b4ac7d723879827a6e76
+      url: https://github.com/ome/omero-iviewer/commit/3c4c747556745b12489eeeba58345e6186eeb1de
     last_release:
       date: '2026-05-26'
       tag_name: v0.17.0
@@ -862,15 +862,15 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 83
-      size: 12309
+      open_issues: 69
+      size: 14820
       stargazers_count: 20
       topics:
       - omero
       - webapp
-      updated_at: '2026-05-28T08:47:19Z'
+      updated_at: '2026-07-29T16:45:54Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: will-moore
       date: '2026-06-16'
@@ -1014,10 +1014,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-07-28'
-      sha: 167b90d27a8dc16000ba26e1e95ecf043536e1ec
+      date: '2026-07-29'
+      sha: 980b1b46f34ff1dc5c58d3d3a69964eee36d565a
       status: null
-      url: https://github.com/ome/status/commit/167b90d27a8dc16000ba26e1e95ecf043536e1ec
+      url: https://github.com/ome/status/commit/980b1b46f34ff1dc5c58d3d3a69964eee36d565a
     name: status
     repo: ome/status
     repo_info:
@@ -1031,7 +1031,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-07-28T08:35:25Z'
+      updated_at: '2026-07-29T08:43:39Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
