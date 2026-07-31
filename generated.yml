@@ -1,4 +1,4 @@
-generated_at: '2026-07-30T08:27:33.497108Z'
+generated_at: '2026-07-31T08:50:53.363030Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,8 +20,8 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 167
-      size: 280713
+      open_issues: 168
+      size: 280715
       stargazers_count: 426
       topics:
       - bio-formats
@@ -78,16 +78,16 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 116
+      open_issues: 117
       size: 15076
-      stargazers_count: 167
+      stargazers_count: 168
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-07-29T07:45:28Z'
+      updated_at: '2026-07-30T08:55:27Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -154,7 +154,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 75
+      open_issues: 77
       size: 2336
       stargazers_count: 250
       topics:
@@ -184,33 +184,33 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: chris-allan
-      date: '2026-07-20'
-      sha: 45627b5ed61cb6f2ab7407b95263122f06674609
+      author: sbesson
+      date: '2026-07-31'
+      sha: 14c447b103ce7b86836b4ed22786915d8fdfc298
       status: SUCCESS
-      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/45627b5ed61cb6f2ab7407b95263122f06674609
+      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/14c447b103ce7b86836b4ed22786915d8fdfc298
     last_release:
-      date: '2026-07-29'
-      tag_name: v0.7.0-rc2
-      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/releases/tag/v0.7.0-rc2
+      date: '2026-07-31'
+      tag_name: v0.7.0-rc3
+      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/releases/tag/v0.7.0-rc3
     name: omero-zarr-pixel-buffer
     repo: glencoesoftware/omero-zarr-pixel-buffer
     repo_info:
       created_at: '2024-03-12T15:38:57Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 7
+      open_issues: 6
       size: 508
       stargazers_count: 2
       topics: []
-      updated_at: '2026-07-20T14:38:08Z'
+      updated_at: '2026-07-31T08:05:12Z'
     user: glencoesoftware
     workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
-      date: '2026-06-16'
-      sha: f0951ab58c4af40b8e5003433b1a9046eb5cefb0
+      date: '2026-07-30'
+      sha: 907eb9099caae255de846acd4f692de5cc6d0079
       status: SUCCESS
-      url: https://github.com/ome/ome-ngff-validator/commit/f0951ab58c4af40b8e5003433b1a9046eb5cefb0
+      url: https://github.com/ome/ome-ngff-validator/commit/907eb9099caae255de846acd4f692de5cc6d0079
     last_release:
       date: '2025-09-05'
       tag_name: '2025-09-05'
@@ -220,12 +220,12 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 24
-      size: 2312
+      open_issues: 23
+      size: 2450
       stargazers_count: 12
       topics:
       - ome-zarr
-      updated_at: '2026-06-16T08:08:40Z'
+      updated_at: '2026-07-30T10:09:39Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -289,8 +289,8 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 38
-      size: 277
+      open_issues: 39
+      size: 229
       stargazers_count: 53
       topics:
       - napari-plugin
@@ -332,10 +332,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: lorenzocerrone
-      date: '2026-07-29'
-      sha: 62a16683b07f1caf18d4507bf0ab7949a8f717ed
+      date: '2026-07-30'
+      sha: 7bb4aed2712df4225e616e20f986fff102a09fb8
       status: SUCCESS
-      url: https://github.com/BioVisionCenter/ngio/commit/62a16683b07f1caf18d4507bf0ab7949a8f717ed
+      url: https://github.com/BioVisionCenter/ngio/commit/7bb4aed2712df4225e616e20f986fff102a09fb8
     last_release:
       date: '2026-07-09'
       tag_name: v0.5.14
@@ -347,12 +347,12 @@ sections:
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
       open_issues: 5
-      size: 72218
+      size: 77382
       stargazers_count: 50
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-07-29T07:27:48Z'
+      updated_at: '2026-07-30T11:58:05Z'
     user: BioVisionCenter
     workflow_run_status: SUCCESS
   - last_commit:
@@ -406,7 +406,7 @@ sections:
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-07-25T06:02:33Z'
+      updated_at: '2026-07-30T12:01:02Z'
     user: ome-zarr-models
     workflow_run_status: SUCCESS
   - last_commit:
@@ -442,11 +442,11 @@ sections:
 - name: OMERO Java packages
   packages:
   - last_commit:
-      author: pwalczysko
-      date: '2026-07-16'
-      sha: bf5e0bd085f2f4c689f100ba403ab99458c6b9f0
+      author: sbesson
+      date: '2026-07-30'
+      sha: 81c671cab8055f5d06ef64556fd473ada8de4922
       status: SUCCESS
-      url: https://github.com/ome/openmicroscopy/commit/bf5e0bd085f2f4c689f100ba403ab99458c6b9f0
+      url: https://github.com/ome/openmicroscopy/commit/81c671cab8055f5d06ef64556fd473ada8de4922
     last_release:
       date: '2026-05-19'
       tag_name: v5.6.18
@@ -463,7 +463,7 @@ sections:
         grants, OME has been a major force on the international microscopy stage since
         2000.
       open_issues: 35
-      size: 1985614
+      size: 1985574
       stargazers_count: 219
       topics:
       - database
@@ -472,7 +472,7 @@ sections:
       - omero
       - python
       - server
-      updated_at: '2026-07-24T09:22:05Z'
+      updated_at: '2026-07-30T08:47:44Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -638,21 +638,21 @@ sections:
   packages:
   - last_commit:
       author: sbesson
-      date: '2026-06-16'
-      sha: 91d9fe26eb1887700c71c30f62c75bd6d359e350
+      date: '2026-07-30'
+      sha: 5d0974d097e25d98892b9b419528edf9256274b0
       status: SUCCESS
-      url: https://github.com/ome/omero-py/commit/91d9fe26eb1887700c71c30f62c75bd6d359e350
+      url: https://github.com/ome/omero-py/commit/5d0974d097e25d98892b9b419528edf9256274b0
     last_release:
-      date: '2026-03-25'
-      tag_name: v5.22.1
-      url: https://github.com/ome/omero-py/releases/tag/v5.22.1
+      date: '2026-07-30'
+      tag_name: v5.23.0
+      url: https://github.com/ome/omero-py/releases/tag/v5.23.0
     name: omero-py
     repo: ome/omero-py
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 63
-      size: 12054
+      open_issues: 62
+      size: 12063
       stargazers_count: 28
       topics:
       - component
@@ -660,7 +660,7 @@ sections:
       - omero
       - omero-py
       - python
-      updated_at: '2026-06-16T13:46:44Z'
+      updated_at: '2026-07-30T10:38:49Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -728,7 +728,7 @@ sections:
     repo_info:
       created_at: '2015-10-20T12:43:20Z'
       description: OMERO marshalling infrastructure
-      open_issues: 6
+      open_issues: 7
       size: 416
       stargazers_count: 5
       topics:
@@ -849,26 +849,26 @@ sections:
   packages:
   - last_commit:
       author: will-moore
-      date: '2026-07-29'
-      sha: 3c4c747556745b12489eeeba58345e6186eeb1de
+      date: '2026-07-30'
+      sha: 177e4b5ec04efe2a2d2e083159f678d8bd747db3
       status: SUCCESS
-      url: https://github.com/ome/omero-iviewer/commit/3c4c747556745b12489eeeba58345e6186eeb1de
+      url: https://github.com/ome/omero-iviewer/commit/177e4b5ec04efe2a2d2e083159f678d8bd747db3
     last_release:
-      date: '2026-05-26'
-      tag_name: v0.17.0
-      url: https://github.com/ome/omero-iviewer/releases/tag/v0.17.0
+      date: '2026-07-30'
+      tag_name: v0.18.0
+      url: https://github.com/ome/omero-iviewer/releases/tag/v0.18.0
     name: omero-iviewer
     repo: ome/omero-iviewer
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 69
-      size: 14820
+      open_issues: 67
+      size: 12196
       stargazers_count: 20
       topics:
       - omero
       - webapp
-      updated_at: '2026-07-29T16:45:54Z'
+      updated_at: '2026-07-30T14:17:54Z'
     user: ome
     workflow_run_status: FAILURE
   - last_commit:
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-07-29'
-      sha: 980b1b46f34ff1dc5c58d3d3a69964eee36d565a
+      date: '2026-07-30'
+      sha: b1899970f00bec3ac2a0bdda3aaa1a864b148446
       status: null
-      url: https://github.com/ome/status/commit/980b1b46f34ff1dc5c58d3d3a69964eee36d565a
+      url: https://github.com/ome/status/commit/b1899970f00bec3ac2a0bdda3aaa1a864b148446
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 385
+      size: 395
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-07-29T08:43:39Z'
+      updated_at: '2026-07-30T08:28:52Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
