@@ -1,4 +1,4 @@
-generated_at: '2026-08-12T07:25:11.269497Z'
+generated_at: '2026-08-13T07:27:08.622894Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -220,7 +220,7 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 23
+      open_issues: 22
       size: 2450
       stargazers_count: 12
       topics:
@@ -281,9 +281,9 @@ sections:
       status: SUCCESS
       url: https://github.com/ome/napari-ome-zarr/commit/9bd108496f8adb3a1b08861fea8634bcc7933a4d
     last_release:
-      date: '2026-07-02'
-      tag_name: 0.9.1
-      url: https://github.com/ome/napari-ome-zarr/releases/tag/0.9.1
+      date: '2026-08-12'
+      tag_name: v0.10.0
+      url: https://github.com/ome/napari-ome-zarr/releases/tag/v0.10.0
     name: napari-ome-zarr
     repo: ome/napari-ome-zarr
     repo_info:
@@ -301,11 +301,11 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: vboussot
-      date: '2026-08-11'
-      sha: 86e3e6900bc7b79c556ffb3e78025481d15c9830
-      status: FAILURE
-      url: https://github.com/fideus-labs/ngff-zarr/commit/86e3e6900bc7b79c556ffb3e78025481d15c9830
+      author: thewtex
+      date: '2026-08-12'
+      sha: 302deee0eef3eebcc8cc772507c96f24577a7bf7
+      status: SUCCESS
+      url: https://github.com/fideus-labs/ngff-zarr/commit/302deee0eef3eebcc8cc772507c96f24577a7bf7
     last_release:
       date: '2026-08-07'
       tag_name: ts-v0.27.1
@@ -316,8 +316,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 20
-      size: 11178
+      open_issues: 22
+      size: 11492
       stargazers_count: 71
       topics:
       - dask
@@ -327,9 +327,9 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-08-11T14:47:41Z'
+      updated_at: '2026-08-12T15:33:22Z'
     user: fideus-labs
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: lorenzocerrone
       date: '2026-08-11'
@@ -862,7 +862,7 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 71
+      open_issues: 72
       size: 13009
       stargazers_count: 20
       topics:
@@ -1016,24 +1016,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-08-11'
-      sha: 2ae88e416bf5e17bfaeeb023d2f7c782088561b4
+      date: '2026-08-12'
+      sha: cce634d944d2e32ab2785eaa750efeeef96e3d67
       status: null
-      url: https://github.com/ome/status/commit/2ae88e416bf5e17bfaeeb023d2f7c782088561b4
+      url: https://github.com/ome/status/commit/cce634d944d2e32ab2785eaa750efeeef96e3d67
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 458
+      size: 460
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-08-11T07:08:14Z'
+      updated_at: '2026-08-12T07:25:34Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
