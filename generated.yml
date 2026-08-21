@@ -1,4 +1,4 @@
-generated_at: '2026-08-20T06:45:49.976203Z'
+generated_at: '2026-08-21T06:47:09.711588Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -78,16 +78,16 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 124
-      size: 15338
-      stargazers_count: 169
+      open_issues: 128
+      size: 15363
+      stargazers_count: 170
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-08-14T12:21:38Z'
+      updated_at: '2026-08-20T17:25:50Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -105,7 +105,7 @@ sections:
     repo_info:
       created_at: '2025-02-05T14:38:10Z'
       description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 6
+      open_issues: 11
       size: 2043
       stargazers_count: 7
       topics: []
@@ -164,7 +164,7 @@ sections:
       - zarr
       updated_at: '2026-08-18T15:03:03Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: chris-allan
       date: '2026-07-20'
@@ -302,10 +302,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-08-19'
-      sha: 88d9ce00f11ae08bbcd475894761cd99a252a515
-      status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/88d9ce00f11ae08bbcd475894761cd99a252a515
+      date: '2026-08-20'
+      sha: fda0e89c3b89426f0579df23282e5dece09d16d1
+      status: PENDING
+      url: https://github.com/fideus-labs/ngff-zarr/commit/fda0e89c3b89426f0579df23282e5dece09d16d1
     last_release:
       date: '2026-08-13'
       tag_name: ts-v0.28.0
@@ -316,8 +316,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 23
-      size: 13083
+      open_issues: 27
+      size: 12127
       stargazers_count: 71
       topics:
       - dask
@@ -327,7 +327,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-08-19T18:31:43Z'
+      updated_at: '2026-08-20T18:44:38Z'
     user: fideus-labs
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-08-19'
-      sha: 7b734fc354bf0aa60a7222d546a068613ab61d17
+      date: '2026-08-20'
+      sha: 984320c7c96531adbd313b61c5b82f5d14c744d1
       status: null
-      url: https://github.com/ome/status/commit/7b734fc354bf0aa60a7222d546a068613ab61d17
+      url: https://github.com/ome/status/commit/984320c7c96531adbd313b61c5b82f5d14c744d1
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 500
+      size: 502
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-08-19T06:43:21Z'
+      updated_at: '2026-08-20T06:46:12Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1048,7 +1048,7 @@ sections:
       created_at: '2017-09-07T06:24:09Z'
       description: Playbooks used by the OME team for deploying production services
         including OMERO
-      open_issues: 11
+      open_issues: 12
       size: 1370
       stargazers_count: 4
       topics:
