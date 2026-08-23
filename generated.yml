@@ -1,4 +1,4 @@
-generated_at: '2026-08-22T06:40:13.159268Z'
+generated_at: '2026-08-23T06:40:46.910232Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -36,7 +36,7 @@ sections:
       - wsi
       updated_at: '2026-08-21T21:53:11Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: melissalinkert
       date: '2026-03-18'
@@ -154,7 +154,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 79
+      open_issues: 80
       size: 2496
       stargazers_count: 258
       topics:
@@ -608,7 +608,9 @@ sections:
       updated_at: '2026-08-14T06:45:56Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - Build
+    last_commit:
       author: jburel
       date: '2026-02-16'
       sha: 050a7aef07b24c5c0b030ec48d0f2a8b674f8ee9
@@ -633,7 +635,7 @@ sections:
       - omero
       updated_at: '2026-03-31T13:15:01Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
 - name: OMERO Python packages
   packages:
   - last_commit:
@@ -1014,24 +1016,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-08-21'
-      sha: 61edd0b0c585a310e99b23e2dcc61dffe4e95aff
+      date: '2026-08-22'
+      sha: 242b1d0bcb4b0f49a51a11b738b8091c603a1f12
       status: null
-      url: https://github.com/ome/status/commit/61edd0b0c585a310e99b23e2dcc61dffe4e95aff
+      url: https://github.com/ome/status/commit/242b1d0bcb4b0f49a51a11b738b8091c603a1f12
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 407
+      size: 417
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-08-21T06:47:28Z'
+      updated_at: '2026-08-22T06:40:24Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1104,7 +1106,9 @@ sections:
       updated_at: '2026-07-20T10:58:14Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - Build
+    last_commit:
       author: jburel
       date: '2025-12-06'
       sha: 4434ad1a5df6fdbe75d2a01809f1f66a7d95524b
@@ -1126,7 +1130,7 @@ sections:
       - omero-web
       updated_at: '2026-03-31T04:28:33Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: sbesson
       date: '2026-08-03'
