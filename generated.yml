@@ -1,4 +1,4 @@
-generated_at: '2026-09-06T10:25:00.652393Z'
+generated_at: '2026-09-07T11:46:23.214378Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -36,7 +36,7 @@ sections:
       - wsi
       updated_at: '2026-08-31T13:38:27Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: melissalinkert
       date: '2026-03-18'
@@ -78,7 +78,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 120
+      open_issues: 121
       size: 16150
       stargazers_count: 171
       topics:
@@ -178,7 +178,7 @@ sections:
     repo_info:
       created_at: '2025-06-25T13:39:12Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 1
+      open_issues: 0
       size: 647
       stargazers_count: 0
       topics: []
@@ -200,7 +200,7 @@ sections:
     repo_info:
       created_at: '2024-03-12T15:38:57Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 6
+      open_issues: 7
       size: 520
       stargazers_count: 2
       topics: []
@@ -222,7 +222,7 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 21
+      open_issues: 19
       size: 2591
       stargazers_count: 12
       topics:
@@ -318,8 +318,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 29
-      size: 15319
+      open_issues: 30
+      size: 15300
       stargazers_count: 72
       topics:
       - dask
@@ -348,8 +348,8 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 5
-      size: 150872
+      open_issues: 7
+      size: 150907
       stargazers_count: 51
       topics:
       - ome-ngff
@@ -1036,24 +1036,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-09-05'
-      sha: d7efce12c6339db557eb509e7edda4da356b48ee
+      date: '2026-09-06'
+      sha: 61d4ba61d25a3eda77a97b8a2903d686dc81e119
       status: null
-      url: https://github.com/ome/status/commit/d7efce12c6339db557eb509e7edda4da356b48ee
+      url: https://github.com/ome/status/commit/61d4ba61d25a3eda77a97b8a2903d686dc81e119
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 490
+      size: 422
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-09-05T10:04:34Z'
+      updated_at: '2026-09-06T10:25:05Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
