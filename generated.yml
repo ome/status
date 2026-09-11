@@ -1,4 +1,4 @@
-generated_at: '2026-09-10T10:48:07.634309Z'
+generated_at: '2026-09-11T10:45:31.580602Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -63,11 +63,11 @@ sections:
 - name: OME-NGFF
   packages:
   - last_commit:
-      author: kevinyamauchi
-      date: '2026-09-09'
-      sha: ee8b59b31dbb1c764e5dcd1689c7ef499de6ec54
+      author: jo-mueller
+      date: '2026-09-11'
+      sha: adc3e49776417257e065d00e85de7cbca50a3e04
       status: SUCCESS
-      url: https://github.com/ome/ngff/commit/ee8b59b31dbb1c764e5dcd1689c7ef499de6ec54
+      url: https://github.com/ome/ngff/commit/adc3e49776417257e065d00e85de7cbca50a3e04
     last_release:
       date: '2025-01-28'
       tag_name: 0.5.2
@@ -78,8 +78,8 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 123
-      size: 16298
+      open_issues: 121
+      size: 16290
       stargazers_count: 171
       topics:
       - bioimaging
@@ -87,7 +87,7 @@ sections:
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-09-09T12:34:17Z'
+      updated_at: '2026-09-11T10:07:20Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -154,7 +154,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 80
+      open_issues: 81
       size: 2550
       stargazers_count: 258
       topics:
@@ -317,7 +317,7 @@ sections:
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
       open_issues: 27
-      size: 15361
+      size: 15640
       stargazers_count: 72
       topics:
       - dask
@@ -1018,42 +1018,42 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-09-09'
-      sha: ff0de23e35be5066ac8967cc86b3a585fd3cf117
+      date: '2026-09-10'
+      sha: 729d351605b924af1e2fdc78e231f6765d75d9b5
       status: null
-      url: https://github.com/ome/status/commit/ff0de23e35be5066ac8967cc86b3a585fd3cf117
+      url: https://github.com/ome/status/commit/729d351605b924af1e2fdc78e231f6765d75d9b5
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 434
+      size: 444
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-09-09T10:54:20Z'
+      updated_at: '2026-09-10T10:48:40Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
   packages:
   - last_commit:
       author: pwalczysko
-      date: '2026-02-25'
-      sha: 1e935ebbd3344066db3a175fbe4e89c55ffc930b
+      date: '2026-09-11'
+      sha: 5e1d9fba2c957947bff8731d294aae3be8ee4003
       status: SUCCESS
-      url: https://github.com/ome/prod-playbooks/commit/1e935ebbd3344066db3a175fbe4e89c55ffc930b
+      url: https://github.com/ome/prod-playbooks/commit/5e1d9fba2c957947bff8731d294aae3be8ee4003
     name: prod-playbooks
     repo: ome/prod-playbooks
     repo_info:
       created_at: '2017-09-07T06:24:09Z'
       description: Playbooks used by the OME team for deploying production services
         including OMERO
-      open_issues: 12
-      size: 1370
+      open_issues: 11
+      size: 1373
       stargazers_count: 4
       topics:
       - ansible
@@ -1061,7 +1061,7 @@ sections:
       - omero
       - playbooks
       - production
-      updated_at: '2026-02-25T14:40:10Z'
+      updated_at: '2026-09-11T09:11:02Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
