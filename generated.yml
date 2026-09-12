@@ -1,4 +1,4 @@
-generated_at: '2026-09-11T10:45:31.580602Z'
+generated_at: '2026-09-12T10:13:42.322773Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -36,7 +36,7 @@ sections:
       - wsi
       updated_at: '2026-09-09T13:50:57Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: melissalinkert
       date: '2026-03-18'
@@ -79,7 +79,7 @@ sections:
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
       open_issues: 121
-      size: 16290
+      size: 16300
       stargazers_count: 171
       topics:
       - bioimaging
@@ -302,22 +302,22 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-09-09'
-      sha: 456c6abeea4c98f2dfd05bb4b3fc8a3ba4d09e1d
-      status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/456c6abeea4c98f2dfd05bb4b3fc8a3ba4d09e1d
+      date: '2026-09-11'
+      sha: a3d47687237825bf6dad3ac3b19ce61b973bc87f
+      status: FAILURE
+      url: https://github.com/fideus-labs/ngff-zarr/commit/a3d47687237825bf6dad3ac3b19ce61b973bc87f
     last_release:
-      date: '2026-09-04'
-      tag_name: ts-v0.32.0
-      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/ts-v0.32.0
+      date: '2026-09-11'
+      tag_name: ts-v0.32.1
+      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/ts-v0.32.1
     name: ngff-zarr
     repo: fideus-labs/ngff-zarr
     repo_info:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 27
-      size: 15640
+      open_issues: 26
+      size: 15648
       stargazers_count: 72
       topics:
       - dask
@@ -327,9 +327,9 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-09-09T09:16:55Z'
+      updated_at: '2026-09-11T19:29:10Z'
     user: fideus-labs
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: lorenzocerrone
       date: '2026-08-27'
@@ -427,7 +427,7 @@ sections:
         data structure that can serialized to OME-NGFF.
       open_issues: 19
       size: 3046
-      stargazers_count: 57
+      stargazers_count: 58
       topics:
       - imaging
       - multiscale
@@ -436,7 +436,7 @@ sections:
       - python
       - scientific-computing
       - xarray
-      updated_at: '2026-08-07T02:52:52Z'
+      updated_at: '2026-09-11T16:24:20Z'
     user: spatial-image
     workflow_run_status: FAILURE
 - name: OMERO Java packages
@@ -1018,10 +1018,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-09-10'
-      sha: 729d351605b924af1e2fdc78e231f6765d75d9b5
+      date: '2026-09-11'
+      sha: ff7ce20532293f58f0a4e277aca538d8d39a7107
       status: null
-      url: https://github.com/ome/status/commit/729d351605b924af1e2fdc78e231f6765d75d9b5
+      url: https://github.com/ome/status/commit/ff7ce20532293f58f0a4e277aca538d8d39a7107
     name: status
     repo: ome/status
     repo_info:
@@ -1035,7 +1035,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-09-10T10:48:40Z'
+      updated_at: '2026-09-11T10:45:36Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
