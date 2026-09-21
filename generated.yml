@@ -1,4 +1,4 @@
-generated_at: '2026-09-20T10:47:50.876773Z'
+generated_at: '2026-09-21T12:11:38.994106Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -64,10 +64,10 @@ sections:
   packages:
   - last_commit:
       author: jo-mueller
-      date: '2026-09-19'
-      sha: 1363abf09899c8b981441972310825d2ffa1d92f
+      date: '2026-09-21'
+      sha: 7ff83c87982b25c1a398210239dae639725d7ab8
       status: SUCCESS
-      url: https://github.com/ome/ngff/commit/1363abf09899c8b981441972310825d2ffa1d92f
+      url: https://github.com/ome/ngff/commit/7ff83c87982b25c1a398210239dae639725d7ab8
     last_release:
       date: '2025-01-28'
       tag_name: 0.5.2
@@ -78,8 +78,8 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 128
-      size: 16495
+      open_issues: 126
+      size: 16499
       stargazers_count: 171
       topics:
       - bioimaging
@@ -87,7 +87,7 @@ sections:
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-09-19T17:53:58Z'
+      updated_at: '2026-09-21T09:37:38Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -140,10 +140,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: jo-mueller
-      date: '2026-09-15'
-      sha: a91e8121efd9a3294243869770815b29708a0592
+      date: '2026-09-21'
+      sha: 31683232cf1188f6ef431032ec01b81cfe081740
       status: SUCCESS
-      url: https://github.com/ome/ome-zarr-py/commit/a91e8121efd9a3294243869770815b29708a0592
+      url: https://github.com/ome/ome-zarr-py/commit/31683232cf1188f6ef431032ec01b81cfe081740
     last_release:
       date: '2026-09-08'
       tag_name: v0.19.2
@@ -154,15 +154,15 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 81
-      size: 2592
+      open_issues: 80
+      size: 2552
       stargazers_count: 258
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-09-15T12:08:20Z'
+      updated_at: '2026-09-21T07:46:10Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -316,7 +316,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 24
+      open_issues: 25
       size: 14553
       stargazers_count: 73
       topics:
@@ -346,8 +346,8 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 9
-      size: 150907
+      open_issues: 10
+      size: 150914
       stargazers_count: 52
       topics:
       - ome-ngff
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-09-19'
-      sha: e9618e586033c32b7d0525a30985a4b1e3efc60e
+      date: '2026-09-20'
+      sha: 83f6db814f6c593a676385b623d22db68c64119e
       status: null
-      url: https://github.com/ome/status/commit/e9618e586033c32b7d0525a30985a4b1e3efc60e
+      url: https://github.com/ome/status/commit/83f6db814f6c593a676385b623d22db68c64119e
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 486
+      size: 496
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-09-19T10:26:53Z'
+      updated_at: '2026-09-20T10:47:55Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1060,7 +1060,9 @@ sections:
       updated_at: '2026-09-11T09:11:02Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - Molecule
+    last_commit:
       author: pwalczysko
       date: '2026-07-20'
       sha: 1b15178254b19c4344715a0a97cce87419a34c3c
@@ -1081,8 +1083,10 @@ sections:
       - server
       updated_at: '2026-07-20T10:43:33Z'
     user: ome
-    workflow_run_status: SUCCESS
-  - last_commit:
+    workflow_run_status: NO_WORKFLOWS
+  - disabled_workflows:
+    - Molecule
+    last_commit:
       author: pwalczysko
       date: '2026-07-20'
       sha: c7707b5f42db7e3ef848beeb77b053faec66dc1d
@@ -1103,7 +1107,7 @@ sections:
       - openmicroscopy
       updated_at: '2026-07-20T10:58:14Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: jburel
       date: '2025-12-06'
