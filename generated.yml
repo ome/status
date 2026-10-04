@@ -1,4 +1,4 @@
-generated_at: '2026-10-03T11:13:30.853542Z'
+generated_at: '2026-10-04T11:53:11.943971Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -37,7 +37,10 @@ sections:
       updated_at: '2026-10-02T22:26:21Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - Gradle
+    - Maven
+    last_commit:
       author: melissalinkert
       date: '2026-03-18'
       sha: 669e8f37d483c62a4f8e9da89f14b7a8220b883f
@@ -59,7 +62,7 @@ sections:
       - maven
       updated_at: '2026-03-18T14:19:06Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
 - name: OME-NGFF
   packages:
   - last_commit:
@@ -92,24 +95,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
-      date: '2026-09-30'
-      sha: 331556397671562ccad3c5a986192c2a84c1d0c2
+      date: '2026-10-03'
+      sha: a531042adb83f68d5ddaa18d4b8a04ec13915847
       status: SUCCESS
-      url: https://github.com/BioNGFF/ome-zarr.js/commit/331556397671562ccad3c5a986192c2a84c1d0c2
+      url: https://github.com/BioNGFF/ome-zarr.js/commit/a531042adb83f68d5ddaa18d4b8a04ec13915847
     last_release:
-      date: '2026-09-30'
-      tag_name: v0.0.21
-      url: https://github.com/BioNGFF/ome-zarr.js/releases/tag/v0.0.21
+      date: '2026-10-03'
+      tag_name: v0.0.22
+      url: https://github.com/BioNGFF/ome-zarr.js/releases/tag/v0.0.22
     name: ome-zarr.js
     repo: BioNGFF/ome-zarr.js
     repo_info:
       created_at: '2025-02-05T14:38:10Z'
       description: Some JavaScript utils for simple rendering of OME-Zarr images
-      open_issues: 9
-      size: 2101
+      open_issues: 7
+      size: 2110
       stargazers_count: 7
       topics: []
-      updated_at: '2026-09-30T11:06:09Z'
+      updated_at: '2026-10-03T22:26:47Z'
     user: BioNGFF
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1014,24 +1017,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-10-02'
-      sha: 6ced38bd21d8e13c3cc473441b3c437da6dddccc
+      date: '2026-10-03'
+      sha: 2b668566e8877778fb9e340f546dfa4152039a27
       status: null
-      url: https://github.com/ome/status/commit/6ced38bd21d8e13c3cc473441b3c437da6dddccc
+      url: https://github.com/ome/status/commit/2b668566e8877778fb9e340f546dfa4152039a27
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 489
+      size: 499
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-10-02T12:00:39Z'
+      updated_at: '2026-10-03T11:13:35Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
