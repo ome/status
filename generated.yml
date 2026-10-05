@@ -1,4 +1,4 @@
-generated_at: '2026-10-04T11:53:11.943971Z'
+generated_at: '2026-10-05T13:50:05.400868Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -81,7 +81,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 121
+      open_issues: 122
       size: 16542
       stargazers_count: 172
       topics:
@@ -143,21 +143,21 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: jo-mueller
-      date: '2026-10-01'
-      sha: 21cafbaccc4c054773ded14bf5d93091cb6a9072
+      date: '2026-10-05'
+      sha: 0ac3207b12c6a5eb60b9fa4cab0b31bc2d1d35a7
       status: SUCCESS
-      url: https://github.com/ome/ome-zarr-py/commit/21cafbaccc4c054773ded14bf5d93091cb6a9072
+      url: https://github.com/ome/ome-zarr-py/commit/0ac3207b12c6a5eb60b9fa4cab0b31bc2d1d35a7
     last_release:
-      date: '2026-09-08'
-      tag_name: v0.19.2
-      url: https://github.com/ome/ome-zarr-py/releases/tag/v0.19.2
+      date: '2026-10-05'
+      tag_name: v0.20.1
+      url: https://github.com/ome/ome-zarr-py/releases/tag/v0.20.1
     name: ome-zarr-py
     repo: ome/ome-zarr-py
     repo_info:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 82
+      open_issues: 83
       size: 2671
       stargazers_count: 259
       topics:
@@ -165,9 +165,9 @@ sections:
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-10-02T07:41:44Z'
+      updated_at: '2026-10-05T12:59:06Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: sbesson
       date: '2026-09-10'
@@ -292,7 +292,7 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 38
+      open_issues: 39
       size: 402
       stargazers_count: 56
       topics:
@@ -319,7 +319,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 23
+      open_issues: 25
       size: 14700
       stargazers_count: 73
       topics:
@@ -335,10 +335,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: lorenzocerrone
-      date: '2026-08-27'
-      sha: b1b23972167ddd40c345c538600c24fa1803bff6
+      date: '2026-10-05'
+      sha: d40a85b719e1107541b50ce9f7f86cff944c6e60
       status: SUCCESS
-      url: https://github.com/BioVisionCenter/ngio/commit/b1b23972167ddd40c345c538600c24fa1803bff6
+      url: https://github.com/BioVisionCenter/ngio/commit/d40a85b719e1107541b50ce9f7f86cff944c6e60
     last_release:
       date: '2026-08-27'
       tag_name: v1.1.0
@@ -349,13 +349,13 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 11
-      size: 150921
+      open_issues: 8
+      size: 153846
       stargazers_count: 52
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-09-17T13:45:36Z'
+      updated_at: '2026-10-05T09:45:14Z'
     user: BioVisionCenter
     workflow_run_status: FAILURE
   - last_commit:
@@ -769,7 +769,9 @@ sections:
       updated_at: '2025-12-11T13:35:00Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    last_commit:
       author: JensWendt
       date: '2026-06-05'
       sha: 84bd56398da76395adbc46f665b53212b5eda260
@@ -794,7 +796,7 @@ sections:
       - omero-server
       updated_at: '2026-06-05T11:56:04Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: sbesson
       date: '2026-01-29'
@@ -889,8 +891,8 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 64
-      size: 15346
+      open_issues: 65
+      size: 15404
       stargazers_count: 22
       topics:
       - omero
@@ -1017,10 +1019,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-10-03'
-      sha: 2b668566e8877778fb9e340f546dfa4152039a27
+      date: '2026-10-04'
+      sha: b77c4f0b532723c3070786c6b1129b6f472258d3
       status: null
-      url: https://github.com/ome/status/commit/2b668566e8877778fb9e340f546dfa4152039a27
+      url: https://github.com/ome/status/commit/b77c4f0b532723c3070786c6b1129b6f472258d3
     name: status
     repo: ome/status
     repo_info:
@@ -1034,9 +1036,9 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-10-03T11:13:35Z'
+      updated_at: '2026-10-04T11:53:16Z'
     user: ome
-    workflow_run_status: PENDING
+    workflow_run_status: SUCCESS
 - name: Ansible, Docker and examples
   packages:
   - last_commit:
@@ -1106,7 +1108,7 @@ sections:
       - openmicroscopy
       updated_at: '2026-07-20T10:58:14Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: jburel
       date: '2025-12-06'
