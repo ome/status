@@ -1,4 +1,4 @@
-generated_at: '2026-10-10T12:02:01.652076Z'
+generated_at: '2026-10-11T12:14:36.091767Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -59,7 +59,7 @@ sections:
       - maven
       updated_at: '2026-03-18T14:19:06Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
 - name: OME-NGFF
   packages:
   - last_commit:
@@ -156,13 +156,13 @@ sections:
         for storing bioimaging data in the cloud.
       open_issues: 89
       size: 2629
-      stargazers_count: 260
+      stargazers_count: 261
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-10-08T18:01:18Z'
+      updated_at: '2026-10-10T12:09:27Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -384,10 +384,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: jo-mueller
-      date: '2026-09-22'
-      sha: 9b401143d69aff5a559d01be9a730b918fe271da
+      date: '2026-10-10'
+      sha: c75f2277fe9e4563deb92c5f4835a83585c72325
       status: SUCCESS
-      url: https://github.com/ome-zarr-py/ome-zarr-models-py/commit/9b401143d69aff5a559d01be9a730b918fe271da
+      url: https://github.com/ome-zarr-py/ome-zarr-models-py/commit/c75f2277fe9e4563deb92c5f4835a83585c72325
     last_release:
       date: '2026-09-02'
       tag_name: v1.8.1
@@ -398,15 +398,15 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 30
-      size: 2193
+      open_issues: 29
+      size: 2201
       stargazers_count: 39
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-10-02T08:18:27Z'
+      updated_at: '2026-10-10T17:47:45Z'
     user: ome-zarr-models
     workflow_run_status: SUCCESS
   - last_commit:
@@ -792,7 +792,9 @@ sections:
       updated_at: '2026-10-07T11:57:13Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    last_commit:
       author: sbesson
       date: '2026-01-29'
       sha: 5b4d76862a7141257c9ff221ff7f009f7ec416c0
@@ -1014,24 +1016,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-10-09'
-      sha: 46f35a814cbce2d9882c86ba74ccfca264a6ec6f
+      date: '2026-10-10'
+      sha: eacabd5e7071e1dce0a28ffb295b4bdaf768a5fb
       status: null
-      url: https://github.com/ome/status/commit/46f35a814cbce2d9882c86ba74ccfca264a6ec6f
+      url: https://github.com/ome/status/commit/eacabd5e7071e1dce0a28ffb295b4bdaf768a5fb
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 530
+      size: 455
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-10-09T12:43:01Z'
+      updated_at: '2026-10-10T12:02:06Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1150,7 +1152,9 @@ sections:
       updated_at: '2026-08-03T18:25:42Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - Build
+    last_commit:
       author: pwalczysko
       date: '2026-08-05'
       sha: d655b139f49340252abf5655ce554de2febee9ea
