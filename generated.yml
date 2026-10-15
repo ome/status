@@ -1,4 +1,4 @@
-generated_at: '2026-10-14T11:21:05.857682Z'
+generated_at: '2026-10-15T10:58:35.244890Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -185,10 +185,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
-      date: '2026-09-10'
-      sha: bcde203d9bbfe64d9fdb111f87ce0c073ecd8d9b
+      date: '2026-10-14'
+      sha: 08719ac13b250033a3858830fd34f99b1df527c6
       status: SUCCESS
-      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/bcde203d9bbfe64d9fdb111f87ce0c073ecd8d9b
+      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/08719ac13b250033a3858830fd34f99b1df527c6
     last_release:
       date: '2026-09-10'
       tag_name: v0.7.1
@@ -198,11 +198,11 @@ sections:
     repo_info:
       created_at: '2024-03-12T15:38:57Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 8
-      size: 529
+      open_issues: 7
+      size: 550
       stargazers_count: 2
       topics: []
-      updated_at: '2026-09-10T08:48:08Z'
+      updated_at: '2026-10-14T13:47:06Z'
     user: glencoesoftware
     workflow_run_status: SUCCESS
   - last_commit:
@@ -332,27 +332,27 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: lorenzocerrone
-      date: '2026-10-06'
-      sha: cc3bbb8a687c1b80c88e43777088fc34d94490be
+      date: '2026-10-14'
+      sha: c883aa0c12e580248cdc4ef9cfc5076a0177845f
       status: SUCCESS
-      url: https://github.com/BioVisionCenter/ngio/commit/cc3bbb8a687c1b80c88e43777088fc34d94490be
+      url: https://github.com/BioVisionCenter/ngio/commit/c883aa0c12e580248cdc4ef9cfc5076a0177845f
     last_release:
-      date: '2026-10-06'
-      tag_name: v1.1.1
-      url: https://github.com/BioVisionCenter/ngio/releases/tag/v1.1.1
+      date: '2026-10-14'
+      tag_name: v1.1.2
+      url: https://github.com/BioVisionCenter/ngio/releases/tag/v1.1.2
     name: ngio
     repo: BioVisionCenter/ngio
     repo_info:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 7
-      size: 156185
+      open_issues: 6
+      size: 166559
       stargazers_count: 53
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-10-08T15:21:48Z'
+      updated_at: '2026-10-14T15:15:58Z'
     user: BioVisionCenter
     workflow_run_status: SUCCESS
   - last_commit:
@@ -678,7 +678,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 152
+      open_issues: 153
       size: 26770
       stargazers_count: 24
       topics:
@@ -1014,24 +1014,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-10-13'
-      sha: 36a590f92ca0f6eaf03d067618cb929edf96b34a
+      date: '2026-10-14'
+      sha: dd0a399095060c75522a4b620942f5b661c70949
       status: null
-      url: https://github.com/ome/status/commit/36a590f92ca0f6eaf03d067618cb929edf96b34a
+      url: https://github.com/ome/status/commit/dd0a399095060c75522a4b620942f5b661c70949
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 467
+      size: 476
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-10-13T13:42:52Z'
+      updated_at: '2026-10-14T11:21:11Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
