@@ -1,4 +1,4 @@
-generated_at: '2026-10-29T12:25:26.662342Z'
+generated_at: '2026-10-30T12:16:36.141377Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -36,7 +36,7 @@ sections:
       - wsi
       updated_at: '2026-10-28T06:43:50Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: melissalinkert
       date: '2026-10-13'
@@ -80,14 +80,14 @@ sections:
         data in the cloud.
       open_issues: 135
       size: 16595
-      stargazers_count: 178
+      stargazers_count: 179
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-10-24T15:20:51Z'
+      updated_at: '2026-10-30T11:30:01Z'
     user: ome
     workflow_run_status: FAILURE
   - last_commit:
@@ -185,10 +185,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
-      date: '2026-10-21'
-      sha: b301dd79e15f4e17d5cdd699ecaccfeda4545348
+      date: '2026-10-29'
+      sha: f527ed2c92e288ee72e451b48082c5b4fda47094
       status: SUCCESS
-      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/b301dd79e15f4e17d5cdd699ecaccfeda4545348
+      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/f527ed2c92e288ee72e451b48082c5b4fda47094
     last_release:
       date: '2026-10-21'
       tag_name: v0.7.2
@@ -198,11 +198,11 @@ sections:
     repo_info:
       created_at: '2024-03-12T15:38:57Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 7
-      size: 556
+      open_issues: 6
+      size: 536
       stargazers_count: 2
       topics: []
-      updated_at: '2026-10-21T07:40:21Z'
+      updated_at: '2026-10-29T13:29:35Z'
     user: glencoesoftware
     workflow_run_status: SUCCESS
   - last_commit:
@@ -302,10 +302,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-10-28'
-      sha: 4abd6be414f291cae31baf55d0dbe380e1f7d3fb
-      status: FAILURE
-      url: https://github.com/fideus-labs/ngff-zarr/commit/4abd6be414f291cae31baf55d0dbe380e1f7d3fb
+      date: '2026-10-30'
+      sha: 6ef13a1de63592f858536d513c418d9154df2007
+      status: SUCCESS
+      url: https://github.com/fideus-labs/ngff-zarr/commit/6ef13a1de63592f858536d513c418d9154df2007
     last_release:
       date: '2026-10-23'
       tag_name: ts-v0.39.0
@@ -316,8 +316,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 34
-      size: 16365
+      open_issues: 33
+      size: 17195
       stargazers_count: 74
       topics:
       - dask
@@ -327,7 +327,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-10-28T14:33:45Z'
+      updated_at: '2026-10-30T02:24:21Z'
     user: fideus-labs
     workflow_run_status: FAILURE
   - last_commit:
@@ -862,8 +862,8 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 70
-      size: 13634
+      open_issues: 71
+      size: 13840
       stargazers_count: 20
       topics:
       - omero
@@ -1016,10 +1016,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-10-28'
-      sha: 2fc10e0c7e01f939bcfbccbad44d4b79896d3e1f
+      date: '2026-10-29'
+      sha: 9cf7739df31c80ab4252dc05306c61cf298e3131
       status: null
-      url: https://github.com/ome/status/commit/2fc10e0c7e01f939bcfbccbad44d4b79896d3e1f
+      url: https://github.com/ome/status/commit/9cf7739df31c80ab4252dc05306c61cf298e3131
     name: status
     repo: ome/status
     repo_info:
@@ -1033,7 +1033,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-10-28T12:16:17Z'
+      updated_at: '2026-10-29T12:25:31Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
