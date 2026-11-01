@@ -1,4 +1,4 @@
-generated_at: '2026-10-31T11:48:12.106427Z'
+generated_at: '2026-11-01T12:47:38.977837Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -63,11 +63,11 @@ sections:
 - name: OME-NGFF
   packages:
   - last_commit:
-      author: lubianat
-      date: '2026-10-23'
-      sha: 56e3d0a6310fcb32159d779b6b4fe1826a5693b8
+      author: bvquerfurth
+      date: '2026-11-01'
+      sha: 3b2fca3a879e8d75164cf95da03bf1d874af0954
       status: SUCCESS
-      url: https://github.com/ome/ngff/commit/56e3d0a6310fcb32159d779b6b4fe1826a5693b8
+      url: https://github.com/ome/ngff/commit/3b2fca3a879e8d75164cf95da03bf1d874af0954
     last_release:
       date: '2025-01-28'
       tag_name: 0.5.2
@@ -79,7 +79,7 @@ sections:
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
       open_issues: 135
-      size: 16595
+      size: 16598
       stargazers_count: 179
       topics:
       - bioimaging
@@ -87,7 +87,7 @@ sections:
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-10-30T11:30:01Z'
+      updated_at: '2026-11-01T09:30:22Z'
     user: ome
     workflow_run_status: FAILURE
   - last_commit:
@@ -154,7 +154,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 86
+      open_issues: 87
       size: 2700
       stargazers_count: 263
       topics:
@@ -316,8 +316,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 29
-      size: 17266
+      open_issues: 30
+      size: 17259
       stargazers_count: 74
       topics:
       - dask
@@ -346,7 +346,7 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 8
+      open_issues: 10
       size: 173772
       stargazers_count: 53
       topics:
@@ -354,7 +354,7 @@ sections:
       - ome-zarr
       updated_at: '2026-10-19T09:51:21Z'
     user: BioVisionCenter
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: LDeakin
       date: '2026-07-16'
@@ -862,8 +862,8 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 71
-      size: 13840
+      open_issues: 72
+      size: 14039
       stargazers_count: 20
       topics:
       - omero
@@ -1016,24 +1016,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-10-30'
-      sha: 18bd6cbe583bbf9aa1ef3c7002642430b956cdb0
+      date: '2026-10-31'
+      sha: 34f3aaed191f9fc02aff20e582ebbed6b238dc43
       status: null
-      url: https://github.com/ome/status/commit/18bd6cbe583bbf9aa1ef3c7002642430b956cdb0
+      url: https://github.com/ome/status/commit/34f3aaed191f9fc02aff20e582ebbed6b238dc43
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 478
+      size: 487
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-10-30T12:16:41Z'
+      updated_at: '2026-10-31T11:48:16Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1106,7 +1106,9 @@ sections:
       updated_at: '2026-07-20T10:58:14Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - Build
+    last_commit:
       author: jburel
       date: '2025-12-06'
       sha: 4434ad1a5df6fdbe75d2a01809f1f66a7d95524b
@@ -1128,7 +1130,7 @@ sections:
       - omero-web
       updated_at: '2026-03-31T04:28:33Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: sbesson
       date: '2026-08-03'
