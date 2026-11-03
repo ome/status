@@ -1,4 +1,4 @@
-generated_at: '2026-11-02T14:56:48.757405Z'
+generated_at: '2026-11-03T13:44:43.056303Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 165
+      open_issues: 166
       size: 281177
       stargazers_count: 434
       topics:
@@ -78,7 +78,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 135
+      open_issues: 139
       size: 16598
       stargazers_count: 180
       topics:
@@ -154,8 +154,8 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 87
-      size: 2700
+      open_issues: 88
+      size: 2702
       stargazers_count: 263
       topics:
       - ngff
@@ -290,7 +290,7 @@ sections:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
       open_issues: 40
-      size: 405
+      size: 318
       stargazers_count: 56
       topics:
       - napari-plugin
@@ -302,10 +302,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-10-30'
-      sha: 9609642f6d1d2921af26eed4419a28479b77341f
+      date: '2026-11-02'
+      sha: 6a3ff1ed3ca6afc1f4dd3aa53489edbee2b37fbe
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/9609642f6d1d2921af26eed4419a28479b77341f
+      url: https://github.com/fideus-labs/ngff-zarr/commit/6a3ff1ed3ca6afc1f4dd3aa53489edbee2b37fbe
     last_release:
       date: '2026-10-30'
       tag_name: ts-v0.40.0
@@ -316,8 +316,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 32
-      size: 17259
+      open_issues: 34
+      size: 17260
       stargazers_count: 74
       topics:
       - dask
@@ -327,7 +327,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-10-30T18:57:37Z'
+      updated_at: '2026-11-02T16:58:25Z'
     user: fideus-labs
     workflow_run_status: FAILURE
   - last_commit:
@@ -678,8 +678,8 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 148
-      size: 26722
+      open_issues: 149
+      size: 26724
       stargazers_count: 24
       topics:
       - client
@@ -1016,24 +1016,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-11-01'
-      sha: ccc664ac96f6855b57b851f687a009740291c9b1
+      date: '2026-11-02'
+      sha: 52fb0394ea65a17a4e39fddb760578b19d8a1b6c
       status: null
-      url: https://github.com/ome/status/commit/ccc664ac96f6855b57b851f687a009740291c9b1
+      url: https://github.com/ome/status/commit/52fb0394ea65a17a4e39fddb760578b19d8a1b6c
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 488
+      size: 498
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-11-01T12:47:43Z'
+      updated_at: '2026-11-02T14:56:55Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1132,18 +1132,18 @@ sections:
     user: ome
     workflow_run_status: NO_WORKFLOWS
   - last_commit:
-      author: sbesson
-      date: '2026-08-03'
-      sha: 134bd587d20afe84568b26313e7826781a26ba8e
+      author: knabar
+      date: '2026-11-02'
+      sha: e08c82b6b454a95671b03f6dbe6670eb335d866c
       status: SUCCESS
-      url: https://github.com/ome/omero-web-docker/commit/134bd587d20afe84568b26313e7826781a26ba8e
+      url: https://github.com/ome/omero-web-docker/commit/e08c82b6b454a95671b03f6dbe6670eb335d866c
     name: omero-web-docker
     repo: ome/omero-web-docker
     repo_info:
       created_at: '2017-06-14T20:57:33Z'
       description: OMERO.web production docker image
-      open_issues: 23
-      size: 146
+      open_issues: 20
+      size: 153
       stargazers_count: 7
       topics:
       - docker
@@ -1151,7 +1151,7 @@ sections:
       - omero
       - omero-web
       - openmicroscopy
-      updated_at: '2026-08-03T18:25:42Z'
+      updated_at: '2026-11-02T15:18:28Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
