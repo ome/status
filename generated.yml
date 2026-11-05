@@ -1,4 +1,4 @@
-generated_at: '2026-11-04T13:53:28.018620Z'
+generated_at: '2026-11-05T14:08:06.283770Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 161
+      open_issues: 163
       size: 281238
       stargazers_count: 434
       topics:
@@ -36,7 +36,7 @@ sections:
       - wsi
       updated_at: '2026-11-04T09:19:49Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: melissalinkert
       date: '2026-10-13'
@@ -78,7 +78,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 142
+      open_issues: 143
       size: 16598
       stargazers_count: 180
       topics:
@@ -89,7 +89,7 @@ sections:
       - spec
       updated_at: '2026-11-02T12:03:42Z'
     user: ome
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: will-moore
       date: '2026-10-19'
@@ -185,10 +185,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
-      date: '2026-10-29'
-      sha: f527ed2c92e288ee72e451b48082c5b4fda47094
+      date: '2026-11-05'
+      sha: 6ebee1bcc42e1d9b9385deb43274f23e80b61135
       status: SUCCESS
-      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/f527ed2c92e288ee72e451b48082c5b4fda47094
+      url: https://github.com/glencoesoftware/omero-zarr-pixel-buffer/commit/6ebee1bcc42e1d9b9385deb43274f23e80b61135
     last_release:
       date: '2026-10-21'
       tag_name: v0.7.2
@@ -198,11 +198,11 @@ sections:
     repo_info:
       created_at: '2024-03-12T15:38:57Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 7
-      size: 536
+      open_issues: 5
+      size: 552
       stargazers_count: 2
       topics: []
-      updated_at: '2026-10-29T13:29:35Z'
+      updated_at: '2026-11-05T09:22:56Z'
     user: glencoesoftware
     workflow_run_status: SUCCESS
   - last_commit:
@@ -220,7 +220,7 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 16
+      open_issues: 17
       size: 2569
       stargazers_count: 12
       topics:
@@ -289,7 +289,7 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 40
+      open_issues: 41
       size: 318
       stargazers_count: 56
       topics:
@@ -302,22 +302,22 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: thewtex
-      date: '2026-11-04'
-      sha: af36b65b0f5a1a71b6c0306999ec9244e41cd7f9
-      status: PENDING
-      url: https://github.com/fideus-labs/ngff-zarr/commit/af36b65b0f5a1a71b6c0306999ec9244e41cd7f9
+      date: '2026-11-05'
+      sha: c1ff2284d19dba5aa589eebb280425f59ea51557
+      status: SUCCESS
+      url: https://github.com/fideus-labs/ngff-zarr/commit/c1ff2284d19dba5aa589eebb280425f59ea51557
     last_release:
-      date: '2026-10-30'
-      tag_name: ts-v0.40.0
-      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/ts-v0.40.0
+      date: '2026-11-05'
+      tag_name: ts-v0.41.0
+      url: https://github.com/fideus-labs/ngff-zarr/releases/tag/ts-v0.41.0
     name: ngff-zarr
     repo: fideus-labs/ngff-zarr
     repo_info:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 31
-      size: 17648
+      open_issues: 30
+      size: 17969
       stargazers_count: 74
       topics:
       - dask
@@ -327,9 +327,9 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-11-04T12:02:10Z'
+      updated_at: '2026-11-05T07:43:07Z'
     user: fideus-labs
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: lorenzocerrone
       date: '2026-11-04'
@@ -346,7 +346,7 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 7
+      open_issues: 9
       size: 176230
       stargazers_count: 53
       topics:
@@ -1016,24 +1016,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-11-03'
-      sha: 17e49b5f856eab9f0ab3501a7ab5a425ac8de8e4
+      date: '2026-11-04'
+      sha: 5633b43fac81925b7173fb8bbc2c77418c287929
       status: null
-      url: https://github.com/ome/status/commit/17e49b5f856eab9f0ab3501a7ab5a425ac8de8e4
+      url: https://github.com/ome/status/commit/5633b43fac81925b7173fb8bbc2c77418c287929
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 499
+      size: 508
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-11-03T13:44:48Z'
+      updated_at: '2026-11-04T13:53:33Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
@@ -1166,7 +1166,7 @@ sections:
       created_at: '2017-05-22T14:57:16Z'
       description: OMERO.server production docker image
       open_issues: 20
-      size: 178
+      size: 179
       stargazers_count: 17
       topics:
       - docker
