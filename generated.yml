@@ -1,4 +1,4 @@
-generated_at: '2026-11-07T12:35:07.342904Z'
+generated_at: '2026-11-08T12:52:44.377027Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -476,6 +476,7 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - disabled_workflows:
+    - CodeQL Advanced
     - Gradle
     last_commit:
       author: sbesson
@@ -504,8 +505,11 @@ sections:
       - omero
       updated_at: '2026-03-26T10:36:56Z'
     user: ome
-    workflow_run_status: SUCCESS
-  - last_commit:
+    workflow_run_status: NO_WORKFLOWS
+  - disabled_workflows:
+    - CodeQL Advanced
+    - Gradle
+    last_commit:
       author: sbesson
       date: '2026-03-31'
       sha: b3ec381de37646f94905d28d409073bf14b3802c
@@ -529,8 +533,11 @@ sections:
       - util
       updated_at: '2026-03-31T07:54:34Z'
     user: ome
-    workflow_run_status: SUCCESS
-  - last_commit:
+    workflow_run_status: NO_WORKFLOWS
+  - disabled_workflows:
+    - CodeQL Advanced
+    - Gradle
+    last_commit:
       author: sbesson
       date: '2026-03-31'
       sha: 2f497ed3b7da2fd21c0a0fca2f213b90d4548ca1
@@ -555,7 +562,7 @@ sections:
       - omero
       updated_at: '2026-03-31T08:59:13Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: sbesson
       date: '2026-08-14'
@@ -582,7 +589,7 @@ sections:
       - server
       updated_at: '2026-08-14T06:45:40Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: sbesson
       date: '2026-08-14'
@@ -609,7 +616,7 @@ sections:
       - server
       updated_at: '2026-08-14T06:45:56Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: sbesson
       date: '2026-10-27'
@@ -635,7 +642,7 @@ sections:
       - omero
       updated_at: '2026-10-28T14:02:56Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
 - name: OMERO Python packages
   packages:
   - last_commit:
@@ -692,7 +699,10 @@ sections:
       updated_at: '2026-10-28T14:04:11Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    - Tox
+    last_commit:
       author: sbesson
       date: '2025-11-25'
       sha: ac93ed4b4a139dd73b414ead55223071fc465de5
@@ -714,7 +724,7 @@ sections:
       - python
       updated_at: '2025-11-25T15:02:46Z'
     user: ome
-    workflow_run_status: SUCCESS
+    workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: sbesson
       date: '2026-01-05'
@@ -741,7 +751,9 @@ sections:
       updated_at: '2026-01-05T13:26:02Z'
     user: ome
     workflow_run_status: SUCCESS
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    last_commit:
       author: dominikl
       date: '2025-12-11'
       sha: 68b73035cf2ab21ddd92022b80bda0966547b3c8
@@ -1018,24 +1030,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-11-06'
-      sha: 92eaa38df7640cbff32e9460cbff8900cf4d7edd
+      date: '2026-11-07'
+      sha: 5831de2caf67b5ecfd0f16102589577dee7c5200
       status: null
-      url: https://github.com/ome/status/commit/92eaa38df7640cbff32e9460cbff8900cf4d7edd
+      url: https://github.com/ome/status/commit/5831de2caf67b5ecfd0f16102589577dee7c5200
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 519
+      size: 520
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-11-06T13:51:16Z'
+      updated_at: '2026-11-07T12:35:12Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
