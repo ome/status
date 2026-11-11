@@ -1,13 +1,13 @@
-generated_at: '2026-11-10T14:27:53.263990Z'
+generated_at: '2026-11-11T13:41:42.569336Z'
 sections:
 - name: Bio-Formats packages
   packages:
   - last_commit:
       author: sbesson
       date: '2026-11-10'
-      sha: 3f52d063ce38fccb251a922bab50fca802b9b077
-      status: FAILURE
-      url: https://github.com/ome/bioformats/commit/3f52d063ce38fccb251a922bab50fca802b9b077
+      sha: 77833925c46f0be6046e6f9bcaa94dc5511aec3e
+      status: SUCCESS
+      url: https://github.com/ome/bioformats/commit/77833925c46f0be6046e6f9bcaa94dc5511aec3e
     last_release:
       date: '2026-10-06'
       tag_name: v9.0.0-rc2
@@ -21,7 +21,7 @@ sections:
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
       open_issues: 163
-      size: 281257
+      size: 281260
       stargazers_count: 435
       topics:
       - bio-formats
@@ -34,7 +34,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-11-10T08:50:06Z'
+      updated_at: '2026-11-10T21:54:25Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -78,8 +78,8 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 136
-      size: 16566
+      open_issues: 135
+      size: 16571
       stargazers_count: 181
       topics:
       - bioimaging
@@ -139,11 +139,11 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: aaronkanzer
-      date: '2026-11-10'
-      sha: 742e91875933400e843d95669ac563f9dd849383
+      author: jo-mueller
+      date: '2026-11-11'
+      sha: d020cc12dd23056887832ed4b27dddd6c66eedc3
       status: SUCCESS
-      url: https://github.com/ome/ome-zarr-py/commit/742e91875933400e843d95669ac563f9dd849383
+      url: https://github.com/ome/ome-zarr-py/commit/d020cc12dd23056887832ed4b27dddd6c66eedc3
     last_release:
       date: '2026-10-07'
       tag_name: v0.21.0
@@ -154,15 +154,15 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 86
-      size: 2745
+      open_issues: 82
+      size: 2771
       stargazers_count: 263
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-11-10T13:58:32Z'
+      updated_at: '2026-11-11T11:00:54Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -177,7 +177,7 @@ sections:
       created_at: '2025-06-25T13:39:12Z'
       description: OMERO Zarr Pixel Buffer Implementation
       open_issues: 0
-      size: 664
+      size: 711
       stargazers_count: 0
       topics: []
       updated_at: '2026-11-10T13:39:49Z'
@@ -289,7 +289,7 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 41
+      open_issues: 42
       size: 318
       stargazers_count: 56
       topics:
@@ -474,7 +474,7 @@ sections:
       - server
       updated_at: '2026-10-06T07:41:15Z'
     user: ome
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - disabled_workflows:
     - CodeQL Advanced
     - Gradle
@@ -660,7 +660,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 60
+      open_issues: 61
       size: 12372
       stargazers_count: 28
       topics:
@@ -687,7 +687,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 150
+      open_issues: 151
       size: 26724
       stargazers_count: 24
       topics:
@@ -876,7 +876,7 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 64
+      open_issues: 65
       size: 14411
       stargazers_count: 20
       topics:
@@ -911,10 +911,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: Tom-TBT
-      date: '2026-01-26'
-      sha: 9f3ce72ba0446515ce564491a412c5a0c5aba90b
+      date: '2026-11-11'
+      sha: b713f560cf7814893948da3094f1397c704c4032
       status: SUCCESS
-      url: https://github.com/German-BioImaging/omero-autotag/commit/9f3ce72ba0446515ce564491a412c5a0c5aba90b
+      url: https://github.com/German-BioImaging/omero-autotag/commit/b713f560cf7814893948da3094f1397c704c4032
     last_release:
       date: '2026-01-26'
       tag_name: v4.3.0
@@ -925,11 +925,11 @@ sections:
       created_at: '2023-06-27T13:49:38Z'
       description: Extensions to OMERO.web to enhance tagging
       open_issues: 6
-      size: 1165
+      size: 1152
       stargazers_count: 0
       topics:
       - omero-web
-      updated_at: '2026-01-26T10:20:03Z'
+      updated_at: '2026-11-11T10:43:29Z'
     user: German-BioImaging
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1030,24 +1030,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-11-09'
-      sha: 2e331d0fd774f7ab3b11ef848435fe24a001a41c
+      date: '2026-11-10'
+      sha: ecf2f99de34d74ac1c376cc241bc8c45c622f416
       status: null
-      url: https://github.com/ome/status/commit/2e331d0fd774f7ab3b11ef848435fe24a001a41c
+      url: https://github.com/ome/status/commit/ecf2f99de34d74ac1c376cc241bc8c45c622f416
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 531
+      size: 540
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-11-09T15:26:25Z'
+      updated_at: '2026-11-10T14:27:58Z'
     user: ome
     workflow_run_status: PENDING
 - name: Ansible, Docker and examples
