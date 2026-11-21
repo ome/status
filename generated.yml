@@ -1,4 +1,4 @@
-generated_at: '2026-11-20T14:59:13.869333Z'
+generated_at: '2026-11-21T14:20:03.448935Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,8 +20,8 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 166
-      size: 281476
+      open_issues: 167
+      size: 281479
       stargazers_count: 436
       topics:
       - bio-formats
@@ -48,8 +48,8 @@ sections:
     repo_info:
       created_at: '2013-11-11T14:42:35Z'
       description: Examples of usage of the Bio-Formats API
-      open_issues: 0
-      size: 469
+      open_issues: 1
+      size: 481
       stargazers_count: 13
       topics:
       - api
@@ -491,7 +491,7 @@ sections:
       created_at: '2018-12-11T10:57:55Z'
       description: Gradle project for generating model jar for OMERO
       open_issues: 10
-      size: 7030
+      size: 7027
       stargazers_count: 0
       topics:
       - component
@@ -1016,17 +1016,17 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-11-19'
-      sha: a0a4b36b7821a1fb9814c60fad32fe9d41dfb281
+      date: '2026-11-20'
+      sha: df071684b2cc4c0ed7fa56009d8ffd1886e86348
       status: null
-      url: https://github.com/ome/status/commit/a0a4b36b7821a1fb9814c60fad32fe9d41dfb281
+      url: https://github.com/ome/status/commit/df071684b2cc4c0ed7fa56009d8ffd1886e86348
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 584
+      size: 593
       stargazers_count: 1
       topics:
       - dashboard
@@ -1110,7 +1110,7 @@ sections:
       author: jburel
       date: '2025-12-06'
       sha: 4434ad1a5df6fdbe75d2a01809f1f66a7d95524b
-      status: SUCCESS
+      status: null
       url: https://github.com/ome/docker-example-omero/commit/4434ad1a5df6fdbe75d2a01809f1f66a7d95524b
     name: docker-example-omero
     repo: ome/docker-example-omero
