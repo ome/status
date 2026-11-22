@@ -1,4 +1,4 @@
-generated_at: '2026-11-21T14:20:03.448935Z'
+generated_at: '2026-11-22T14:11:24.886131Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -36,7 +36,7 @@ sections:
       - wsi
       updated_at: '2026-11-19T18:41:13Z'
     user: ome
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: melissalinkert
       date: '2026-10-13'
@@ -743,7 +743,7 @@ sections:
       author: dominikl
       date: '2025-12-11'
       sha: 68b73035cf2ab21ddd92022b80bda0966547b3c8
-      status: SUCCESS
+      status: null
       url: https://github.com/ome/omero-cli-render/commit/68b73035cf2ab21ddd92022b80bda0966547b3c8
     last_release:
       date: '2025-12-04'
@@ -1016,17 +1016,17 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-11-20'
-      sha: df071684b2cc4c0ed7fa56009d8ffd1886e86348
+      date: '2026-11-21'
+      sha: e5000dca590ad96a27cef9c7d679d8c613ddd6f7
       status: null
-      url: https://github.com/ome/status/commit/df071684b2cc4c0ed7fa56009d8ffd1886e86348
+      url: https://github.com/ome/status/commit/e5000dca590ad96a27cef9c7d679d8c613ddd6f7
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 593
+      size: 496
       stargazers_count: 1
       topics:
       - dashboard
