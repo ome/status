@@ -1,4 +1,4 @@
-generated_at: '2026-11-22T14:11:24.886131Z'
+generated_at: '2026-11-23T17:33:15.483905Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -38,18 +38,18 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: melissalinkert
-      date: '2026-10-13'
-      sha: d92cafefa7c3bd86bddba0f1e6d85ed71aa58645
+      author: sbesson
+      date: '2026-11-23'
+      sha: 09a8f7231d01b1dd826fd0325fb60306c99868d5
       status: SUCCESS
-      url: https://github.com/ome/bio-formats-examples/commit/d92cafefa7c3bd86bddba0f1e6d85ed71aa58645
+      url: https://github.com/ome/bio-formats-examples/commit/09a8f7231d01b1dd826fd0325fb60306c99868d5
     name: bio-formats-examples
     repo: ome/bio-formats-examples
     repo_info:
       created_at: '2013-11-11T14:42:35Z'
       description: Examples of usage of the Bio-Formats API
-      open_issues: 1
-      size: 481
+      open_issues: 0
+      size: 478
       stargazers_count: 13
       topics:
       - api
@@ -63,11 +63,11 @@ sections:
 - name: OME-NGFF
   packages:
   - last_commit:
-      author: normanrz
-      date: '2026-11-16'
-      sha: 51d794ff4a557c7c2ebefb9d152837fed9ca9285
+      author: jo-mueller
+      date: '2026-11-23'
+      sha: a6a06c6c44e649a61686be4d2661923df7f4d2e9
       status: SUCCESS
-      url: https://github.com/ome/ngff/commit/51d794ff4a557c7c2ebefb9d152837fed9ca9285
+      url: https://github.com/ome/ngff/commit/a6a06c6c44e649a61686be4d2661923df7f4d2e9
     last_release:
       date: '2025-01-28'
       tag_name: 0.5.2
@@ -78,8 +78,8 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 126
-      size: 16578
+      open_issues: 125
+      size: 16584
       stargazers_count: 181
       topics:
       - bioimaging
@@ -139,11 +139,11 @@ sections:
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: clbarnes
-      date: '2026-11-13'
-      sha: 842aa3215a2dac56586f39d30364e2bbae28afa5
+      author: jo-mueller
+      date: '2026-11-23'
+      sha: 77d37429616359572d32c02ccffecca01209319a
       status: SUCCESS
-      url: https://github.com/ome/ome-zarr-py/commit/842aa3215a2dac56586f39d30364e2bbae28afa5
+      url: https://github.com/ome/ome-zarr-py/commit/77d37429616359572d32c02ccffecca01209319a
     last_release:
       date: '2026-10-07'
       tag_name: v0.21.0
@@ -154,8 +154,8 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 88
-      size: 2560
+      open_issues: 87
+      size: 2562
       stargazers_count: 263
       topics:
       - ngff
@@ -164,7 +164,7 @@ sections:
       - zarr
       updated_at: '2026-11-11T11:00:54Z'
     user: ome
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: sbesson
       date: '2026-11-17'
@@ -276,10 +276,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: jo-mueller
-      date: '2026-11-13'
-      sha: 926c28efaab26a3afbf5bf32cd807761ab37a70f
+      date: '2026-11-23'
+      sha: b8becdc80794a74af52daaf3be91a0797787dd39
       status: SUCCESS
-      url: https://github.com/ome/napari-ome-zarr/commit/926c28efaab26a3afbf5bf32cd807761ab37a70f
+      url: https://github.com/ome/napari-ome-zarr/commit/b8becdc80794a74af52daaf3be91a0797787dd39
     last_release:
       date: '2026-10-07'
       tag_name: v0.11.0
@@ -289,8 +289,8 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 44
-      size: 308
+      open_issues: 43
+      size: 311
       stargazers_count: 56
       topics:
       - napari-plugin
@@ -316,7 +316,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 27
+      open_issues: 28
       size: 17988
       stargazers_count: 75
       topics:
@@ -346,7 +346,7 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 15
+      open_issues: 11
       size: 189145
       stargazers_count: 53
       topics:
@@ -389,9 +389,9 @@ sections:
       status: SUCCESS
       url: https://github.com/ome-zarr-py/ome-zarr-models-py/commit/70656fdacfa893f23d3598845588c321ac1b37f6
     last_release:
-      date: '2026-11-09'
-      tag_name: v1.9.0
-      url: https://github.com/ome-zarr-py/ome-zarr-models-py/releases/tag/v1.9.0
+      date: '2026-11-23'
+      tag_name: v1.9.1
+      url: https://github.com/ome-zarr-py/ome-zarr-models-py/releases/tag/v1.9.1
     name: ome-zarr-models-py
     repo: ome-zarr-models/ome-zarr-models-py
     repo_info:
@@ -399,7 +399,7 @@ sections:
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
       open_issues: 32
-      size: 2208
+      size: 2209
       stargazers_count: 40
       topics:
       - ngff
@@ -873,10 +873,10 @@ sections:
     workflow_run_status: FAILURE
   - last_commit:
       author: will-moore
-      date: '2026-11-19'
-      sha: 6b1136d28dbf6e0453039727a81d7ce5e29a42d5
+      date: '2026-11-23'
+      sha: 712b3761485673098f691ae02bd51ff96090ab6a
       status: SUCCESS
-      url: https://github.com/ome/omero-figure/commit/6b1136d28dbf6e0453039727a81d7ce5e29a42d5
+      url: https://github.com/ome/omero-figure/commit/712b3761485673098f691ae02bd51ff96090ab6a
     last_release:
       date: '2026-09-08'
       tag_name: v8.0.1
@@ -886,8 +886,8 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 68
-      size: 15420
+      open_issues: 67
+      size: 15471
       stargazers_count: 22
       topics:
       - omero
@@ -1016,17 +1016,17 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-11-21'
-      sha: e5000dca590ad96a27cef9c7d679d8c613ddd6f7
+      date: '2026-11-22'
+      sha: 807e81e1ce572ef3142efb9fba39e7a358631dc4
       status: null
-      url: https://github.com/ome/status/commit/e5000dca590ad96a27cef9c7d679d8c613ddd6f7
+      url: https://github.com/ome/status/commit/807e81e1ce572ef3142efb9fba39e7a358631dc4
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 496
+      size: 506
       stargazers_count: 1
       topics:
       - dashboard
@@ -1140,8 +1140,8 @@ sections:
     repo_info:
       created_at: '2017-06-14T20:57:33Z'
       description: OMERO.web production docker image
-      open_issues: 20
-      size: 153
+      open_issues: 21
+      size: 156
       stargazers_count: 7
       topics:
       - docker
