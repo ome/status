@@ -1,4 +1,4 @@
-generated_at: '2026-11-24T17:04:07.404475Z'
+generated_at: '2026-11-25T16:53:55.914690Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -78,16 +78,16 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 124
-      size: 16686
-      stargazers_count: 181
+      open_issues: 128
+      size: 16734
+      stargazers_count: 182
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-11-09T11:38:20Z'
+      updated_at: '2026-11-25T03:29:39Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -220,7 +220,7 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 17
+      open_issues: 18
       size: 2675
       stargazers_count: 12
       topics:
@@ -289,7 +289,7 @@ sections:
     repo_info:
       created_at: '2021-05-27T09:34:51Z'
       description: A napari plugin for zarr backed OME-NGFF images
-      open_issues: 42
+      open_issues: 43
       size: 311
       stargazers_count: 56
       topics:
@@ -316,8 +316,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 27
-      size: 17997
+      open_issues: 28
+      size: 18002
       stargazers_count: 75
       topics:
       - dask
@@ -427,7 +427,7 @@ sections:
         data structure that can serialized to OME-NGFF.
       open_issues: 19
       size: 3046
-      stargazers_count: 58
+      stargazers_count: 59
       topics:
       - imaging
       - multiscale
@@ -436,7 +436,7 @@ sections:
       - python
       - scientific-computing
       - xarray
-      updated_at: '2026-09-11T16:24:20Z'
+      updated_at: '2026-11-24T20:00:07Z'
     user: spatial-image
     workflow_run_status: NO_WORKFLOWS
 - name: OMERO Java packages
@@ -462,7 +462,7 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 21
+      open_issues: 22
       size: 1985681
       stargazers_count: 222
       topics:
@@ -1016,17 +1016,17 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: github-actions[bot]
-      date: '2026-11-23'
-      sha: 9e5a41dc5bc0421fe93e09fe9d05e4365e63e8f8
+      date: '2026-11-24'
+      sha: 1a069b4e42faa48579e2b85ab8d36f95bfab358e
       status: null
-      url: https://github.com/ome/status/commit/9e5a41dc5bc0421fe93e09fe9d05e4365e63e8f8
+      url: https://github.com/ome/status/commit/1a069b4e42faa48579e2b85ab8d36f95bfab358e
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 507
+      size: 516
       stargazers_count: 1
       topics:
       - dashboard
